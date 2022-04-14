@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:dart_style/dart_style.dart';
 
 import 'src/delegate_generator.dart';
-import 'src/generator.dart';
+import 'src/localization_generator.dart';
 
 Future<int> main() async {
   final translationFile = File('lib/dynamic_intl/l10n/en.arb');
