@@ -1,4 +1,4 @@
-import 'generated.dart';
+import 'l10n.dart';
 
 import 'package:flutter/widgets.dart';
 

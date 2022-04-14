@@ -1,11 +1,12 @@
 import 'dart:convert';
 
-import 'package:example/dynamic_intl/generated/delegate.dart';
-import 'package:example/dynamic_intl/generated/generated.dart';
-import 'package:example/dynamic_intl/generated/translations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:http/http.dart' as http;
+
+import 'generated/delegate.dart';
+import 'generated/l10n.dart';
+import 'generated/translations.dart';
 
 void main() {
   runApp(const MyApp());

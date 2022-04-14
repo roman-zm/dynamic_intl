@@ -10,7 +10,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'app_name',
       [],
-      '''EPSR''',
+      '''ЕПСР''',
       translation,
     );
   }
@@ -19,7 +19,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__SELECT',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -28,7 +28,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__CONFIRM',
       [],
-      '''Confirm''',
+      '''Принять''',
       translation,
     );
   }
@@ -37,7 +37,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_YES',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -46,7 +46,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_NO',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -55,7 +55,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__ERROR',
       [],
-      '''An error occurred, please try again later''',
+      '''Произошла ошибка, попробуйте позже''',
       translation,
     );
   }
@@ -64,7 +64,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__ERROR_TRY_AGAIN',
       [],
-      '''An error occurred, сlick to try again.''',
+      '''Произошла ошибка, нажмите, чтобы повторить попытку''',
       translation,
     );
   }
@@ -73,7 +73,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__UPDATE',
       [],
-      '''Update''',
+      '''Обновить''',
       translation,
     );
   }
@@ -82,7 +82,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_A',
       [],
-      '''A''',
+      '''А''',
       translation,
     );
   }
@@ -91,7 +91,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_B',
       [],
-      '''B''',
+      '''Б''',
       translation,
     );
   }
@@ -100,7 +100,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -109,7 +109,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_FROM_PREFIX',
       [],
-      '''from''',
+      '''c''',
       translation,
     );
   }
@@ -118,7 +118,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_TO_PREFIX',
       [],
-      '''to''',
+      '''по''',
       translation,
     );
   }
@@ -127,7 +127,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_ISSUED_PREFIX',
       [],
-      '''dated''',
+      '''от''',
       translation,
     );
   }
@@ -136,7 +136,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__CITY',
       [],
-      '''city''',
+      '''г.''',
       translation,
     );
   }
@@ -145,7 +145,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__STREET',
       [],
-      '''street''',
+      '''ул.''',
       translation,
     );
   }
@@ -154,7 +154,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__HOUSE',
       [],
-      '''house''',
+      '''д.''',
       translation,
     );
   }
@@ -163,7 +163,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__HOUSING',
       [],
-      '''housing''',
+      '''к.''',
       translation,
     );
   }
@@ -172,7 +172,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__BUILDING',
       [],
-      '''building''',
+      '''стр.''',
       translation,
     );
   }
@@ -181,7 +181,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__FLAT',
       [],
-      '''flat''',
+      '''кв.''',
       translation,
     );
   }
@@ -190,7 +190,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOCATION_USING_DESCRIPTION',
       [],
-      '''The app will show your current position''',
+      '''Приложение покажет где Вы находитесь сейчас''',
       translation,
     );
   }
@@ -199,7 +199,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MICROPHONE_USING_DESCRIPTION',
       [],
-      '''The app will hear you and you can use voice input''',
+      '''Приложение услышит Вас и Вы сможете воспользоваться голосовым вводом''',
       translation,
     );
   }
@@ -208,7 +208,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'SPEECH_RECOGNITION_USING_DESCRIPTION',
       [],
-      '''The speech data from the app will be sent to Apple for processing. It will also help Apple improve its speech recognition technology.''',
+      '''Речевые данные из приложения будут отправлены в Apple для обработки. Это также поможет Apple улучшить технологию распознавания речи.''',
       translation,
     );
   }
@@ -217,7 +217,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MICROPHONE_USING_ERROR',
       [],
-      '''Unable to access microphone''',
+      '''Не удается получить доступ к микрофону''',
       translation,
     );
   }
@@ -226,7 +226,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'CLIPBOARD_COPIED',
       [],
-      '''Copied to the clipboard''',
+      '''Скопировано в буфер обмена''',
       translation,
     );
   }
@@ -235,7 +235,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'TAKE_PHOTO',
       [],
-      '''Take a photo''',
+      '''Сделать снимок''',
       translation,
     );
   }
@@ -244,7 +244,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'SELECT_FROM_GALLERY',
       [],
-      '''Choose from gallery''',
+      '''Выбрать из галереи''',
       translation,
     );
   }
@@ -253,7 +253,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'CAMERA_USING_DESCRIPTION',
       [],
-      '''You can take a photo of the document''',
+      '''Вы сможете сделать фотографию документа''',
       translation,
     );
   }
@@ -262,7 +262,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PHOTOS_USING_DESCRIPTION',
       [],
-      '''You can choose a photo of the document from the gallery''',
+      '''Вы сможете выбрать фотографию документа из галереи''',
       translation,
     );
   }
@@ -271,7 +271,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_IS_NOT_AVAILABLE',
       [],
-      '''No internet connection''',
+      '''Нет подключения к Интернету''',
       translation,
     );
   }
@@ -280,7 +280,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_IS_AVAILABLE',
       [],
-      '''Connected to the internet''',
+      '''Подключено к Интернету''',
       translation,
     );
   }
@@ -289,7 +289,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_REQUIRED',
       [],
-      '''Internet connection required, please try again later''',
+      '''Необходимо подключение к Интернету, повторите попытку позже''',
       translation,
     );
   }
@@ -298,7 +298,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VIEW_ALL',
       [number],
-      '''Show {number} more''',
+      '''Показать ещё {number}''',
       translation,
     );
   }
@@ -307,7 +307,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_SLOPE',
       [],
-      '''Slope''',
+      '''Скатность''',
       translation,
     );
   }
@@ -316,7 +316,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_WHEELS',
       [],
-      '''Number of wheels''',
+      '''Количество колес''',
       translation,
     );
   }
@@ -325,7 +325,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_AIR_SUSPENSION',
       [],
-      '''Air suspension''',
+      '''Пневмоподвеска''',
       translation,
     );
   }
@@ -334,7 +334,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOGIN__HELP',
       [],
-      '''Help''',
+      '''Помощь''',
       translation,
     );
   }
@@ -343,7 +343,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOGIN__BACK',
       [],
-      '''Back''',
+      '''Вернуться''',
       translation,
     );
   }
@@ -352,7 +352,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__APPLICATIONS',
       [],
-      '''Applications''',
+      '''Заявления''',
       translation,
     );
   }
@@ -361,7 +361,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__PERMISSIONS',
       [],
-      '''Permissions''',
+      '''Разрешения''',
       translation,
     );
   }
@@ -370,7 +370,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__ACCOUNTS',
       [],
-      '''Accounts''',
+      '''Счета''',
       translation,
     );
   }
@@ -379,7 +379,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__VEHICLE_FLEET',
       [],
-      '''Vehicle fleet''',
+      '''Парк ТС''',
       translation,
     );
   }
@@ -388,7 +388,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__HELP',
       [],
-      '''Help''',
+      '''Помощь''',
       translation,
     );
   }
@@ -397,7 +397,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__SIGN_OUT',
       [],
-      '''Sign out''',
+      '''Выйти''',
       translation,
     );
   }
@@ -406,7 +406,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__TITLE',
       [],
-      '''Applications''',
+      '''Заявления''',
       translation,
     );
   }
@@ -415,7 +415,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW',
       [],
-      '''New application''',
+      '''Новое заявление''',
       translation,
     );
   }
@@ -424,7 +424,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__FILTER_STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -433,7 +433,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_VERIFIED',
       [],
-      '''VERIFIED''',
+      '''ПРОВЕРЕНО''',
       translation,
     );
   }
@@ -442,7 +442,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_NOT_PAID',
       [],
-      '''NOT PAID''',
+      '''НЕ ОПЛАЧЕН''',
       translation,
     );
   }
@@ -451,7 +451,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_AWAITING',
       [],
-      '''AWAITING PAYMENT''',
+      '''ОЖИДАЕТ ОПЛАТЫ''',
       translation,
     );
   }
@@ -460,7 +460,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SELECT_STATUS',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -469,7 +469,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__FILTER_SRN',
       [],
-      '''SRN''',
+      '''ГРН''',
       translation,
     );
   }
@@ -478,7 +478,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SEARCH_SRN',
       [],
-      '''Search SRN''',
+      '''Найти ГРН''',
       translation,
     );
   }
@@ -487,7 +487,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT',
       [],
-      '''Sort''',
+      '''Сортировка''',
       translation,
     );
   }
@@ -496,7 +496,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT_APPLICATION_NUM',
       [],
-      '''Application number''',
+      '''Номер заявки''',
       translation,
     );
   }
@@ -505,7 +505,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT_APPLICATION_DATE',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -514,7 +514,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -523,7 +523,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__CLEAR_FILTERS',
       [],
-      '''Clear filters''',
+      '''Сбросить фильтры''',
       translation,
     );
   }
@@ -532,7 +532,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NUMBER_OF_APPLICATIONS',
       [],
-      '''Number of applications''',
+      '''Количество заявлений''',
       translation,
     );
   }
@@ -541,7 +541,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NO_APPLICATIONS',
       [],
-      '''No applications''',
+      '''Заявлений нет''',
       translation,
     );
   }
@@ -550,7 +550,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NO_APPLICATIONS_FOUND',
       [],
-      '''Sorry, no applications found''',
+      '''К сожалению, заявлений не найдено''',
       translation,
     );
   }
@@ -559,7 +559,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARRIER_INFO',
       [],
-      '''Carrier information''',
+      '''Информация о перевозчике''',
       translation,
     );
   }
@@ -568,7 +568,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку заявлений''',
       translation,
     );
   }
@@ -577,7 +577,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Application number and date''',
+      '''Номер и дата создания заявления''',
       translation,
     );
   }
@@ -595,7 +595,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__GO_TO_RESOLUTION',
       [],
-      '''Go to the permission''',
+      '''Перейти в разрешение''',
       translation,
     );
   }
@@ -604,7 +604,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__REVOKE',
       [],
-      '''Revoke''',
+      '''Отозвать заявление''',
       translation,
     );
   }
@@ -613,7 +613,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__REPEAT',
       [],
-      '''Repeat''',
+      '''Повторить заявление''',
       translation,
     );
   }
@@ -622,7 +622,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CHANGE_VEHICLE',
       [],
-      '''Change vehicle''',
+      '''Заменить ТС''',
       translation,
     );
   }
@@ -631,7 +631,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__PRINT',
       [],
-      '''Print''',
+      '''Напечатать''',
       translation,
     );
   }
@@ -640,7 +640,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DOWNLOAD_REFUSAL',
       [],
-      '''Download refusal''',
+      '''Скачать отказ''',
       translation,
     );
   }
@@ -649,7 +649,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MESSAGE_DOWNLOADING_REFUSAL_ERROR',
       [],
-      '''An error occurred while downloading the refusal, please try again later''',
+      '''Ошибка при скачивании отказа, попробуйте позже''',
       translation,
     );
   }
@@ -658,7 +658,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AUTHORIZED_AGENCY',
       [],
-      '''Authorized agency''',
+      '''Уполномоченный орган''',
       translation,
     );
   }
@@ -667,7 +667,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION',
       [],
-      '''Type of transportation''',
+      '''Тип перевозки''',
       translation,
     );
   }
@@ -676,7 +676,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES',
       [],
-      '''Transportation dates''',
+      '''Дата перевозки''',
       translation,
     );
   }
@@ -685,7 +685,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES__FROM',
       [],
-      '''from''',
+      '''с''',
       translation,
     );
   }
@@ -694,7 +694,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES__TO',
       [],
-      '''to''',
+      '''по''',
       translation,
     );
   }
@@ -703,7 +703,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT',
       [],
-      '''Heavyweight''',
+      '''Тяжеловесное ТС''',
       translation,
     );
   }
@@ -712,7 +712,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT__YES',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -721,7 +721,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT__NO',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -730,7 +730,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION',
       [],
-      '''Oversized''',
+      '''Крупногабарит''',
       translation,
     );
   }
@@ -739,7 +739,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION__YES',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -748,7 +748,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION__NO',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -757,7 +757,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__NUMBER_OF_TRIPS',
       [],
-      '''Number of trips''',
+      '''Кол-во поездок''',
       translation,
     );
   }
@@ -766,7 +766,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROAD_TRAIN',
       [],
-      '''Road train''',
+      '''Автопоезд''',
       translation,
     );
   }
@@ -775,7 +775,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARGOS',
       [],
-      '''Cargo details''',
+      '''Сведения о грузе''',
       translation,
     );
   }
@@ -784,7 +784,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DIVISIBILITY__YES',
       [],
-      '''Divisible''',
+      '''Делимый''',
       translation,
     );
   }
@@ -793,7 +793,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DIVISIBILITY__NO',
       [],
-      '''Indivisible''',
+      '''Неделимый''',
       translation,
     );
   }
@@ -802,7 +802,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLES',
       [],
-      '''Vehicles''',
+      '''Данные ТС''',
       translation,
     );
   }
@@ -811,7 +811,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ADDITIONAL_INFO',
       [],
-      '''Additional information''',
+      '''Дополнительные сведения''',
       translation,
     );
   }
@@ -820,7 +820,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__WEIGHT_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Weight of road train with cargo''',
+      '''Масса автопоезда с грузом''',
       translation,
     );
   }
@@ -829,7 +829,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARGO_OVERHANG_LENGTH',
       [],
-      '''Cargo overhang length, m''',
+      '''Длина свеса груза, м''',
       translation,
     );
   }
@@ -838,7 +838,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LWH_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Length,width, height of road train with cargo''',
+      '''Длина, ширина, высота автопоезда с грузом''',
       translation,
     );
   }
@@ -847,7 +847,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MIN_TURNING_RADIUS_WITH_CARGO',
       [],
-      '''Minimum turning radius with cargo, m''',
+      '''Минимальный радиус поворота с грузом, м''',
       translation,
     );
   }
@@ -856,7 +856,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MAX_VEHICLE_SPEED',
       [],
-      '''Maximum vehicle speed, km/h''',
+      '''Максимальная скорость ТС, км/ч''',
       translation,
     );
   }
@@ -865,7 +865,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__TON',
       [],
-      '''t''',
+      '''т''',
       translation,
     );
   }
@@ -874,7 +874,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__METER',
       [],
-      '''m''',
+      '''м''',
       translation,
     );
   }
@@ -883,7 +883,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__KM_PER_HOUR',
       [],
-      '''km/hour''',
+      '''км/ч''',
       translation,
     );
   }
@@ -892,7 +892,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -902,9 +902,9 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__MESSAGE',
       [registration_number],
-      '''According to application No. {registration_number}, a request for additional materials was received. 
-You can view the documents for submission in the block 'Special projects / projects of traffic management'. 
-If within 5 days after the receipt of the request for information on consent is not received, you will be denied a special permit.''',
+      '''По заявлению № {registration_number} пришел запрос на предоставление дополнительных материалов. 
+Просмотреть документы к предоставлению вы можете в блоке "Специальные проекты / проекты организации дорожного движения" 
+Если в течение 5 дней после поступления запроса информации о согласии не поступит, Вам будет отказано в получении специального разрешения.''',
       translation,
     );
   }
@@ -913,7 +913,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__OK',
       [],
-      '''Ok''',
+      '''Ок''',
       translation,
     );
   }
@@ -922,7 +922,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__TITLE',
       [],
-      '''Special / Traffic Management Projects''',
+      '''Специальные проекты / проекты организации дорожного движения''',
       translation,
     );
   }
@@ -931,7 +931,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__FKU',
       [],
-      '''FKU''',
+      '''ФКУ''',
       translation,
     );
   }
@@ -940,7 +940,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__DATE',
       [],
-      '''Request date''',
+      '''Дата запроса''',
       translation,
     );
   }
@@ -949,7 +949,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__TEXT',
       [],
-      '''Request''',
+      '''Запрос''',
       translation,
     );
   }
@@ -958,7 +958,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__COMMENT',
       [],
-      '''Comment of the owner of the road infrastructure facility''',
+      '''Комментарий владельца объекта дорожной инфраструктуры''',
       translation,
     );
   }
@@ -967,7 +967,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__REFUSE',
       [],
-      '''Refuse''',
+      '''Отказаться''',
       translation,
     );
   }
@@ -976,7 +976,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__AGREE',
       [],
-      '''Agree''',
+      '''Согласиться''',
       translation,
     );
   }
@@ -985,7 +985,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__UPLOAD',
       [],
-      '''Upload a document''',
+      '''Загрузить документ''',
       translation,
     );
   }
@@ -994,7 +994,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__UPLOADED',
       [],
-      '''Document uploaded''',
+      '''Документ загружен''',
       translation,
     );
   }
@@ -1003,7 +1003,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__SEND',
       [],
-      '''Send the document''',
+      '''Отправить документ''',
       translation,
     );
   }
@@ -1012,7 +1012,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__SENT',
       [],
-      '''Document sent''',
+      '''Документ отправлен''',
       translation,
     );
   }
@@ -1021,7 +1021,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -1030,7 +1030,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__MESSAGE',
       [],
-      '''Attention! Are you sure you want to opt out of providing additional materials? In case of refusal, your application will be canceled''',
+      '''Вы точно уверены, что хотите отказаться от предоставления дополнительных материалов? В случае отказа Ваше заявление аннулируется''',
       translation,
     );
   }
@@ -1039,7 +1039,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__REASON',
       [],
-      '''Please fill in the reason for refusal''',
+      '''Заполните, пожалуйста, поле причины отказа''',
       translation,
     );
   }
@@ -1048,7 +1048,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__CANCEL',
       [],
-      '''Cancel''',
+      '''Отмена''',
       translation,
     );
   }
@@ -1057,7 +1057,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__CONFIRM',
       [],
-      '''Refuse''',
+      '''Отказаться''',
       translation,
     );
   }
@@ -1066,7 +1066,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__AGREEMENT',
       [],
-      '''Do you agree to provide all additional materials? If within 5 days after the receipt of the request for consent information is not received, you will be denied additional permission.''',
+      '''Согласны на предоставление всех дополнительных материалов? Если в течение 5 дней после поступления запроса информации о согласии не поступит, Вам будет отказано в получении дополнительного разрешения.''',
       translation,
     );
   }
@@ -1075,7 +1075,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__REFUSED',
       [],
-      '''You have received a refusal to provide additional materials. Your application will be canceled. To re-request for a special permit, submit a new application.''',
+      '''От Вас поступил отказ в предоставлении дополнительных материалов. Ваше заявление аннулируется. Для повторного запроса в получении специального разрешения сформируйте новое заявление.''',
       translation,
     );
   }
@@ -1084,7 +1084,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__MESSAGE_REFUSING_ERROR',
       [],
-      '''An error occurred while sending the refuse, please try again later''',
+      '''Ошибка при отправке отказа, попробуйте позже''',
       translation,
     );
   }
@@ -1093,7 +1093,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROUTE_ON_MAP',
       [],
-      '''Show on map''',
+      '''Показать на карте''',
       translation,
     );
   }
@@ -1102,7 +1102,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROUTE_ON_MAP__TITLE',
       [],
-      '''Route''',
+      '''Маршрут''',
       translation,
     );
   }
@@ -1111,7 +1111,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE__TITLE',
       [],
-      '''Selece vehicle''',
+      '''Выберите ТС''',
       translation,
     );
   }
@@ -1121,7 +1121,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE__DESCRIPTION',
       [],
-      '''Selece the vehicle to be replaced''',
+      '''Выберите ТС, которое необходимо заменить''',
       translation,
     );
   }
@@ -1130,7 +1130,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__TITLE',
       [],
-      '''Vehicle replacement''',
+      '''Замена ТС''',
       translation,
     );
   }
@@ -1139,7 +1139,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE',
       [],
-      '''Selece the vehicle to be replaced''',
+      '''Выберите ТС, которое необходимо заменить''',
       translation,
     );
   }
@@ -1148,7 +1148,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__DESCRIPTION',
       [],
-      '''It is allowed to replace the vehicle for a vehicle with the same technical characteristics, weight and dimensions''',
+      '''Допускается замена ТС на аналогичное по своим техническим характеристикам, весовым и габаритным параметрам''',
       translation,
     );
   }
@@ -1157,7 +1157,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__NO_SIMILAR_VEHICLES',
       [],
-      '''No similar vehicles''',
+      '''Нет аналогичных ТС''',
       translation,
     );
   }
@@ -1166,7 +1166,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__REPLACE',
       [],
-      '''Replace vehicle''',
+      '''Заменить ТС''',
       translation,
     );
   }
@@ -1175,7 +1175,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__MESSAGE_REPLACING_ERROR',
       [],
-      '''An error occurred while replacing the vehicle, please try again later''',
+      '''Ошибка при замене ТС, попробуйте позже''',
       translation,
     );
   }
@@ -1185,7 +1185,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__MESSAGE_REPLACED_SUCCESSFULLY',
       [],
-      '''The vehicle has been replaced''',
+      '''Транспортное средство заменено''',
       translation,
     );
   }
@@ -1194,7 +1194,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION__INTERREGIONAL',
       [],
-      '''Interregional''',
+      '''Межрегиональная''',
       translation,
     );
   }
@@ -1203,7 +1203,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION__INTERNATIONAL',
       [],
-      '''International''',
+      '''Международная''',
       translation,
     );
   }
@@ -1212,7 +1212,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS',
       [],
-      '''Approval requests''',
+      '''Запросы на согласование''',
       translation,
     );
   }
@@ -1221,7 +1221,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__OWNER',
       [],
-      '''Approving agency''',
+      '''Согласующее ведомство''',
       translation,
     );
   }
@@ -1230,7 +1230,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__NUMBER',
       [],
-      '''Approval number''',
+      '''Номер запроса''',
       translation,
     );
   }
@@ -1239,7 +1239,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__STATUS',
       [],
-      '''Approval status''',
+      '''Статус согласования''',
       translation,
     );
   }
@@ -1248,7 +1248,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AXLES__LOAD',
       [],
-      '''Axle load, t''',
+      '''Нагрузка, т''',
       translation,
     );
   }
@@ -1257,7 +1257,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AXLES__DISTANCE_TO_NEXT',
       [],
-      '''Distance to next axle, m''',
+      '''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -1266,7 +1266,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__TITLE',
       [],
-      '''Found a draft application''',
+      '''Найден черновик заявления''',
       translation,
     );
   }
@@ -1275,7 +1275,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__DESCRIPTION',
       [],
-      '''Do you want to continue filling in a draft or start filling out a new application?''',
+      '''Продолжить заполнение черновика или начать новое заявление?''',
       translation,
     );
   }
@@ -1284,7 +1284,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__CONTINUE',
       [],
-      '''Filling in a draft''',
+      '''Продолжить заполнение''',
       translation,
     );
   }
@@ -1293,7 +1293,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__NEW',
       [],
-      '''Start filling out a new application''',
+      '''Начать новое''',
       translation,
     );
   }
@@ -1302,7 +1302,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку заявлений''',
       translation,
     );
   }
@@ -1311,7 +1311,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__TITLE',
       [],
-      '''Cargo details and vehicles selection''',
+      '''Сведения о грузе и выбор ТС''',
       translation,
     );
   }
@@ -1320,7 +1320,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__TITLE',
       [],
-      '''Vehicle''',
+      '''Транспортное средство''',
       translation,
     );
   }
@@ -1329,7 +1329,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__DESCRIPTION',
       [],
-      '''Select vehicle / create road train (indicate parts in order of coupling)''',
+      '''Выбрать транспортное средство, создать автопоезд (указывать части в порядке сцепки)''',
       translation,
     );
   }
@@ -1338,7 +1338,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__VEHICLE_TYPE',
       [],
-      '''Vehicle type''',
+      '''Тип ТС''',
       translation,
     );
   }
@@ -1347,7 +1347,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__SELECT_VEHICLE_TYPE',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -1356,7 +1356,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__GRNZ_MARK_MODEL',
       [],
-      '''SRN, Brand and Model''',
+      '''ГРН, марка, модель''',
       translation,
     );
   }
@@ -1365,7 +1365,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__SELECT_GRNZ_MARK_MODEL',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -1374,7 +1374,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__MESSAGE_SELECT_VEHICLE_TYPE',
       [],
-      '''Select vehicle type''',
+      '''Выберите тип ТС''',
       translation,
     );
   }
@@ -1383,7 +1383,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__MAX_WEIGHT',
       [],
-      '''Maximum permissible weight, t''',
+      '''Максимально допустимый вес, т''',
       translation,
     );
   }
@@ -1392,7 +1392,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__ADD_VEHICLE',
       [],
-      '''Add vehicle''',
+      '''Добавить ТС''',
       translation,
     );
   }
@@ -1401,7 +1401,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__TRANSPORTAION_TYPE',
       [],
-      '''Transportation type''',
+      '''Тип перевозки''',
       translation,
     );
   }
@@ -1410,7 +1410,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES',
       [],
-      '''Transportaion dates''',
+      '''Дата перевозки''',
       translation,
     );
   }
@@ -1419,7 +1419,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES__DATE_FROM',
       [],
-      '''Date from''',
+      '''Дата с''',
       translation,
     );
   }
@@ -1428,7 +1428,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES__DATE_TO',
       [],
-      '''Date to''',
+      '''Дата по''',
       translation,
     );
   }
@@ -1437,7 +1437,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__TITLE',
       [],
-      '''Cargo''',
+      '''Груз''',
       translation,
     );
   }
@@ -1455,7 +1455,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__NAME',
       [],
-      '''Name''',
+      '''Название''',
       translation,
     );
   }
@@ -1464,7 +1464,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__CARGO_TYPE',
       [],
-      '''Type''',
+      '''Тип''',
       translation,
     );
   }
@@ -1473,7 +1473,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__LENGTH',
       [],
-      '''Length, m''',
+      '''Длина, м''',
       translation,
     );
   }
@@ -1482,7 +1482,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__WIDTH',
       [],
-      '''Width, m''',
+      '''Ширина, м''',
       translation,
     );
   }
@@ -1491,7 +1491,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__HEIGHT',
       [],
-      '''Height, m''',
+      '''Высота, м''',
       translation,
     );
   }
@@ -1500,7 +1500,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__WEIGHT',
       [],
-      '''Weight, t''',
+      '''Масса, т''',
       translation,
     );
   }
@@ -1509,7 +1509,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__ADD_CARGO',
       [],
-      '''Add cargo''',
+      '''Добавить груз''',
       translation,
     );
   }
@@ -1518,7 +1518,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITY',
       [],
-      '''Divisibility of cargo''',
+      '''Делимость груза''',
       translation,
     );
   }
@@ -1527,7 +1527,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITY__DIVISIBLE',
       [],
-      '''Divisible''',
+      '''Делимый''',
       translation,
     );
   }
@@ -1536,7 +1536,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITYINDIVISIBLE',
       [],
-      '''Indivisible''',
+      '''Неделимый''',
       translation,
     );
   }
@@ -1545,7 +1545,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__OVERHANG_LENGTH',
       [],
-      '''Cargo overhead length, m''',
+      '''Длина свеса груза, м''',
       translation,
     );
   }
@@ -1554,7 +1554,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__MIN_TURNING_RADIUS',
       [],
-      '''Minimum turning radius, m''',
+      '''Минимальный радиус поворота, м''',
       translation,
     );
   }
@@ -1563,7 +1563,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__MAX_VEHICLE_SPEED',
       [],
-      '''Maximum vehicle speed, km/h''',
+      '''Максимальная скорость ТС, км/ч''',
       translation,
     );
   }
@@ -1572,7 +1572,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__TITLE',
       [],
-      '''The check for the availability of licenses for international transport was not carried out''',
+      '''Проверка на допуск к международным перевозкам не была осуществлена''',
       translation,
     );
   }
@@ -1581,7 +1581,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__MESSAGE',
       [],
-      '''When registering, a license check was not carried out. Update the license information in the Profile for preliminary check. When registering an application, the license will be checked again.''',
+      '''При регистрации не была проведена проверка на допуск. Обновите информацию о допусках в Профиле для предварительной проверки. При регистрации заявления допуск будет проверен повторно.''',
       translation,
     );
   }
@@ -1590,7 +1590,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__BUTTON',
       [],
-      '''Continue''',
+      '''Продолжить''',
       translation,
     );
   }
@@ -1599,7 +1599,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__TITLE',
       [],
-      '''Vehicle scheme''',
+      '''Схема ТС''',
       translation,
     );
   }
@@ -1608,7 +1608,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__VEHICLES__TITLE',
       [],
-      '''Composition''',
+      '''Состав''',
       translation,
     );
   }
@@ -1617,7 +1617,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__TITLE',
       [],
-      '''Axles''',
+      '''Оси''',
       translation,
     );
   }
@@ -1626,7 +1626,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__LOAD',
       [],
-      '''Axle load, t''',
+      '''Нагрузка, т''',
       translation,
     );
   }
@@ -1635,7 +1635,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__DISTANCE_TO_NEXT',
       [],
-      '''Distance to next axle, m''',
+      '''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -1644,7 +1644,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AIR_SUSPENSION',
       [],
-      '''Air suspension''',
+      '''Пневмоподвеска''',
       translation,
     );
   }
@@ -1653,7 +1653,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__SLOPE',
       [],
-      '''Slope''',
+      '''Скатность''',
       translation,
     );
   }
@@ -1662,7 +1662,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__WHEELS',
       [],
-      '''Number of wheels''',
+      '''Количество колес''',
       translation,
     );
   }
@@ -1671,7 +1671,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__TITLE',
       [],
-      '''Cargo''',
+      '''Груз''',
       translation,
     );
   }
@@ -1680,7 +1680,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__WEIGHT_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Weight of road train with cargo, t''',
+      '''Масса автопоезда с грузом, т''',
       translation,
     );
   }
@@ -1689,7 +1689,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__CARGO_OVERHANG_LENGTH',
       [],
-      '''Cargo overhang length, m''',
+      '''Длина свеса груза, м''',
       translation,
     );
   }
@@ -1698,7 +1698,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__LWH_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Parameters of road train with cargo''',
+      '''Параметры автопоезда с грузом''',
       translation,
     );
   }
@@ -1707,7 +1707,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__MESSAGE_CARGO_LENGTH_OVERSIZE',
       [],
-      '''The length of cargo is greater than the length of the road train''',
+      '''Длина груза больше длины автопоезда''',
       translation,
     );
   }
@@ -1716,7 +1716,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__MESSAGE_CARGO_WIDTH_OVERSIZE',
       [],
-      '''The width of cargo is greater than the length of the road train''',
+      '''Ширина груза больше ширины автопоезда''',
       translation,
     );
   }
@@ -1725,7 +1725,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__TITLE',
       [],
-      '''Transportaion parameters''',
+      '''Параметры перевозки''',
       translation,
     );
   }
@@ -1734,7 +1734,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ROUTE',
       [],
-      '''Select route''',
+      '''Выбрать маршрут''',
       translation,
     );
   }
@@ -1743,7 +1743,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__START_POINT',
       [],
-      '''Select a departure point''',
+      '''Выбрать пункт отправления''',
       translation,
     );
   }
@@ -1752,7 +1752,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__INTERMEDIATE_POINT',
       [],
-      '''Select an intermediate point''',
+      '''Выбрать промежуточный пункт''',
       translation,
     );
   }
@@ -1761,7 +1761,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__END_POINT',
       [],
-      '''Select a destination point''',
+      '''Выбрать пункт назначения''',
       translation,
     );
   }
@@ -1770,7 +1770,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__THROUGH_CUSTOMS',
       [],
-      '''Through customs''',
+      '''Через таможню''',
       translation,
     );
   }
@@ -1779,7 +1779,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__CLEAR_ROUTE',
       [],
-      '''Clear route''',
+      '''Сбросить маршрут''',
       translation,
     );
   }
@@ -1788,7 +1788,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS',
       [],
-      '''Address''',
+      '''По адресу''',
       translation,
     );
   }
@@ -1797,7 +1797,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS',
       [],
-      '''MAPP''',
+      '''МАПП''',
       translation,
     );
   }
@@ -1806,7 +1806,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS',
       [],
-      '''Customs''',
+      '''Таможенный пункт''',
       translation,
     );
   }
@@ -1815,7 +1815,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_PLACEHOLDER',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -1824,7 +1824,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_HELP',
       [],
-      '''Start typing an address to search''',
+      '''Начните вводить адрес для поиска''',
       translation,
     );
   }
@@ -1833,7 +1833,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_NO_ADDRESS',
       [],
-      '''Sorry, no address found''',
+      '''К сожалению, адрес не найден''',
       translation,
     );
   }
@@ -1842,7 +1842,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS_PLACEHOLDER',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -1851,7 +1851,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS_NO_CUSTOMS',
       [],
-      '''Sorry, no customs found''',
+      '''К сожалению, таможенный пункт не найден''',
       translation,
     );
   }
@@ -1860,7 +1860,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS_PLACEHOLDER',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -1869,7 +1869,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS_NO_CHECPOINTS',
       [],
-      '''Sorry, no MAPP found''',
+      '''К сожалению, МАПП не найден''',
       translation,
     );
   }
@@ -1878,7 +1878,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP',
       [],
-      '''Select on map''',
+      '''Выбрать на карте''',
       translation,
     );
   }
@@ -1887,7 +1887,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__DONE',
       [],
-      '''Done''',
+      '''Готово''',
       translation,
     );
   }
@@ -1896,7 +1896,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__MOVE_THE_MAP',
       [],
-      '''Move the map to select a point''',
+      '''Двигайте карту, чтобы выбрать точку''',
       translation,
     );
   }
@@ -1905,7 +1905,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CHECKPOINT',
       [],
-      '''Select checkpoint''',
+      '''Выберите МАПП''',
       translation,
     );
   }
@@ -1915,7 +1915,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CHECKPOINT__MOVE_THE_MAP',
       [],
-      '''Move the map and click on the icon to select the checkpoint''',
+      '''Двигайте карту и нажмите на иконку, чтобы выбрать МАПП''',
       translation,
     );
   }
@@ -1924,7 +1924,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CUSTOMS',
       [],
-      '''Select customs''',
+      '''Выберите таможенный пункт''',
       translation,
     );
   }
@@ -1934,7 +1934,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CUSTOMS__MOVE_THE_MAP',
       [],
-      '''Move the map and click on the icon to select the customs''',
+      '''Двигайте карту и нажмите на иконку, чтобы выбрать таможенный пункт''',
       translation,
     );
   }
@@ -1943,7 +1943,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_DISCLAIMER',
       [],
-      '''Attention! The route is preliminary and may change depending on the conditions of transportation''',
+      '''Внимание! Построенный маршрут предварительный. Он может измениться. Окончательный маршрут будет сформирован в специальном разрешении.''',
       translation,
     );
   }
@@ -1952,7 +1952,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_ON_MAP',
       [],
-      '''Show route on map''',
+      '''Показать на карте''',
       translation,
     );
   }
@@ -1961,7 +1961,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SAVE_ROUTE',
       [],
-      '''Save route''',
+      '''Сохранить маршрут''',
       translation,
     );
   }
@@ -1970,7 +1970,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_TYPE_OPTIMAL',
       [],
-      '''Optimal''',
+      '''Оптимальный''',
       translation,
     );
   }
@@ -1979,7 +1979,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_TYPE_FAST',
       [],
-      '''Fast''',
+      '''Быстрый''',
       translation,
     );
   }
@@ -1988,7 +1988,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_USE_TOLLS',
       [],
-      '''Use toll road sections''',
+      '''С использованием платных участков''',
       translation,
     );
   }
@@ -1997,7 +1997,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__NUMBER_OF_TRIPS',
       [],
-      '''Number of trips''',
+      '''Количество поездок''',
       translation,
     );
   }
@@ -2006,7 +2006,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__TITLE',
       [],
-      '''Data validation''',
+      '''Проверка данных''',
       translation,
     );
   }
@@ -2015,7 +2015,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__AGREEMENT_CHECKBOX_1',
       [],
-      '''I agree with ''',
+      '''Я согласен с ''',
       translation,
     );
   }
@@ -2024,7 +2024,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__AGREEMENT_CHECKBOX_2',
       [],
-      '''the conditions for the provision of public services''',
+      '''условиями оказания государственной услуги''',
       translation,
     );
   }
@@ -2033,7 +2033,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__SEND',
       [],
-      '''Send''',
+      '''Отправить''',
       translation,
     );
   }
@@ -2042,7 +2042,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_MANUAL_ROUTE',
       [],
-      '''The route cannot be built, since the parameters of the vehicle exceed the standard parameters set on the road and restrictions on it. The application will be processed manually. Continue forming the application?''',
+      '''Маршрут не может быть построен, так как параметры АТС превышают нормативные параметры, установленные на дороге и ограничениях по ней. Заявление будет обработано вручную. Продолжить формирование заявления?''',
       translation,
     );
   }
@@ -2051,7 +2051,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_NEED_CHECKPOINT',
       [],
-      '''You have chosen an international type of transportation. In the route, indicate the Automobile Checkpoint through which the trip will be made. Please edit the itinerary or change the type of transportation to inter-regional, and forward to the next step of the application.''',
+      '''Вы выбрали международный тип перевозки. В маршруте необходимо указать Автомобильный Пункт Пропуска, через который будет произведена поездка. Пожалуйста, отредактируйте маршрут или поменяйте тип перевозки на межрегиональную, и перейдите к следующему шагу подачи заявления.''',
       translation,
     );
   }
@@ -2069,7 +2069,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_BUILD_ROUTE_ERROR',
       [],
-      '''An error occurred while building thre route, please try again later''',
+      '''Ошибка при построении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2078,7 +2078,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -2087,7 +2087,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''The value must be greater than 0''',
+      '''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -2096,7 +2096,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_UPDATE_DRAFT_ERROR',
       [],
-      '''An error occurred while saving the draft of the application, please try again later''',
+      '''Ошибка при сохранении черновика, попробуйте позже''',
       translation,
     );
   }
@@ -2105,7 +2105,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_UPDATE_DRAFT_ROUTE_ERROR',
       [],
-      '''An error occurred while saving the route of the draft of the application, please try again later''',
+      '''Ошибка при сохранении маршрута черновика, попробуйте позже''',
       translation,
     );
   }
@@ -2115,7 +2115,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_INCORRECT_TOTAL_AXLES_LOAD',
       [totalaxlesload, roadtrainmass],
-      '''Incorrect total axle load: {totalaxlesload} t from {roadtrainmass} t''',
+      '''Некорректная суммарная нагрузка на оси: {totalaxlesload} т из {roadtrainmass} т''',
       translation,
     );
   }
@@ -2124,7 +2124,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_DAMAGE_CALCULATE_ERROR',
       [],
-      '''An error occurred while calculating amount of damage, please try again later''',
+      '''Ошибка при расчете суммы ущерба, попробуйте позже''',
       translation,
     );
   }
@@ -2133,7 +2133,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_TRANSPORTATION_CARGO_OVERSIZE',
       [],
-      '''Transportation of divisible cargo with excess in size or weight is prohibited by traffic rules''',
+      '''Перевозка делимого груза с превышением по габаритам или весу запрещена ПДД''',
       translation,
     );
   }
@@ -2142,7 +2142,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_HEAVY_PERMIT_MAX_PERIOD',
       [],
-      '''A special permit for travel of a heavy vehicle is issued for a period of no more than 3 months''',
+      '''Специальное разрешение на проезд тяжеловесного транспортного средства выдается на срок не более 3 месяцев''',
       translation,
     );
   }
@@ -2151,7 +2151,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_SPECIAL_PERMIT_IS_NOT_NEED',
       [],
-      '''The formation of a special permit for travel is not required, since your vehicle does not exceed the permissible standard indicators''',
+      '''Формирование специального разрешения на проезд не требуется, так как ваше транспортное средство не превышает допустимые нормативные показатели''',
       translation,
     );
   }
@@ -2160,7 +2160,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_HEAVYWEIGHT_CHECK_ERROR',
       [],
-      '''An error occurred while checking the weight, please try again later''',
+      '''Ошибка при проверке веса, попробуйте позже''',
       translation,
     );
   }
@@ -2169,7 +2169,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_DIMENSIONS_CHECK_ERROR',
       [],
-      '''An error occurred while checking the dimensions, please try again later''',
+      '''Ошибка при проверке габаритов, попробуйте позже''',
       translation,
     );
   }
@@ -2178,7 +2178,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_GIBDD_CHECK_FAILED',
       [],
-      '''The vehicle data differs from the traffic police database. Please make sure that the vehicle data in the Vehicle Fleet is entered correctly, otherwise a refusal to issue a transportation permit is likely.''',
+      '''Данные ТС отличаются от базы ГИБДД. Пожалуйста, удостоверьтесь, что данные ТС в Парке ТС введены верно, в противном случае вероятен отказ в выдаче разрешения на перевозку.''',
       translation,
     );
   }
@@ -2187,7 +2187,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_SENDING_ERROR',
       [],
-      '''An error occurred while sending the application, please try again later''',
+      '''Ошибка при отправке заявления, попробуйте позже''',
       translation,
     );
   }
@@ -2196,7 +2196,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_INTERNATIONAL_SENT_SUCCESSFULLY',
       [],
-      '''The application has been sent''',
+      '''Заявление отправлено''',
       translation,
     );
   }
@@ -2205,7 +2205,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_INTERREGIONAL_SENT_SUCCESSFULLY',
       [],
-      '''The application has been sent and will be accepted for consideration after payment of the state fee. The invoice for payment will be displayed in the Invoices section.''',
+      '''Заявление отправлено и будет принято на рассмотрение после оплаты государственной пошлины. Счет на оплату отобразится в разделе Счета.''',
       translation,
     );
   }
@@ -2214,7 +2214,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__NEXT',
       [],
-      '''Next''',
+      '''Далее''',
       translation,
     );
   }
@@ -2223,7 +2223,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__PREVIOUS',
       [],
-      '''Back''',
+      '''Назад''',
       translation,
     );
   }
@@ -2232,7 +2232,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__CANCEL',
       [],
-      '''Cancel''',
+      '''Отменить''',
       translation,
     );
   }
@@ -2241,7 +2241,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__HEAVY_MESSAGE',
       [],
-      '''The road train is heavy, it is necessary to indicate the number of trips to obtain a special permit''',
+      '''Автопоезд тяжеловесный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2250,7 +2250,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__LARGE_MESSAGE',
       [],
-      '''The road train is oversized, it is necessary to indicate the number of trips to obtain a special permit''',
+      '''Автопоезд крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2259,7 +2259,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__HEAVY_LARGE_MESSAGE',
       [],
-      '''The road train is heavy and oversized, it is necessary to indicate the number of trips to obtain a special permit''',
+      '''Автопоезд тяжеловесный и крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2268,7 +2268,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__IF_HEAVY_MESSAGE',
       [],
-      '''If the road train becomes heavy, how many trips will be required?''',
+      '''Если АТС станет тяжеловесным, сколько поездок потребуется выполнить? ''',
       translation,
     );
   }
@@ -2277,7 +2277,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__DESCRIPTION',
       [],
-      '''Are you sure you want to revole the application?''',
+      '''Вы уверены, что хотите отозвать заявление?''',
       translation,
     );
   }
@@ -2286,7 +2286,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__BUTTON_YES',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -2295,7 +2295,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__BUTTON_NO',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -2304,7 +2304,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__MESSAGE_APPLICATION_REVOKED_ERROR',
       [],
-      '''An error occurred while revoking the application, please try again later''',
+      '''Ошибка при отзыве заявления, попробуйте позже''',
       translation,
     );
   }
@@ -2313,7 +2313,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__REVOKED_SUCCESSFULLY',
       [],
-      '''The application has been revoked''',
+      '''Заявление отозвано''',
       translation,
     );
   }
@@ -2322,7 +2322,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__TITLE',
       [],
-      '''Routes''',
+      '''Маршруты''',
       translation,
     );
   }
@@ -2331,7 +2331,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NO_ROUTES',
       [],
-      '''No routes''',
+      '''Маршрутов нет''',
       translation,
     );
   }
@@ -2340,7 +2340,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__TITLE',
       [],
-      '''New route''',
+      '''Новый маршрут''',
       translation,
     );
   }
@@ -2349,7 +2349,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__NAME',
       [],
-      '''Route name''',
+      '''Название маршрута''',
       translation,
     );
   }
@@ -2358,7 +2358,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__NAME_PLACEHOLDER',
       [],
-      '''Enter route name''',
+      '''Укажите название маршрута''',
       translation,
     );
   }
@@ -2367,7 +2367,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__ROUTE_POINTS',
       [],
-      '''Route points''',
+      '''Точки маршрута''',
       translation,
     );
   }
@@ -2376,7 +2376,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__INFO',
       [],
-      '''By saving a route, you are saving the address of the start and end points of the route. With the subsequent use of this route, it can be rebuilt in accordance with the vehicles parameters in the application''',
+      '''Сохраняя маршрут, вы сохраняете адрес начальной и конечной точек маршрута. При последующем использовании данного маршрута он может быть перестроен в соответствии с параметрами АТС в заявлении''',
       translation,
     );
   }
@@ -2385,7 +2385,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__SAVE',
       [],
-      '''Save''',
+      '''Сохранить''',
       translation,
     );
   }
@@ -2394,7 +2394,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__CANCEL',
       [],
-      '''Cancel''',
+      '''Отменить''',
       translation,
     );
   }
@@ -2403,7 +2403,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -2412,7 +2412,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_SAVING_ERROR',
       [],
-      '''An error occurred while saving the route, please try again later''',
+      '''Ошибка при сохранении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2421,7 +2421,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''The route has been saved''',
+      '''Маршрут сохранен''',
       translation,
     );
   }
@@ -2430,7 +2430,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE',
       [],
-      '''Delete''',
+      '''Удалить''',
       translation,
     );
   }
@@ -2439,7 +2439,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__MESSAGE',
       [],
-      '''Delete route with name {vehicles.grnz)?''',
+      '''Удалить маршрут {routes.name}?''',
       translation,
     );
   }
@@ -2448,7 +2448,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__CONFIRM',
       [],
-      '''Yes, delete''',
+      '''Да, удалить''',
       translation,
     );
   }
@@ -2457,7 +2457,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__CANCEL',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -2466,7 +2466,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__MESSAGE_DELETING_ERROR',
       [],
-      '''An error occurred while deleting the route, please try again later''',
+      '''Ошибка при удалении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2475,7 +2475,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__MESSAGE_DELETED_SUCCESSFULLY',
       [],
-      '''The route has been deleted''',
+      '''Маршрут удален''',
       translation,
     );
   }
@@ -2484,7 +2484,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__TITLE',
       [],
-      '''Permissions''',
+      '''Разрешения''',
       translation,
     );
   }
@@ -2493,7 +2493,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -2502,7 +2502,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_TYPE_OF_TRANSPORTATION',
       [],
-      '''Type of transportation''',
+      '''Тип перевозки''',
       translation,
     );
   }
@@ -2511,7 +2511,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_TYPE_OF_TRANSPORTATION',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -2520,7 +2520,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_SRN',
       [],
-      '''SRN''',
+      '''ГРН''',
       translation,
     );
   }
@@ -2529,7 +2529,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SEARCH_SRN',
       [],
-      '''Search SRN''',
+      '''Найти ГРН''',
       translation,
     );
   }
@@ -2538,7 +2538,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_DATES',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -2547,7 +2547,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -2556,7 +2556,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__TITLE',
       [],
-      '''Select date''',
+      '''Выбор даты''',
       translation,
     );
   }
@@ -2565,7 +2565,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__FROM',
       [],
-      '''Date from''',
+      '''Дата с''',
       translation,
     );
   }
@@ -2574,7 +2574,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__TO',
       [],
-      '''Date to''',
+      '''Дата по''',
       translation,
     );
   }
@@ -2583,7 +2583,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''DDMMYYYY''',
+      '''ДДММГГГГ''',
       translation,
     );
   }
@@ -2592,7 +2592,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT',
       [],
-      '''Sort''',
+      '''Сортировка''',
       translation,
     );
   }
@@ -2601,7 +2601,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT_DATE',
       [],
-      '''Registration date''',
+      '''Дата регистрации''',
       translation,
     );
   }
@@ -2610,7 +2610,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT_NUMBER',
       [],
-      '''Resolution number''',
+      '''Номер разрешения''',
       translation,
     );
   }
@@ -2619,7 +2619,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NO_PERMISSIONS',
       [],
-      '''No permissions''',
+      '''Разрешений нет''',
       translation,
     );
   }
@@ -2628,7 +2628,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NO_PERMISSIONS_FOUND',
       [],
-      '''Sorry, no permissions found''',
+      '''К сожалению, разрешений не найдено''',
       translation,
     );
   }
@@ -2637,7 +2637,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__HEAVY_VEHICLE',
       [],
-      '''Heavyweight''',
+      '''Тяжеловесное ТС''',
       translation,
     );
   }
@@ -2646,7 +2646,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку разрешений''',
       translation,
     );
   }
@@ -2655,7 +2655,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TO_THE_APPLICATION',
       [],
-      '''To the application''',
+      '''К заявлению''',
       translation,
     );
   }
@@ -2664,7 +2664,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Permission number and date of registration''',
+      '''Номер и дата оформления разрешения''',
       translation,
     );
   }
@@ -2673,7 +2673,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NUMBER',
       [],
-      '''Permission number''',
+      '''Номер разрешения''',
       translation,
     );
   }
@@ -2682,7 +2682,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__DATE',
       [],
-      '''Date of registration''',
+      '''Дата оформления''',
       translation,
     );
   }
@@ -2691,7 +2691,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__AUTHORIZED_AGENCY',
       [],
-      '''Authorized agency''',
+      '''ФКУ''',
       translation,
     );
   }
@@ -2700,7 +2700,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ESCORT_TYPE',
       [],
-      '''Escort type''',
+      '''Вид сопровождения''',
       translation,
     );
   }
@@ -2709,7 +2709,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__SPECIAL_CONDITIONS_OF_CARRIAGE',
       [],
-      '''Special conditions of carriage''',
+      '''Особые условия движения''',
       translation,
     );
   }
@@ -2718,7 +2718,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__SPECIAL_CONDITIONS_GIBDD',
       [],
-      '''Special conditions in agreement with the traffic police''',
+      '''Особые условия по согласованию с ГИБДД''',
       translation,
     );
   }
@@ -2727,7 +2727,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NOT_REQUIRED',
       [],
-      '''Not required''',
+      '''Не требуется''',
       translation,
     );
   }
@@ -2736,7 +2736,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS',
       [],
-      '''Trips''',
+      '''Поездки''',
       translation,
     );
   }
@@ -2745,7 +2745,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__SHOW_ALL_TRIPS',
       [],
-      '''Show all trips''',
+      '''Показать все поездки''',
       translation,
     );
   }
@@ -2754,7 +2754,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__ALL__TITLE',
       [],
-      '''All trips''',
+      '''Все поездки''',
       translation,
     );
   }
@@ -2763,7 +2763,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_TITLE',
       [],
-      '''Trip''',
+      '''Поездка''',
       translation,
     );
   }
@@ -2772,7 +2772,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_MAP_TITLE',
       [],
-      '''Trip''',
+      '''Поездка''',
       translation,
     );
   }
@@ -2781,7 +2781,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_STATUS_ACTIVE',
       [],
-      '''Active''',
+      '''Выполняется''',
       translation,
     );
   }
@@ -2790,7 +2790,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_STATUS_COMPLETED',
       [],
-      '''Finished''',
+      '''Завершена''',
       translation,
     );
   }
@@ -2799,7 +2799,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__END_POINT_ACTIVE_TRIP',
       [],
-      '''The trip has not been completed yet''',
+      '''Поездка еще не завершена''',
       translation,
     );
   }
@@ -2808,7 +2808,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_END',
       [],
-      '''Finish trip''',
+      '''Завершить поездку''',
       translation,
     );
   }
@@ -2817,7 +2817,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_START',
       [],
-      '''Start new trip''',
+      '''Начать новую поездку''',
       translation,
     );
   }
@@ -2826,7 +2826,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -2835,7 +2835,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_START_TRIP_MESSAGE',
       [],
-      '''An error occurred while starting the trip. Check the Internet connection and try again.''',
+      '''Невозможно начать поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
       translation,
     );
   }
@@ -2844,7 +2844,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_END_TRIP_MESSAGE',
       [],
-      '''An error occurred while finishing the trip. Check the Internet connection and try again.''',
+      '''Невозможно завершить поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
       translation,
     );
   }
@@ -2853,7 +2853,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_OK',
       [],
-      '''OK''',
+      '''Ок''',
       translation,
     );
   }
@@ -2862,7 +2862,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -2872,7 +2872,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_START_TRIP_MESSAGE',
       [],
-      '''An error occurred while starting the trip. Check the geolocation settings and try again.''',
+      '''Невозможно начать поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
       translation,
     );
   }
@@ -2881,7 +2881,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_END_TRIP_MESSAGE',
       [],
-      '''An error occurred while finishing the trip. Check the geolocation settings and try again.''',
+      '''Невозможно завершить поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
       translation,
     );
   }
@@ -2890,7 +2890,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_OK',
       [],
-      '''OK''',
+      '''Ок''',
       translation,
     );
   }
@@ -2899,7 +2899,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_SETTINGS',
       [],
-      '''Settings''',
+      '''Настройки''',
       translation,
     );
   }
@@ -2908,7 +2908,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_START_TRIP_ERROR',
       [],
-      '''An error occurred while starting the trip, please try again later''',
+      '''Ошибка начала поездки, попробуйте позже.''',
       translation,
     );
   }
@@ -2917,7 +2917,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_END_TRIP_ERROR',
       [],
-      '''An error occurred while finishing the trip, please try again later''',
+      '''Ошибка завершения поездки, попробуйте позже.''',
       translation,
     );
   }
@@ -2926,7 +2926,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -2935,7 +2935,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_MESSAGE',
       [],
-      '''Are you sure you want to start a new trip?''',
+      '''Вы действительно хотите начать новую поездку?''',
       translation,
     );
   }
@@ -2944,7 +2944,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_CONFIRM',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -2953,7 +2953,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_CANCEL',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -2962,7 +2962,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_TITLE',
       [],
-      '''Attention''',
+      '''Внимание''',
       translation,
     );
   }
@@ -2971,7 +2971,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_MESSAGE',
       [],
-      '''Are you sure you want to finish the trip?''',
+      '''Вы действительно хотите завершить поездку?''',
       translation,
     );
   }
@@ -2980,7 +2980,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_CONFIRM',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -2989,7 +2989,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_CANCEL',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -2998,7 +2998,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_LOADING_ERROR',
       [],
-      '''An error occurred while loading trips, please try again later''',
+      '''Ошибка при загрузке поездок, попробуйте позже.''',
       translation,
     );
   }
@@ -3007,7 +3007,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__DOWNLOAD',
       [],
-      '''Download''',
+      '''Скачать''',
       translation,
     );
   }
@@ -3016,7 +3016,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__MESSAGE_DOWNLOADING_ERROR',
       [],
-      '''An error occurred while downloading the file, please try again later''',
+      '''Ошибка скачивания файла, попробуйте позже.''',
       translation,
     );
   }
@@ -3025,7 +3025,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ROUTE_ON_MAP',
       [],
-      '''Show on map''',
+      '''Показать на карте''',
       translation,
     );
   }
@@ -3034,7 +3034,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ROUTE_ON_MAP__TITLE',
       [],
-      '''Route''',
+      '''Маршрут''',
       translation,
     );
   }
@@ -3043,7 +3043,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NUMBER_OF_PERMISSIONS',
       [],
-      '''Number of permissions''',
+      '''Количество разрешений''',
       translation,
     );
   }
@@ -3052,7 +3052,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__TITLE',
       [],
-      '''Invoices''',
+      '''Счета''',
       translation,
     );
   }
@@ -3061,7 +3061,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NUMBER_OF_INVOICES',
       [],
-      '''Number of invoices''',
+      '''Количество счетов''',
       translation,
     );
   }
@@ -3070,7 +3070,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -3079,7 +3079,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_DATES',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -3088,7 +3088,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_INCOMING',
       [],
-      '''Incoming''',
+      '''Входящие счета''',
       translation,
     );
   }
@@ -3097,7 +3097,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_ARCHIVE',
       [],
-      '''Archive''',
+      '''Архив''',
       translation,
     );
   }
@@ -3106,7 +3106,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -3115,7 +3115,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__TITLE',
       [],
-      '''Select date''',
+      '''Выбор даты''',
       translation,
     );
   }
@@ -3124,7 +3124,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__FROM',
       [],
-      '''Date from''',
+      '''Дата с''',
       translation,
     );
   }
@@ -3133,7 +3133,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__TO',
       [],
-      '''Date to''',
+      '''Дата по''',
       translation,
     );
   }
@@ -3142,7 +3142,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__PLACEHOLDER',
       [],
-      '''DDMMYYYY''',
+      '''ДДММГГГГ''',
       translation,
     );
   }
@@ -3151,7 +3151,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -3160,7 +3160,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_STATUS',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -3169,7 +3169,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SORT',
       [],
-      '''Sort''',
+      '''Сортировка''',
       translation,
     );
   }
@@ -3178,7 +3178,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SORT_DATE',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -3187,7 +3187,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NO_INVOICES',
       [],
-      '''No invoices''',
+      '''Счетов нет''',
       translation,
     );
   }
@@ -3196,7 +3196,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NO_INVOICES_FOUND',
       [],
-      '''Sorry, no invoices found''',
+      '''К сожалению, счетов не найдено''',
       translation,
     );
   }
@@ -3205,7 +3205,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку счетов''',
       translation,
     );
   }
@@ -3214,7 +3214,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__APPLICATION_NUMBER',
       [],
-      '''Application number''',
+      '''Номер заявления''',
       translation,
     );
   }
@@ -3223,7 +3223,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__REGISTRATION_DATE',
       [],
-      '''Date of application''',
+      '''Дата подачи''',
       translation,
     );
   }
@@ -3232,7 +3232,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__TOTAL_AMOUNT',
       [],
-      '''Total amount''',
+      '''Общая сумма''',
       translation,
     );
   }
@@ -3241,7 +3241,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__ROUTE',
       [],
-      '''Route''',
+      '''Маршрут''',
       translation,
     );
   }
@@ -3250,7 +3250,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE',
       [],
-      '''Move to archive''',
+      '''Переместить в архив''',
       translation,
     );
   }
@@ -3259,7 +3259,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''An error occurred while moving the invoice to arhive, please try again later''',
+      '''Ошибка при архивации счета, попробуйте позже''',
       translation,
     );
   }
@@ -3268,7 +3268,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''The invoice has been moved to archive''',
+      '''Счет архивирован''',
       translation,
     );
   }
@@ -3277,7 +3277,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM_ARCHIVE',
       [],
-      '''Restore from archive''',
+      '''Восстановить из архива''',
       translation,
     );
   }
@@ -3286,7 +3286,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''An error occurred while restoring the invoice from arhive, please try again later''',
+      '''Ошибка при восстановлении счета из архива, попробуйте позже''',
       translation,
     );
   }
@@ -3295,7 +3295,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM__MESSAGE_SUCCESS',
       [],
-      '''The invoice has been restored from archive''',
+      '''Счет восстановлен их архива''',
       translation,
     );
   }
@@ -3304,7 +3304,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAYMENT_AMOUNT',
       [],
-      '''Payment amount''',
+      '''Сумма оплаты''',
       translation,
     );
   }
@@ -3313,7 +3313,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAYMENT_RECEIVER',
       [],
-      '''Payment receiver''',
+      '''Получатель платежа''',
       translation,
     );
   }
@@ -3322,7 +3322,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__DOWNLOAD_RECEIPT',
       [],
-      '''Dowmload receipt''',
+      '''Скачать квитанцию''',
       translation,
     );
   }
@@ -3331,7 +3331,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MESSAGE_DOWNLOAD_RECEIPT_ERROR',
       [],
-      '''An error occurred while downloading the receipt, please try again later''',
+      '''Ошибка при скачивании квитанции, попробуйте позже''',
       translation,
     );
   }
@@ -3340,7 +3340,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY',
       [],
-      '''Pay''',
+      '''Оплатить''',
       translation,
     );
   }
@@ -3349,7 +3349,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__TEXT',
       [],
-      '''Attention For payment, you will be directed to the bank's web page''',
+      '''Внимание. Для оплаты Вы будете направлены на веб-страницу банка''',
       translation,
     );
   }
@@ -3358,7 +3358,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__GO',
       [],
-      '''Proceed''',
+      '''Перейти''',
       translation,
     );
   }
@@ -3367,7 +3367,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__CANCEL',
       [],
-      '''Cancel''',
+      '''Отменить''',
       translation,
     );
   }
@@ -3376,7 +3376,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__TITLE',
       [],
-      '''Vehicles''',
+      '''Парк ТС''',
       translation,
     );
   }
@@ -3385,7 +3385,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW',
       [],
-      '''Add vehicle''',
+      '''Добавить ТС''',
       translation,
     );
   }
@@ -3394,7 +3394,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -3403,7 +3403,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NUMBER_OF_VEHICLES',
       [],
-      '''Number of vehicles''',
+      '''Количество ТС''',
       translation,
     );
   }
@@ -3412,7 +3412,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_TYPES',
       [],
-      '''Types''',
+      '''Типы''',
       translation,
     );
   }
@@ -3421,7 +3421,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SELECT_TYPES',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -3430,7 +3430,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -3439,7 +3439,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SELECT_STATUS',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -3448,7 +3448,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_SRN',
       [],
-      '''SRN''',
+      '''ГРН''',
       translation,
     );
   }
@@ -3457,7 +3457,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH_SRN',
       [],
-      '''Search SRN''',
+      '''Найти ГРН''',
       translation,
     );
   }
@@ -3466,7 +3466,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_MARK',
       [],
-      '''Mark''',
+      '''Марка ТС''',
       translation,
     );
   }
@@ -3475,7 +3475,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH_MARK',
       [],
-      '''Search mark''',
+      '''Найти марку ТС''',
       translation,
     );
   }
@@ -3484,7 +3484,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NO_VEHICLES',
       [],
-      '''No vehicles''',
+      '''Транспортных средств нет''',
       translation,
     );
   }
@@ -3493,7 +3493,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NO_VEHICLES_FOUND',
       [],
-      '''Sorry, no vehicles found''',
+      '''К сожалению, транспортных средств не найдено''',
       translation,
     );
   }
@@ -3502,7 +3502,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE',
       [],
-      '''Delete vehicle''',
+      '''Удалить ТС''',
       translation,
     );
   }
@@ -3511,7 +3511,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__MESSAGE',
       [grnz],
-      '''Delete vehicle with state number {grnz}?''',
+      '''Удалить транспортное средство c ГРН {grnz}?''',
       translation,
     );
   }
@@ -3520,7 +3520,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__CONFIRM',
       [],
-      '''Yes, delete''',
+      '''Да, удалить''',
       translation,
     );
   }
@@ -3529,7 +3529,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__CANCEL',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -3538,7 +3538,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__MESSAGE_DELETE_ERROR',
       [],
-      '''An error occurred while deleting the vehicle, please try again later''',
+      '''Ошибка при удалении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -3547,7 +3547,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__MESSAGE_DELETE_SUCCESS',
       [],
-      '''The vehicles has been deleted''',
+      '''ТС удалено''',
       translation,
     );
   }
@@ -3556,7 +3556,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку ТС''',
       translation,
     );
   }
@@ -3565,7 +3565,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MARK_MODEL_TYPE',
       [],
-      '''Brand, model and vehicle type''',
+      '''Марка, модель и тип ТС''',
       translation,
     );
   }
@@ -3574,7 +3574,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -3583,7 +3583,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DIMENSIONS',
       [],
-      '''Dimensions''',
+      '''Габариты (длина, ширина, высота)''',
       translation,
     );
   }
@@ -3592,7 +3592,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MASS',
       [],
-      '''Vehicle weight''',
+      '''Масса без нагрузки''',
       translation,
     );
   }
@@ -3601,7 +3601,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SRN',
       [],
-      '''State registration number''',
+      '''Государственный регистрационный номер''',
       translation,
     );
   }
@@ -3610,7 +3610,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__ISOTHERM',
       [],
-      '''Isothermal body''',
+      '''Изотермический кузов''',
       translation,
     );
   }
@@ -3619,7 +3619,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__COUNTRY',
       [],
-      '''Vehicle registration country''',
+      '''Страна регистрации ТС''',
       translation,
     );
   }
@@ -3628,7 +3628,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__VIN',
       [],
-      '''VIN number''',
+      '''VIN номер''',
       translation,
     );
   }
@@ -3637,7 +3637,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STS_NUMBER',
       [],
-      '''VRC series and number''',
+      '''Серия и номер СТС''',
       translation,
     );
   }
@@ -3646,7 +3646,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STS_DATE',
       [],
-      '''VRC date of issue''',
+      '''Дата выдачи СТС''',
       translation,
     );
   }
@@ -3655,7 +3655,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MASS_MAX',
       [],
-      '''Permitted vehicle weight''',
+      '''Разрешенная масса ТС''',
       translation,
     );
   }
@@ -3664,7 +3664,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__PLATFORM_HEIGHT',
       [],
-      '''Platform height''',
+      '''Высота платформы''',
       translation,
     );
   }
@@ -3673,7 +3673,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT',
       [],
-      '''Vehicle document''',
+      '''Документ ТС''',
       translation,
     );
   }
@@ -3682,7 +3682,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__DOWNLOAD',
       [],
-      '''Download''',
+      '''Скачать''',
       translation,
     );
   }
@@ -3691,7 +3691,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__NO_DOCUMENT',
       [],
-      '''No document''',
+      '''Документ отсутствует''',
       translation,
     );
   }
@@ -3700,7 +3700,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__MESSAGE_DOWNLOADING_ERROR',
       [],
-      '''An error occurred while downloading the file, please try again later''',
+      '''Ошибка скачивания файла, попробуйте позже.''',
       translation,
     );
   }
@@ -3709,7 +3709,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME',
       [],
-      '''Vehicle scheme''',
+      '''Схема ТС''',
       translation,
     );
   }
@@ -3718,7 +3718,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__NUMBER_OF_AXLES',
       [],
-      '''Number of axles''',
+      '''Количество осей''',
       translation,
     );
   }
@@ -3727,7 +3727,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__FRONT_OVERHANG',
       [],
-      '''Front overhang''',
+      '''Передний свес, м''',
       translation,
     );
   }
@@ -3736,7 +3736,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AXLES',
       [],
-      '''Axles''',
+      '''Оси''',
       translation,
     );
   }
@@ -3745,7 +3745,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AXLE',
       [],
-      '''Axle''',
+      '''Ось''',
       translation,
     );
   }
@@ -3754,7 +3754,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AIR_SUSPENSION',
       [],
-      '''Air suspension''',
+      '''Пневмоподвеска''',
       translation,
     );
   }
@@ -3763,7 +3763,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__SLOPE',
       [],
-      '''Slope''',
+      '''Скатность''',
       translation,
     );
   }
@@ -3772,7 +3772,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__WHEELS',
       [],
-      '''Number of wheels''',
+      '''Количество колес''',
       translation,
     );
   }
@@ -3781,7 +3781,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__DISTANCE_TO_NEXT',
       [],
-      '''Distance to next axle''',
+      '''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -3790,7 +3790,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__REAR_OVERHANG',
       [],
-      '''Rear overhang''',
+      '''Задний свес, м''',
       translation,
     );
   }
@@ -3799,7 +3799,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER',
       [],
-      '''Vehicle owner''',
+      '''Владелец ТС''',
       translation,
     );
   }
@@ -3808,7 +3808,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_TYPE',
       [],
-      '''Owner type''',
+      '''Тип владельца''',
       translation,
     );
   }
@@ -3817,7 +3817,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_BASIS',
       [],
-      '''Ground for vehicle ownership''',
+      '''Основание владения ТС''',
       translation,
     );
   }
@@ -3826,7 +3826,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_COMPANY_NAME',
       [],
-      '''Description''',
+      '''Наименование''',
       translation,
     );
   }
@@ -3835,7 +3835,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_FIO',
       [],
-      '''Full name''',
+      '''ФИО''',
       translation,
     );
   }
@@ -3844,7 +3844,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_SURNAME',
       [],
-      '''Surname''',
+      '''Фамилия''',
       translation,
     );
   }
@@ -3853,7 +3853,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_NAME',
       [],
-      '''Name''',
+      '''Имя''',
       translation,
     );
   }
@@ -3862,7 +3862,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_PATRONYMIC',
       [],
-      '''Patronymic''',
+      '''Отчество''',
       translation,
     );
   }
@@ -3871,7 +3871,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_COUNTRY',
       [],
-      '''Country of vehicle ownership''',
+      '''Страна владения ТС''',
       translation,
     );
   }
@@ -3880,7 +3880,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_INN',
       [],
-      '''INN''',
+      '''ИНН''',
       translation,
     );
   }
@@ -3889,7 +3889,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_REG_NUMBER',
       [],
-      '''Reg. number in the country of registration''',
+      '''Рег. номер в стране''',
       translation,
     );
   }
@@ -3898,7 +3898,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_FORM',
       [],
-      '''Form of incorporation''',
+      '''Организационно-правовая форма''',
       translation,
     );
   }
@@ -3907,7 +3907,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__EDIT',
       [],
-      '''Edit''',
+      '''Изменить''',
       translation,
     );
   }
@@ -3916,7 +3916,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку ТС''',
       translation,
     );
   }
@@ -3925,7 +3925,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__TITLE',
       [],
-      '''Vehicle data''',
+      '''Данные ТС''',
       translation,
     );
   }
@@ -3934,7 +3934,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__DESCRIPTION',
       [],
-      '''Enter all vehicle data''',
+      '''Введите все данные ТС''',
       translation,
     );
   }
@@ -3943,7 +3943,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__TYPE',
       [],
-      '''Vehicle type''',
+      '''Тип ТС''',
       translation,
     );
   }
@@ -3952,7 +3952,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SELECT_TYPE',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -3961,7 +3961,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MARK',
       [],
-      '''Brand of vehicle''',
+      '''Марка ТС''',
       translation,
     );
   }
@@ -3970,7 +3970,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MARK_PLACEHOLDER',
       [],
-      '''Specify brand''',
+      '''Укажите марку ТС''',
       translation,
     );
   }
@@ -3979,7 +3979,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MODEL',
       [],
-      '''Vehicle model''',
+      '''Модель ТС''',
       translation,
     );
   }
@@ -3988,7 +3988,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MODEL_PLACEHOLDER',
       [],
-      '''Specify model''',
+      '''Укажите модель ТС''',
       translation,
     );
   }
@@ -3997,7 +3997,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__COUNTRY',
       [],
-      '''Vehicle registration country ''',
+      '''Страна регистрации ТС''',
       translation,
     );
   }
@@ -4006,7 +4006,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SELECT_COUNTRY',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -4015,7 +4015,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SRN',
       [],
-      '''State registration number''',
+      '''Государственный регистрационный номер''',
       translation,
     );
   }
@@ -4024,7 +4024,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SRN_PLACEHOLDER',
       [],
-      '''Specify SRN''',
+      '''Укажите ГРН''',
       translation,
     );
   }
@@ -4033,7 +4033,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__VIN',
       [],
-      '''VIN number''',
+      '''VIN номер''',
       translation,
     );
   }
@@ -4042,7 +4042,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__VIN_PLACEHOLDER',
       [],
-      '''Specify VIN number''',
+      '''Укажите VIN номер''',
       translation,
     );
   }
@@ -4051,7 +4051,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_NUMBER',
       [],
-      '''VRC series and number''',
+      '''Серия и номер СТС''',
       translation,
     );
   }
@@ -4060,7 +4060,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_NUMBER_PLACEHOLDER',
       [],
-      '''Specify VRC series and number''',
+      '''Укажите серию и номер СТС''',
       translation,
     );
   }
@@ -4069,7 +4069,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_DATE',
       [],
-      '''VRC date of issue''',
+      '''Дата выдачи СТС''',
       translation,
     );
   }
@@ -4078,7 +4078,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_DATE_PLACEHOLDER',
       [],
-      '''Indicate the date of issue''',
+      '''Укажите дату выдачи СТС''',
       translation,
     );
   }
@@ -4087,7 +4087,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__TITLE',
       [],
-      '''Characteristics''',
+      '''Характеристики''',
       translation,
     );
   }
@@ -4096,7 +4096,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__DESCRIPTION',
       [],
-      '''Please provide data on weight and dimensions''',
+      '''Укажите данные по массе и размерам''',
       translation,
     );
   }
@@ -4105,7 +4105,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__MASS',
       [],
-      '''Vehicle weight, t''',
+      '''Масса без нагрузки, т''',
       translation,
     );
   }
@@ -4114,7 +4114,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__MAX_MASS',
       [],
-      '''Permitted max. vehicle weight, t''',
+      '''Разрешенная макс. масса, т''',
       translation,
     );
   }
@@ -4123,7 +4123,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__PLATFORM_HEIGHT',
       [],
-      '''Platform height, m''',
+      '''Высота платформы, м''',
       translation,
     );
   }
@@ -4132,7 +4132,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__LENGTH',
       [],
-      '''Length, m''',
+      '''Длина, м''',
       translation,
     );
   }
@@ -4141,7 +4141,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__WIDTH',
       [],
-      '''Width, m''',
+      '''Ширина, м''',
       translation,
     );
   }
@@ -4150,7 +4150,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__HEIGHT',
       [],
-      '''Height, m''',
+      '''Высота, м''',
       translation,
     );
   }
@@ -4159,7 +4159,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__ISOTHERM',
       [],
-      '''Isothermal body''',
+      '''Изотермический кузов''',
       translation,
     );
   }
@@ -4168,7 +4168,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__TITLE',
       [],
-      '''Vehicle owner''',
+      '''Владелец ТС''',
       translation,
     );
   }
@@ -4177,7 +4177,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__DESCRIPTION',
       [],
-      '''Enter the vehicle owner data''',
+      '''Укажите данные владельца ТС''',
       translation,
     );
   }
@@ -4186,7 +4186,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__MATHCHES_THE_CARRIER',
       [],
-      '''Matches the carrier's dat''',
+      '''Совпадает с данными перевозчика''',
       translation,
     );
   }
@@ -4195,7 +4195,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COUNTRY',
       [],
-      '''Country of vehicle ownership''',
+      '''Страна''',
       translation,
     );
   }
@@ -4204,7 +4204,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_COUNTRY',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -4213,7 +4213,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__TYPE',
       [],
-      '''Owner type''',
+      '''Тип владельца''',
       translation,
     );
   }
@@ -4222,7 +4222,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_TYPE',
       [],
-      '''Specify owner type''',
+      '''Укажите тип''',
       translation,
     );
   }
@@ -4231,7 +4231,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__BASIS',
       [],
-      '''Ground for vehicle ownership''',
+      '''Основание владения ТС''',
       translation,
     );
   }
@@ -4240,7 +4240,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_BASIS',
       [],
-      '''Specify ground''',
+      '''Укажите основание''',
       translation,
     );
   }
@@ -4249,7 +4249,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SURNAME',
       [],
-      '''Surname''',
+      '''Фамилия''',
       translation,
     );
   }
@@ -4258,7 +4258,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SURNAME_PLACEHOLDER',
       [],
-      '''Specify surname''',
+      '''Укажите фамилию''',
       translation,
     );
   }
@@ -4267,7 +4267,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__NAME',
       [],
-      '''Name''',
+      '''Имя''',
       translation,
     );
   }
@@ -4276,7 +4276,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__NAME_PLACEHOLDER',
       [],
-      '''Specify name''',
+      '''Укажите имя''',
       translation,
     );
   }
@@ -4285,7 +4285,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__PATRONYMIC',
       [],
-      '''Patronymic''',
+      '''Отчество''',
       translation,
     );
   }
@@ -4294,7 +4294,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__PATRONYMIC_PLACEHOLDER',
       [],
-      '''Specify patronymic''',
+      '''Укажите отчество''',
       translation,
     );
   }
@@ -4303,7 +4303,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COMPANY_NAME',
       [],
-      '''Description''',
+      '''Наименование''',
       translation,
     );
   }
@@ -4312,7 +4312,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COMPANY_NAME_PLACEHOLDER',
       [],
-      '''Specify desription''',
+      '''Укажите наименование''',
       translation,
     );
   }
@@ -4321,7 +4321,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__OPF',
       [],
-      '''Form of incorporation''',
+      '''Организационно-правовая форма''',
       translation,
     );
   }
@@ -4330,7 +4330,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_OPF',
       [],
-      '''Choose the form of incorporation''',
+      '''Выберите ОПФ''',
       translation,
     );
   }
@@ -4339,7 +4339,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__INN',
       [],
-      '''INN''',
+      '''ИНН''',
       translation,
     );
   }
@@ -4348,7 +4348,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__INN_PLACEHOLDER',
       [],
-      '''Specify INN''',
+      '''Укажите ИНН''',
       translation,
     );
   }
@@ -4357,7 +4357,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__REG_NUMBER',
       [],
-      '''Reg. number in the country of registration''',
+      '''Рег. номер в стране''',
       translation,
     );
   }
@@ -4366,7 +4366,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__REG_NUMBER_PLACEHOLDER',
       [],
-      '''Specify reg. number''',
+      '''Укажите рег. номер''',
       translation,
     );
   }
@@ -4375,7 +4375,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__FILL_IN_WITH_CARRIER_DATA',
       [],
-      '''Fill in with the carrier data''',
+      '''Заполнить данными перевозчика''',
       translation,
     );
   }
@@ -4384,7 +4384,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__MESSAGE_GET_CLIENT_ERROR',
       [],
-      '''An error occurred while loading the carrier's data, please try again later''',
+      '''Ошибка при загрузке данных перевозчика, попробуйте позже''',
       translation,
     );
   }
@@ -4393,7 +4393,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__TITLE',
       [],
-      '''Vehicle scheme''',
+      '''Схема ТС''',
       translation,
     );
   }
@@ -4402,7 +4402,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__DESCRIPTION',
       [],
-      '''Specify the geometric characteristics of the vehicle''',
+      '''Укажите геометрические характеристики ТС''',
       translation,
     );
   }
@@ -4411,7 +4411,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__NUMBER_OF_AXLES',
       [],
-      '''Number of axles''',
+      '''Количество осей''',
       translation,
     );
   }
@@ -4420,7 +4420,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__FRONT_OVERHANG',
       [],
-      '''Front overhang, m''',
+      '''Передний свес, м''',
       translation,
     );
   }
@@ -4429,7 +4429,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__REAR_OVERHANG',
       [],
-      '''Rear overhang, m''',
+      '''Задний свес, м''',
       translation,
     );
   }
@@ -4438,7 +4438,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__DISTANCE_TO_NEXT',
       [],
-      '''Distance to next axle''',
+      '''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -4447,7 +4447,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__AIR_SUSPENSION',
       [],
-      '''Air suspension''',
+      '''Пневмоподвеска''',
       translation,
     );
   }
@@ -4456,7 +4456,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__SLOPE',
       [],
-      '''Slope''',
+      '''Скатность''',
       translation,
     );
   }
@@ -4465,7 +4465,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__WHEELS',
       [],
-      '''Number of wheels''',
+      '''Количество колес''',
       translation,
     );
   }
@@ -4474,7 +4474,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__SAVE',
       [],
-      '''Save''',
+      '''Сохранить''',
       translation,
     );
   }
@@ -4483,7 +4483,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -4492,7 +4492,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''The value must be greater than 0''',
+      '''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -4501,7 +4501,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_SAVE_ERROR',
       [],
-      '''An error occurred while saving the vehicle, please try again later''',
+      '''Ошибка при сохранении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -4510,7 +4510,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_INVALID_INN',
       [],
-      '''Invalid INN''',
+      '''Некорректный ИНН''',
       translation,
     );
   }
@@ -4519,7 +4519,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_LENGTH_MISMATH',
       [],
-      '''Vehicle length does not match to sum of front and reat overnangs and the distances between the axles''',
+      '''Длина ТС не совпадает с суммой длин заднего и переднего свесов и расстояний между осями''',
       translation,
     );
   }
@@ -4528,8 +4528,7 @@ If within 5 days after the receipt of the request for information on consent is 
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DISCLAIMER',
       [],
-      '''Attention!
-The data you enter affects the calculation of road damage caused by a heavy vehicle. Be sure that the data entered is appropriate for the vehicle.''',
+      '''Внимание! Внесенные вами данные влияют на расчет ущерба, причиняемого автомобильным дорогам тяжеловесным транспортным средством. Будьте уверены, что внесенные данные соответствуют данному транспортному средству.''',
       translation,
     );
   }
@@ -4538,7 +4537,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку ТС''',
       translation,
     );
   }
@@ -4547,7 +4546,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__SAVE',
       [],
-      '''Save changes''',
+      '''Сохранить изменения''',
       translation,
     );
   }
@@ -4556,7 +4555,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -4565,7 +4564,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''The value must be greater than 0''',
+      '''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -4574,7 +4573,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW_EDIT__MESSAGE_SAVE_ERROR',
       [],
-      '''An error occurred while saving the vehicle, please try again later''',
+      '''Ошибка при сохранении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -4583,7 +4582,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT',
       [],
-      '''Vehicle document''',
+      '''Документ ТС''',
       translation,
     );
   }
@@ -4592,7 +4591,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DESRIPTION',
       [],
-      '''Vehicle passport or vehicle registration certificate, self-propelled vehicle passport. File size no more than 10 MB.''',
+      '''Паспорт транспортного средства или свидетельство о регистрации транспортного средства, паспорт самоходной машины. Размер файла не более 10 МБ.''',
       translation,
     );
   }
@@ -4601,7 +4600,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOAD',
       [],
-      '''Upload a document''',
+      '''Загрузить документ''',
       translation,
     );
   }
@@ -4610,7 +4609,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOADED',
       [],
-      '''The document is uplodaded''',
+      '''Документ загружен''',
       translation,
     );
   }
@@ -4619,7 +4618,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOAD_REQUIRED',
       [],
-      '''The document is not uploaded.''',
+      '''Документ не загружен''',
       translation,
     );
   }
@@ -4628,7 +4627,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__MESSAGE_UPLOADING_ERROR',
       [],
-      '''An error occurred while uploading the document, please try again later''',
+      '''Ошибка при загрузке документа, попробуйте позже''',
       translation,
     );
   }
@@ -4637,7 +4636,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__TITLE',
       [],
-      '''User profile''',
+      '''Профиль пользователя''',
       translation,
     );
   }
@@ -4646,7 +4645,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__CITY',
       [],
-      '''city''',
+      '''г.''',
       translation,
     );
   }
@@ -4655,7 +4654,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__STREET',
       [],
-      '''street''',
+      '''ул.''',
       translation,
     );
   }
@@ -4664,7 +4663,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__HOUSE',
       [],
-      '''house''',
+      '''д.''',
       translation,
     );
   }
@@ -4673,7 +4672,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__HOUSING',
       [],
-      '''housing''',
+      '''к.''',
       translation,
     );
   }
@@ -4682,7 +4681,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__BUILDING',
       [],
-      '''builging''',
+      '''стр.''',
       translation,
     );
   }
@@ -4691,7 +4690,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__FLAT',
       [],
-      '''flat''',
+      '''кв.''',
       translation,
     );
   }
@@ -4700,7 +4699,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS',
       [],
-      '''Registration address''',
+      '''Адрес регистрации''',
       translation,
     );
   }
@@ -4709,7 +4708,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__COUNTRY',
       [],
-      '''Country''',
+      '''Страна''',
       translation,
     );
   }
@@ -4718,7 +4717,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__POSTCODE',
       [],
-      '''ZIP''',
+      '''Индекс''',
       translation,
     );
   }
@@ -4727,7 +4726,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__REGION',
       [],
-      '''Region''',
+      '''Область''',
       translation,
     );
   }
@@ -4736,7 +4735,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__AREA',
       [],
-      '''District''',
+      '''Район''',
       translation,
     );
   }
@@ -4745,7 +4744,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__CITY',
       [],
-      '''City''',
+      '''Город''',
       translation,
     );
   }
@@ -4754,7 +4753,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__STREET',
       [],
-      '''Street''',
+      '''Улица''',
       translation,
     );
   }
@@ -4763,7 +4762,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__HOUSE',
       [],
-      '''Building''',
+      '''Дом''',
       translation,
     );
   }
@@ -4772,7 +4771,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__HOUSING',
       [],
-      '''Block''',
+      '''Корпус''',
       translation,
     );
   }
@@ -4781,7 +4780,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__BUILDING',
       [],
-      '''Structure''',
+      '''Строение''',
       translation,
     );
   }
@@ -4790,7 +4789,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__FLAT',
       [],
-      '''Ap/Office''',
+      '''Кв/офис''',
       translation,
     );
   }
@@ -4799,7 +4798,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__PHONE',
       [],
-      '''Phone''',
+      '''Телефон''',
       translation,
     );
   }
@@ -4808,7 +4807,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__COMPANY_PHONE',
       [],
-      '''Company phone''',
+      '''Телефон организации''',
       translation,
     );
   }
@@ -4817,7 +4816,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__CONTACT_PHONE',
       [],
-      '''Contact phone''',
+      '''Контактный телефон''',
       translation,
     );
   }
@@ -4826,7 +4825,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__COMPANY_PHONE',
       [],
-      '''Company phone''',
+      '''Телефон организации''',
       translation,
     );
   }
@@ -4835,7 +4834,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__INFO',
       [],
-      '''General information''',
+      '''Общая информация''',
       translation,
     );
   }
@@ -4844,7 +4843,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__COUNTRY_OF_REGISTRATION',
       [],
-      '''Country of registration''',
+      '''Страна регистрации''',
       translation,
     );
   }
@@ -4853,7 +4852,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__EMAIL',
       [],
-      '''Carrier email''',
+      '''Email перевозчика''',
       translation,
     );
   }
@@ -4862,7 +4861,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__CARRIER',
       [],
-      '''Carrier''',
+      '''Перевозчик''',
       translation,
     );
   }
@@ -4871,7 +4870,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__FULL_NAME',
       [],
-      '''Full name''',
+      '''Полное наименование''',
       translation,
     );
   }
@@ -4880,7 +4879,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__SHORT_NAME',
       [],
-      '''Short name''',
+      '''Сокращенное наименование''',
       translation,
     );
   }
@@ -4889,7 +4888,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__INN',
       [],
-      '''INN''',
+      '''ИНН''',
       translation,
     );
   }
@@ -4899,7 +4898,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__REGISTRATION_NUMBER_IN_THE_COUNTRY_OF_REGISTRATION',
       [],
-      '''Registration number in the country of registration''',
+      '''Регистрационный номер в стране регистрации''',
       translation,
     );
   }
@@ -4908,7 +4907,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__KPP',
       [],
-      '''KPP''',
+      '''КПП''',
       translation,
     );
   }
@@ -4917,7 +4916,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__OGRN',
       [],
-      '''OGRN''',
+      '''ОГРН''',
       translation,
     );
   }
@@ -4926,7 +4925,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__OGRNIP',
       [],
-      '''OGRNIP''',
+      '''ОГРНИП''',
       translation,
     );
   }
@@ -4935,7 +4934,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION_COMPANY_INFO',
       [],
-      '''Company information''',
+      '''Информация о компании''',
       translation,
     );
   }
@@ -4944,7 +4943,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION_2FA',
       [],
-      '''Two-factor authentication''',
+      '''Двухфакторная  авторизация''',
       translation,
     );
   }
@@ -4953,7 +4952,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__DIRECTOR',
       [],
-      '''General director''',
+      '''Генеральный директор''',
       translation,
     );
   }
@@ -4962,7 +4961,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__PASSPORT',
       [],
-      '''Passport''',
+      '''Паспортные данные''',
       translation,
     );
   }
@@ -4971,7 +4970,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__SERIES_AND_NUMBER',
       [],
-      '''Series and number''',
+      '''Серия и номер''',
       translation,
     );
   }
@@ -4980,7 +4979,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__DATE_OF_ISSUE',
       [],
-      '''Date of issue''',
+      '''Дата выдачи''',
       translation,
     );
   }
@@ -4989,7 +4988,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__UNIT_CODE',
       [],
-      '''Unit code''',
+      '''Код подразделения''',
       translation,
     );
   }
@@ -4998,7 +4997,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__ISSUED_BY',
       [],
-      '''Issued by''',
+      '''Кем выдан''',
       translation,
     );
   }
@@ -5007,7 +5006,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_DETAILS',
       [],
-      '''Bank details''',
+      '''Банковские реквизиты''',
       translation,
     );
   }
@@ -5016,7 +5015,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__PRIMARY_ACCOUNT',
       [],
-      '''Primary account''',
+      '''Основной счет''',
       translation,
     );
   }
@@ -5025,7 +5024,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__ADDITIONAL_ACCOUNTS',
       [],
-      '''Additional accounts''',
+      '''Дополнительные счета''',
       translation,
     );
   }
@@ -5034,7 +5033,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__ACCOUNT_NAME',
       [],
-      '''Account name''',
+      '''Наименование счета''',
       translation,
     );
   }
@@ -5043,7 +5042,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_COUNTRY',
       [],
-      '''Bank country''',
+      '''Страна банка''',
       translation,
     );
   }
@@ -5052,7 +5051,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_CITY',
       [],
-      '''Bank city''',
+      '''Город банка''',
       translation,
     );
   }
@@ -5061,7 +5060,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_BIC',
       [],
-      '''Bank BIC''',
+      '''БИК банка''',
       translation,
     );
   }
@@ -5070,7 +5069,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_NAME',
       [],
-      '''Bank name''',
+      '''Наименование банка''',
       translation,
     );
   }
@@ -5079,7 +5078,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__CORRESPONDENT_ACCOUNT',
       [],
-      '''Correspondent account''',
+      '''Корреспондентский счет''',
       translation,
     );
   }
@@ -5088,7 +5087,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__SETTLEMENT_ACCOUNT',
       [],
-      '''Settlement account''',
+      '''Расчетный счет''',
       translation,
     );
   }
@@ -5097,7 +5096,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_SWIFT_CODE',
       [],
-      '''Bank SWIFT code''',
+      '''SWIFT-код банка''',
       translation,
     );
   }
@@ -5106,7 +5105,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__SWIFT_CORRESPONDENT_BANK_CODE_IF_KNOWN',
       [],
-      '''SWIFT - correspondent bank code (if known)''',
+      '''SWIFT - код банка корреспондента (если известен)''',
       translation,
     );
   }
@@ -5115,7 +5114,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BENEFICIARY_ACCOUNT_NUMBER_IBAN',
       [],
-      '''Beneficiary account number / IBAN''',
+      '''Номер счета получателя / IBAN''',
       translation,
     );
   }
@@ -5124,7 +5123,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES',
       [],
-      '''Licenses for international road transport''',
+      '''Допуски к осуществлению международных автомобильных перевозок''',
       translation,
     );
   }
@@ -5133,7 +5132,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__NUMBER_AND_DATE',
       [],
-      '''Number and issue date''',
+      '''Номер и дата выдачи''',
       translation,
     );
   }
@@ -5142,7 +5141,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__PERIOD',
       [],
-      '''Validity period''',
+      '''Срок действия''',
       translation,
     );
   }
@@ -5151,7 +5150,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__NO_LICENSES',
       [],
-      '''No licenses ''',
+      '''Допусков нет''',
       translation,
     );
   }
@@ -5160,7 +5159,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__REFRESH',
       [],
-      '''Refresh licenses''',
+      '''Обновить информацию о допусках''',
       translation,
     );
   }
@@ -5169,7 +5168,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__MESSAGE_REFRESHING_LICENSES_ERROR',
       [],
-      '''An error occurred while refreshing licenses, please try again later''',
+      '''Ошибка при обновлении информации о допусках''',
       translation,
     );
   }
@@ -5178,7 +5177,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__MESSAGE_REFRESHED_SUCCESSFULLY',
       [],
-      '''Request to refresh licenses has been sent''',
+      '''Запрос на обновление информации о допусках отправлен''',
       translation,
     );
   }
@@ -5187,7 +5186,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BUTTON_EDIT',
       [],
-      '''Edit user profile''',
+      '''Редактировать профиль''',
       translation,
     );
   }
@@ -5196,7 +5195,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__TITLE',
       [],
-      '''Editing user profile''',
+      '''Редактирование профиля пользователя''',
       translation,
     );
   }
@@ -5205,7 +5204,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BUTTON_CHANGE_PASSWORD',
       [],
-      '''Change password''',
+      '''Изменить пароль''',
       translation,
     );
   }
@@ -5214,7 +5213,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__SAVE',
       [],
-      '''Save''',
+      '''Сохранить''',
       translation,
     );
   }
@@ -5223,7 +5222,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -5232,7 +5231,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_SAVING_ERROR',
       [],
-      '''An error occurred while saving user data, please try again later''',
+      '''Ошибка при сохранении данных, попробуйте позже''',
       translation,
     );
   }
@@ -5241,7 +5240,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''The user data has been updated''',
+      '''Данные сохранены''',
       translation,
     );
   }
@@ -5250,7 +5249,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CANCEL',
       [],
-      '''Cancel''',
+      '''Отменить''',
       translation,
     );
   }
@@ -5259,7 +5258,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__GENERAL_INFO__TITLE',
       [],
-      '''General information''',
+      '''Общая информация''',
       translation,
     );
   }
@@ -5268,7 +5267,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__GENERAL_INFO__DESCRIPTION',
       [],
-      '''Detailed information on the organization''',
+      '''Подробная информация о перевозчике''',
       translation,
     );
   }
@@ -5277,7 +5276,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CONTACT_INFO__TITLE',
       [],
-      '''Contact information''',
+      '''Контактная информация''',
       translation,
     );
   }
@@ -5286,7 +5285,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CONTACT_INFO__DESCRIPTION',
       [],
-      '''Information about the registration address and telephone numbers''',
+      '''Информация об адресе регистрации и телефонах''',
       translation,
     );
   }
@@ -5295,7 +5294,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__PASSPORT__TITLE',
       [],
-      '''Passport''',
+      '''Паспортные данные''',
       translation,
     );
   }
@@ -5304,7 +5303,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__PASSPORT__DESCRIPTION',
       [],
-      '''Passport''',
+      '''Паспортные данные''',
       translation,
     );
   }
@@ -5313,7 +5312,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__DIRECTOR__TITLE',
       [],
-      '''General director''',
+      '''Генеральный директор''',
       translation,
     );
   }
@@ -5322,7 +5321,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__DIRECTOR__DESCRIPTION',
       [],
-      '''Name of the General Director of the organization''',
+      '''ФИО Генерального директора организации''',
       translation,
     );
   }
@@ -5331,7 +5330,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BANK_DETAIL__TITLE',
       [],
-      '''Bank details''',
+      '''Банковские реквизиты''',
       translation,
     );
   }
@@ -5340,7 +5339,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BANK_DETAIL__DESCRIPTION',
       [],
-      '''Bank data and details''',
+      '''Реквизиты банка и счета''',
       translation,
     );
   }
@@ -5349,7 +5348,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__TITLE',
       [],
-      '''Change password''',
+      '''Изменение пароля''',
       translation,
     );
   }
@@ -5358,7 +5357,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__OLD_PASSWORD_TITLE',
       [],
-      '''Old password''',
+      '''Старый пароль''',
       translation,
     );
   }
@@ -5367,7 +5366,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__OLD_PASSWORD_PLACEHOLDER',
       [],
-      '''Enter old password''',
+      '''Введите старый пароль''',
       translation,
     );
   }
@@ -5376,7 +5375,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_TITLE',
       [],
-      '''New password''',
+      '''Новый пароль''',
       translation,
     );
   }
@@ -5385,7 +5384,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_PLACEHOLDER',
       [],
-      '''Enter new password''',
+      '''Введите новый пароль''',
       translation,
     );
   }
@@ -5394,7 +5393,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_REPEAT_TITLE',
       [],
-      '''Repeat new password''',
+      '''Повторите новый пароль''',
       translation,
     );
   }
@@ -5403,7 +5402,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_REPEAT_PLACEHOLDER',
       [],
-      '''Enter new password''',
+      '''Введите новый пароль''',
       translation,
     );
   }
@@ -5412,7 +5411,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__SAVE',
       [],
-      '''Save''',
+      '''Сохранить''',
       translation,
     );
   }
@@ -5421,7 +5420,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_PASSWORD_MISMATCH',
       [],
-      '''New passwords do not match''',
+      '''Новые пароли не совпадают''',
       translation,
     );
   }
@@ -5430,7 +5429,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_SAVING_ERROR',
       [],
-      '''An error occurred while saving password, please try again later''',
+      '''Ошибка при сохранении пароля, попробуйте позже''',
       translation,
     );
   }
@@ -5439,7 +5438,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''The password has been updated''',
+      '''Пароль сохранен''',
       translation,
     );
   }
@@ -5448,7 +5447,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__CANCEL',
       [],
-      '''Cancel''',
+      '''Отменить''',
       translation,
     );
   }
@@ -5457,7 +5456,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TITLE',
       [],
-      '''Help''',
+      '''Помощь''',
       translation,
     );
   }
@@ -5466,7 +5465,7 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TEXT_ABOVE_PHONE',
       [],
-      '''Contact center phone number for registration and work in the Personal account of the carrier''',
+      '''Телефон контакт-центра по вопросам регистрации и работы в «Личном кабинете перевозчика»''',
       translation,
     );
   }
@@ -5484,8 +5483,8 @@ The data you enter affects the calculation of road damage caused by a heavy vehi
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TEXT_UNDER_PHONE',
       [],
-      '''contact center working hours
-on weekdays from 8:00 to 20:00 Moscow time''',
+      '''время работы контакт-центра
+по рабочим дням с 8:00 по 20:00 по МСК''',
       translation,
     );
   }
@@ -5494,7 +5493,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FAQ',
       [],
-      '''FAQ''',
+      '''Вопросы и ответы''',
       translation,
     );
   }
@@ -5503,7 +5502,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FAQ__DESCRIPTION',
       [],
-      '''You can find frequently asked questions here''',
+      '''Часто задаваемые вопросы вы найдете здесь''',
       translation,
     );
   }
@@ -5512,7 +5511,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS',
       [],
-      '''Regulatory information''',
+      '''Нормативно-правовая информация''',
       translation,
     );
   }
@@ -5521,7 +5520,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__DESCRIPTION',
       [],
-      '''General documents with regulatory information''',
+      '''Общие документы с нормативно-правовой информацией''',
       translation,
     );
   }
@@ -5530,7 +5529,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__DOCUMENT',
       [],
-      '''Document''',
+      '''Документ''',
       translation,
     );
   }
@@ -5539,7 +5538,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__MESSAGE_DOWNLOADING_DOCUMENT_ERROR',
       [],
-      '''An error occurred while downloading the document, please try again later''',
+      '''Ошибка при скачивании документа, попробуйте позже''',
       translation,
     );
   }
@@ -5548,7 +5547,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__CREATE_FEEDBACK',
       [],
-      '''Feedback''',
+      '''Создать обращение''',
       translation,
     );
   }
@@ -5557,7 +5556,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__TITLE',
       [],
-      '''New appeal''',
+      '''Новое обращение''',
       translation,
     );
   }
@@ -5566,7 +5565,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBTITLE',
       [],
-      '''Technical support''',
+      '''Техническая поддержка''',
       translation,
     );
   }
@@ -5575,7 +5574,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__DESCRIPTION',
       [],
-      '''The technical support department will help you with any questions''',
+      '''Отдел технической поддержки поможет Вам с любыми возникшими вопросами''',
       translation,
     );
   }
@@ -5593,7 +5592,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__EMAIL_PLACEHOLDER',
       [],
-      '''Enter your email''',
+      '''Укажите email''',
       translation,
     );
   }
@@ -5602,7 +5601,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__NAME',
       [],
-      '''Name''',
+      '''Имя''',
       translation,
     );
   }
@@ -5611,7 +5610,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__NAME_PLACEHOLDER',
       [],
-      '''Enter your name''',
+      '''Укажите имя''',
       translation,
     );
   }
@@ -5620,7 +5619,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__PHONE',
       [],
-      '''Phone''',
+      '''Телефон''',
       translation,
     );
   }
@@ -5629,7 +5628,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__PHONE_PLACEHOLDER',
       [],
-      '''Enter your phone''',
+      '''Укажите телефон''',
       translation,
     );
   }
@@ -5638,7 +5637,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBJECT',
       [],
-      '''Subject''',
+      '''Тема''',
       translation,
     );
   }
@@ -5647,7 +5646,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBJECT_PLACEHOLDER',
       [],
-      '''Specify the subject of the appeal''',
+      '''Укажите тему обращения''',
       translation,
     );
   }
@@ -5656,7 +5655,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE',
       [],
-      '''Message''',
+      '''Сообщение''',
       translation,
     );
   }
@@ -5665,7 +5664,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_PLACEHOLDER',
       [],
-      '''Enter your message''',
+      '''Введите сообщение''',
       translation,
     );
   }
@@ -5674,7 +5673,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__FILES',
       [],
-      '''Attachments''',
+      '''Файлы''',
       translation,
     );
   }
@@ -5683,7 +5682,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__FILES_DESCRIPTION',
       [],
-      '''No more than 5 files, the size of one file is no more than 10 MB''',
+      '''Не более 5 файлов, размер одного файла не более 10 МБ''',
       translation,
     );
   }
@@ -5692,7 +5691,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__ATTACH_FILE',
       [],
-      '''Attach file''',
+      '''Приложить файл''',
       translation,
     );
   }
@@ -5701,7 +5700,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SEND',
       [],
-      '''Send''',
+      '''Отправить''',
       translation,
     );
   }
@@ -5710,7 +5709,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -5719,7 +5718,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_SENDING_ERROR',
       [],
-      '''An error occurred while sending the appeal, please try again later''',
+      '''Ошибка при отправке обращения, попробуйте позже''',
       translation,
     );
   }
@@ -5728,7 +5727,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_FILE_TOO_LARGE_ERROR',
       [],
-      '''An error occured while uploading the file, the file size is too large.''',
+      '''Ошибка при загрузке файла, размер файла слишком большой.''',
       translation,
     );
   }
@@ -5737,7 +5736,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''The appeal has been sent''',
+      '''Обращение отправлено''',
       translation,
     );
   }
@@ -5746,7 +5745,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__SEARCH',
       [],
-      '''To search, enter a query or use the voice assistant''',
+      '''Для поиска введите запрос или воспользуйтесь голосовым помощником''',
       translation,
     );
   }
@@ -5755,7 +5754,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__NOT_FOUND',
       [],
-      '''Sorry, nothing not found''',
+      '''К сожалению, ничего не найдено''',
       translation,
     );
   }
@@ -5764,7 +5763,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'HELP__SPEAK',
       [],
-      '''What do you want to find?''',
+      '''Что Вы хотите найти?''',
       translation,
     );
   }
@@ -5773,7 +5772,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__TITLE',
       [],
-      '''Appeals''',
+      '''Обращения''',
       translation,
     );
   }
@@ -5782,7 +5781,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW',
       [],
-      '''New appeal''',
+      '''Новое обращение''',
       translation,
     );
   }
@@ -5791,7 +5790,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SEARCH',
       [],
-      '''Search''',
+      '''Искать''',
       translation,
     );
   }
@@ -5800,7 +5799,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -5809,7 +5808,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_STATUS',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -5818,7 +5817,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_CATEGORY',
       [],
-      '''Category''',
+      '''Категория''',
       translation,
     );
   }
@@ -5827,7 +5826,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_CATEGORY',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -5836,7 +5835,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_DATES',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -5845,7 +5844,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -5854,7 +5853,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__TITLE',
       [],
-      '''Select date''',
+      '''Выбор даты''',
       translation,
     );
   }
@@ -5863,7 +5862,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__FROM',
       [],
-      '''Date from''',
+      '''Дата с''',
       translation,
     );
   }
@@ -5872,7 +5871,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES_TO',
       [],
-      '''Date to''',
+      '''Дата по''',
       translation,
     );
   }
@@ -5881,7 +5880,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''DDMMYYYY''',
+      '''ДДММГГГГ''',
       translation,
     );
   }
@@ -5890,7 +5889,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLEAR_FILTERS',
       [],
-      '''Clear filters''',
+      '''Сбросить фильтры''',
       translation,
     );
   }
@@ -5899,7 +5898,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NUMBER_OF_APPEALS',
       [],
-      '''Number of appeals''',
+      '''Количество обращений''',
       translation,
     );
   }
@@ -5908,7 +5907,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NO_APPEALS',
       [],
-      '''No appeals''',
+      '''Обращений нет''',
       translation,
     );
   }
@@ -5917,7 +5916,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NO_APPEALS_FOUND',
       [],
-      '''Sorry, no appeals found''',
+      '''К сожалению, обращений не найдено''',
       translation,
     );
   }
@@ -5926,7 +5925,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку обращений''',
       translation,
     );
   }
@@ -5935,7 +5934,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Appeal number and creation date''',
+      '''Номер и дата создания обращения''',
       translation,
     );
   }
@@ -5944,7 +5943,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -5953,7 +5952,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__ADD_CLARIFICATION',
       [],
-      '''Add clarification''',
+      '''Добавить уточнение''',
       translation,
     );
   }
@@ -5962,7 +5961,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__RETURN_TO_WORK',
       [],
-      '''Return to work''',
+      '''Вернуть в работу''',
       translation,
     );
   }
@@ -5971,7 +5970,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__CLOSE',
       [],
-      '''Close the appeal''',
+      '''Закрыть обращение''',
       translation,
     );
   }
@@ -5980,7 +5979,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VEW__DEADLINE',
       [],
-      '''Deadline''',
+      '''Срок выполнения''',
       translation,
     );
   }
@@ -5989,7 +5988,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__CATEGORY',
       [],
-      '''Category''',
+      '''Категория''',
       translation,
     );
   }
@@ -5998,7 +5997,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__SUBJECT',
       [],
-      '''Name''',
+      '''Тема''',
       translation,
     );
   }
@@ -6007,7 +6006,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__MESSAGE',
       [],
-      '''Message''',
+      '''Сообщение''',
       translation,
     );
   }
@@ -6016,7 +6015,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__ATTACHMENTS',
       [],
-      '''Attachments''',
+      '''Вложения''',
       translation,
     );
   }
@@ -6025,7 +6024,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__HISTORY',
       [],
-      '''History''',
+      '''История''',
       translation,
     );
   }
@@ -6034,7 +6033,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__TITLE',
       [],
-      '''New appeal''',
+      '''Новое обращение''',
       translation,
     );
   }
@@ -6043,7 +6042,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__CATEGORY',
       [],
-      '''Category''',
+      '''Категория''',
       translation,
     );
   }
@@ -6052,7 +6051,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__CATEGORY__PLACEHOLDER',
       [],
-      '''Select category''',
+      '''Выберите категорию''',
       translation,
     );
   }
@@ -6061,7 +6060,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SUBJECT',
       [],
-      '''Subject''',
+      '''Тема''',
       translation,
     );
   }
@@ -6070,7 +6069,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SUBJECT_PLACEHOLDER',
       [],
-      '''Specify the subject of the appeal''',
+      '''Укажите тему обращения''',
       translation,
     );
   }
@@ -6079,7 +6078,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE',
       [],
-      '''Message''',
+      '''Сообщение''',
       translation,
     );
   }
@@ -6088,7 +6087,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_PLACEHOLDER',
       [],
-      '''Enter your message''',
+      '''Введите сообщение''',
       translation,
     );
   }
@@ -6097,7 +6096,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__FILES',
       [],
-      '''Attachments''',
+      '''Файлы''',
       translation,
     );
   }
@@ -6106,7 +6105,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__FILES_DESCRIPTION',
       [],
-      '''No more than 5 files, the size of one file is no more than 10 MB''',
+      '''Не более 5 файлов, размер одного файла не более 10 МБ''',
       translation,
     );
   }
@@ -6115,7 +6114,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__ATTACH_FILE',
       [],
-      '''Attach file''',
+      '''Приложить файл''',
       translation,
     );
   }
@@ -6124,7 +6123,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SEND',
       [],
-      '''Send''',
+      '''Отправить''',
       translation,
     );
   }
@@ -6133,7 +6132,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Required field''',
+      '''Заполните поле''',
       translation,
     );
   }
@@ -6142,7 +6141,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_SENDING_ERROR',
       [],
-      '''An error occurred while sending the appeal, please try again later''',
+      '''Ошибка при отправке обращения, попробуйте позже''',
       translation,
     );
   }
@@ -6151,7 +6150,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_FILE_TOO_LARGE_ERROR',
       [],
-      '''An error occured while uploading the file, the file size is too large.''',
+      '''Ошибка при загрузке файла, размер файла слишком большой.''',
       translation,
     );
   }
@@ -6160,7 +6159,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''The appeal has been sent''',
+      '''Обращение отправлено''',
       translation,
     );
   }
@@ -6169,7 +6168,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__TITLE',
       [],
-      '''Add clarification''',
+      '''Уточнение''',
       translation,
     );
   }
@@ -6178,7 +6177,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__BUTTON',
       [],
-      '''Send''',
+      '''Добавить уточнение''',
       translation,
     );
   }
@@ -6187,7 +6186,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__MESSAGE_SENDING_ERROR',
       [],
-      '''An error occurred while adding the clarification, please try again later''',
+      '''Ошибка при добавлении уточнения, попробуйте позже''',
       translation,
     );
   }
@@ -6196,7 +6195,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''The clarification has been added''',
+      '''Уточнение добавлено''',
       translation,
     );
   }
@@ -6205,7 +6204,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__TITLE',
       [],
-      '''Return to work''',
+      '''Возврат в работу''',
       translation,
     );
   }
@@ -6214,7 +6213,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__BUTTON',
       [],
-      '''Return to work''',
+      '''Вернуть в работу''',
       translation,
     );
   }
@@ -6223,7 +6222,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__MESSAGE_SENDING_ERROR',
       [],
-      '''An error occurred while returnigne the appeal to work, please try again later''',
+      '''Ошибка при возврате обращения в работу, попробуйте позже''',
       translation,
     );
   }
@@ -6232,7 +6231,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''The appeal has been returned to work''',
+      '''Обращение возвращено в работу''',
       translation,
     );
   }
@@ -6241,7 +6240,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__DESCRIPTION',
       [],
-      '''Are you sure you want to close the appeal?''',
+      '''Вы уверены, что хотите закрыть обращение?''',
       translation,
     );
   }
@@ -6250,7 +6249,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__BUTTON_YES',
       [],
-      '''Yes''',
+      '''Да''',
       translation,
     );
   }
@@ -6259,7 +6258,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__BUTTON_NO',
       [],
-      '''No''',
+      '''Нет''',
       translation,
     );
   }
@@ -6268,7 +6267,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__MESSAGE_APPEAL_CLOSING_ERROR',
       [],
-      '''An error occurred while closing the appeal, please try again later''',
+      '''Ошибка при закрытии обращения, попробуйте позже''',
       translation,
     );
   }
@@ -6277,7 +6276,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__MESSAGE_APPEAL_CLOSED_SUCCESSFULLY',
       [],
-      '''The appeal has been closed''',
+      '''Обращение закрыто''',
       translation,
     );
   }
@@ -6286,7 +6285,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__TITLE',
       [],
-      '''Notifications''',
+      '''Уведомления''',
       translation,
     );
   }
@@ -6295,7 +6294,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SEARCH_FROM',
       [],
-      '''From''',
+      '''Отправитель''',
       translation,
     );
   }
@@ -6304,7 +6303,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_NEW',
       [],
-      '''New''',
+      '''Новые''',
       translation,
     );
   }
@@ -6313,7 +6312,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_ARCHIVE',
       [],
-      '''Archive''',
+      '''Архивные''',
       translation,
     );
   }
@@ -6322,7 +6321,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_DATES',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -6331,7 +6330,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -6340,7 +6339,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__TITLE',
       [],
-      '''Select date''',
+      '''Выбор даты''',
       translation,
     );
   }
@@ -6349,7 +6348,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__FROM',
       [],
-      '''Date from''',
+      '''Дата с''',
       translation,
     );
   }
@@ -6358,7 +6357,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES_TO',
       [],
-      '''Date to''',
+      '''Дата по''',
       translation,
     );
   }
@@ -6367,7 +6366,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''DDMMYYYY''',
+      '''ДДММГГГГ''',
       translation,
     );
   }
@@ -6376,7 +6375,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_STATUS',
       [],
-      '''Status''',
+      '''Статус''',
       translation,
     );
   }
@@ -6385,7 +6384,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_STATUS',
       [],
-      '''Select''',
+      '''Выбрать''',
       translation,
     );
   }
@@ -6394,7 +6393,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__STATUS_NEW',
       [],
-      '''New''',
+      '''Новое''',
       translation,
     );
   }
@@ -6403,7 +6402,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__STATUS_READ',
       [],
-      '''Read''',
+      '''Прочитано''',
       translation,
     );
   }
@@ -6412,7 +6411,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__NO_NOTIFICATIONS',
       [],
-      '''No notifications''',
+      '''Уведомлений нет''',
       translation,
     );
   }
@@ -6421,7 +6420,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__NO_NOTIFICATIONS_FOUND',
       [],
-      '''Sorry, no notifications found''',
+      '''К сожалению, уведомлений не найдено''',
       translation,
     );
   }
@@ -6430,7 +6429,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE',
       [],
-      '''Move to archive''',
+      '''Архивировать''',
       translation,
     );
   }
@@ -6439,7 +6438,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''An error occurred while moving the notification to arhive, please try again later''',
+      '''Ошибка при архивации уведомления, попробуйте позже''',
       translation,
     );
   }
@@ -6448,7 +6447,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''The notification has been moved to archive''',
+      '''Уведомление архивировано''',
       translation,
     );
   }
@@ -6457,7 +6456,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__TO_THE_LIST',
       [],
-      '''To the list''',
+      '''К списку уведомлений''',
       translation,
     );
   }
@@ -6466,7 +6465,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__FROM',
       [],
-      '''From''',
+      '''От кого''',
       translation,
     );
   }
@@ -6475,7 +6474,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__DATE',
       [],
-      '''Date''',
+      '''Дата''',
       translation,
     );
   }
@@ -6484,7 +6483,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__SUBJECT',
       [],
-      '''Subject''',
+      '''Тема''',
       translation,
     );
   }
@@ -6493,7 +6492,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MESSAGE',
       [],
-      '''Message''',
+      '''Сообщение''',
       translation,
     );
   }
@@ -6502,7 +6501,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE',
       [],
-      '''Move to archive''',
+      '''Архивировать''',
       translation,
     );
   }
@@ -6511,7 +6510,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''An error occurred while moving the notification to arhive, please try again later''',
+      '''Ошибка при архивации уведомления, попробуйте позже''',
       translation,
     );
   }
@@ -6520,7 +6519,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''The notification has been moved to archive''',
+      '''Уведомление архивировано''',
       translation,
     );
   }
