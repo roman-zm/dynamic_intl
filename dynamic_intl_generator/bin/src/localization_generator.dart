@@ -16,7 +16,7 @@ class Generator {
 
     buff.writeln("final Map<String, String>? translation;");
     buff.writeln("S(this.translation);");
-    buff.writeln("static $className? current;");
+    buff.writeln("static late $className current;");
 
     json.forEach((key, value) {
       final arguments = extractArguments(value as String);
@@ -24,13 +24,13 @@ class Generator {
       if (arguments.isNotEmpty) {
         buff.write('String $key(');
         buff.write(
-          arguments.map((e) => 'String $e').join(', '),
+          arguments.map((e) => 'Object $e').join(', '),
         );
         buff.writeln(') {');
         buff.writeln('return DynamicIntlHelper.getLocalizedString(');
 
         buff.writeln("'$key',");
-        buff.writeln("[${arguments.join(', ')}],");
+        buff.writeln("[${arguments.map((e) => '$e.toString()').join(', ')}],");
         buff.writeln("'''$value''',");
         buff.writeln("translation");
 
