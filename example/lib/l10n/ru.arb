@@ -721,5 +721,6 @@
   "NOTIFICATIONS__VIEW__MESSAGE": "Сообщение",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE": "Архивировать",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR": "Ошибка при архивации уведомления, попробуйте позже",
-  "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS": "Уведомление архивировано"
+  "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS": "Уведомление архивировано",
+  "pockets": "{howMany, plural, zero{Нет пакетов} one{{howMany} пакет} few{{howMany} пакета} other{{howMany} пакетов}}"
 }

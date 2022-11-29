@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:dart_style/dart_style.dart';
 
 import 'src/delegate_generator.dart';
 import 'src/localization_generator.dart';
+import 'src/translation_generator.dart';
 
 int main(List<String> args) {
   final arguments = _parseArgs(args);
@@ -90,38 +90,4 @@ List<File> _findArbFiles(String path) {
       .where((e) => e.path.endsWith('.arb'))
       .toList();
   return files;
-}
-
-class TranslationGenerator {
-  static String generate(List<File> files) {
-    final buff = StringBuffer();
-    buff.writeln("class Translation {");
-
-    for (var file in files) {
-      final map = _generateMap(file);
-      buff.writeln(map);
-    }
-
-    buff.writeln("}");
-
-    return DartFormatter().format(buff.toString());
-  }
-
-  static String _generateMap(File file) {
-    final buff = StringBuffer();
-
-    final filename = file.path.split('/').last;
-    final name = filename.split('.').first;
-
-    buff.writeln("static const Map<String, String> $name = {");
-
-    final Map<String, dynamic> json = jsonDecode(file.readAsStringSync());
-    json.forEach((key, value) {
-      buff.writeln("'$key': '''$value''',");
-    });
-
-    buff.writeln("};");
-
-    return buff.toString();
-  }
 }

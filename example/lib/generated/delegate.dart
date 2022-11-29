@@ -21,7 +21,7 @@ class DynamicIntlDelegate extends LocalizationsDelegate<S> {
   @override
   Future<S> load(Locale locale) async {
     final translation = await loader.call(locale);
-    final instance = S(translation);
+    final instance = S(translation, locale);
     S.current = instance;
     return instance;
   }

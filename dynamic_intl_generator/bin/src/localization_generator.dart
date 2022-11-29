@@ -15,35 +15,23 @@ class Generator {
     buff.writeln('class $className {');
 
     buff.writeln("final Map<String, String>? translation;");
-    buff.writeln("S(this.translation);");
+    buff.writeln("final Locale locale;");
+    buff.writeln("$className(this.translation, this.locale);");
     buff.writeln("static late $className current;");
 
-    json.forEach((key, value) {
-      final arguments = extractArguments(value as String);
+    json.cast<String, String>().forEach((key, value) {
+      if (isPluralString(value)) {
+        final argName = _getPluralArgName(value);
 
-      if (arguments.isNotEmpty) {
-        buff.write('String $key(');
-        buff.write(
-          arguments.map((e) => 'Object $e').join(', '),
-        );
-        buff.writeln(') {');
-        buff.writeln('return DynamicIntlHelper.getLocalizedString(');
-
-        buff.writeln("'$key',");
-        buff.writeln("[${arguments.map((e) => '$e.toString()').join(', ')}],");
-        buff.writeln("'''$value''',");
-        buff.writeln("translation");
-
-        buff.writeln(',);}');
+        _genPluralString(buff, key, value, argName);
       } else {
-        buff.writeln('String get $key {');
-        buff.writeln('return DynamicIntlHelper.getLocalizedString(');
-        buff.writeln("'$key',");
-        buff.writeln('[],');
-        buff.writeln("'''$value''',");
-        buff.writeln("translation");
+        final arguments = extractArguments(value);
 
-        buff.writeln(',);}');
+        if (arguments.isNotEmpty) {
+          _genStringGetterWithArguments(buff, key, arguments, value);
+        } else {
+          _genStringGetter(buff, key, value);
+        }
       }
     });
 
@@ -65,6 +53,74 @@ class Generator {
 
     // return buff.toString();
     return DartFormatter().format(buff.toString());
+  }
+
+  void _genStringGetter(StringBuffer buff, String key, String value) {
+    buff.writeln('String get $key {');
+    buff.writeln('return DynamicIntlHelper.getLocalizedString(');
+    buff.writeln("'$key',");
+    buff.writeln('[],');
+    buff.writeln("r'''$value''',");
+    buff.writeln("translation");
+
+    buff.writeln(',);}');
+  }
+
+  void _genStringGetterWithArguments(
+      StringBuffer buff, String key, List<String> arguments, String value) {
+    buff.write('String $key(');
+    buff.write(
+      arguments.map((e) => 'Object $e').join(', '),
+    );
+    buff.writeln(') {');
+    buff.writeln('return DynamicIntlHelper.getLocalizedString(');
+
+    buff.writeln("'$key',");
+    buff.writeln("[${arguments.map((e) => '$e.toString()').join(', ')}],");
+    buff.writeln("r'''$value''',");
+    buff.writeln("translation");
+
+    buff.writeln(',);}');
+  }
+
+  static final regexp =
+      RegExp(r'{(?<argName>.*?), (?<type>.*?), (?<string>.*?)}$');
+
+  bool isPluralString(String string) {
+    return regexp.hasMatch(string);
+  }
+
+  String _getPluralArgName(String string) {
+    final match = regexp.firstMatch(string);
+
+    try {
+      return match!.namedGroup('argName')!;
+    } catch (e) {
+      return 'howMany';
+    }
+  }
+
+  void _genPluralString(
+    StringBuffer buff,
+    String key,
+    String value,
+    String argName,
+  ) {
+    buff.write('String $key(');
+    buff.write('num $argName');
+
+    buff.writeln(') {');
+    buff.writeln('return DynamicIntlHelper.getLocalizedPluralString(');
+
+    buff.writeln("'$key',");
+
+    buff.writeln("$argName,");
+
+    buff.writeln("r'''$value''',");
+    buff.writeln("translation,");
+    buff.writeln("locale.toString(),");
+
+    buff.writeln(');}');
   }
 }
 

@@ -4,13 +4,14 @@ import 'package:flutter/widgets.dart';
 
 class S {
   final Map<String, String>? translation;
-  S(this.translation);
-  static S? current;
+  final Locale locale;
+  S(this.translation, this.locale);
+  static late S current;
   String get app_name {
     return DynamicIntlHelper.getLocalizedString(
       'app_name',
       [],
-      '''ЕПСР''',
+      r'''ЕПСР''',
       translation,
     );
   }
@@ -19,7 +20,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__SELECT',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -28,7 +29,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__CONFIRM',
       [],
-      '''Принять''',
+      r'''Принять''',
       translation,
     );
   }
@@ -37,7 +38,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_YES',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -46,7 +47,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_NO',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -55,7 +56,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__ERROR',
       [],
-      '''Произошла ошибка, попробуйте позже''',
+      r'''Произошла ошибка, попробуйте позже''',
       translation,
     );
   }
@@ -64,7 +65,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__ERROR_TRY_AGAIN',
       [],
-      '''Произошла ошибка, нажмите, чтобы повторить попытку''',
+      r'''Произошла ошибка, нажмите, чтобы повторить попытку''',
       translation,
     );
   }
@@ -73,7 +74,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON__UPDATE',
       [],
-      '''Обновить''',
+      r'''Обновить''',
       translation,
     );
   }
@@ -82,7 +83,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_A',
       [],
-      '''А''',
+      r'''А''',
       translation,
     );
   }
@@ -91,7 +92,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_B',
       [],
-      '''Б''',
+      r'''Б''',
       translation,
     );
   }
@@ -100,7 +101,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'COMMON_SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -109,7 +110,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_FROM_PREFIX',
       [],
-      '''c''',
+      r'''c''',
       translation,
     );
   }
@@ -118,7 +119,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_TO_PREFIX',
       [],
-      '''по''',
+      r'''по''',
       translation,
     );
   }
@@ -127,7 +128,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'DATE_ISSUED_PREFIX',
       [],
-      '''от''',
+      r'''от''',
       translation,
     );
   }
@@ -136,7 +137,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__CITY',
       [],
-      '''г.''',
+      r'''г.''',
       translation,
     );
   }
@@ -145,7 +146,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__STREET',
       [],
-      '''ул.''',
+      r'''ул.''',
       translation,
     );
   }
@@ -154,7 +155,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__HOUSE',
       [],
-      '''д.''',
+      r'''д.''',
       translation,
     );
   }
@@ -163,7 +164,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__HOUSING',
       [],
-      '''к.''',
+      r'''к.''',
       translation,
     );
   }
@@ -172,7 +173,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__BUILDING',
       [],
-      '''стр.''',
+      r'''стр.''',
       translation,
     );
   }
@@ -181,7 +182,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ADDRESS__FLAT',
       [],
-      '''кв.''',
+      r'''кв.''',
       translation,
     );
   }
@@ -190,7 +191,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOCATION_USING_DESCRIPTION',
       [],
-      '''Приложение покажет где Вы находитесь сейчас''',
+      r'''Приложение покажет где Вы находитесь сейчас''',
       translation,
     );
   }
@@ -199,7 +200,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MICROPHONE_USING_DESCRIPTION',
       [],
-      '''Приложение услышит Вас и Вы сможете воспользоваться голосовым вводом''',
+      r'''Приложение услышит Вас и Вы сможете воспользоваться голосовым вводом''',
       translation,
     );
   }
@@ -208,7 +209,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'SPEECH_RECOGNITION_USING_DESCRIPTION',
       [],
-      '''Речевые данные из приложения будут отправлены в Apple для обработки. Это также поможет Apple улучшить технологию распознавания речи.''',
+      r'''Речевые данные из приложения будут отправлены в Apple для обработки. Это также поможет Apple улучшить технологию распознавания речи.''',
       translation,
     );
   }
@@ -217,7 +218,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MICROPHONE_USING_ERROR',
       [],
-      '''Не удается получить доступ к микрофону''',
+      r'''Не удается получить доступ к микрофону''',
       translation,
     );
   }
@@ -226,7 +227,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'CLIPBOARD_COPIED',
       [],
-      '''Скопировано в буфер обмена''',
+      r'''Скопировано в буфер обмена''',
       translation,
     );
   }
@@ -235,7 +236,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'TAKE_PHOTO',
       [],
-      '''Сделать снимок''',
+      r'''Сделать снимок''',
       translation,
     );
   }
@@ -244,7 +245,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'SELECT_FROM_GALLERY',
       [],
-      '''Выбрать из галереи''',
+      r'''Выбрать из галереи''',
       translation,
     );
   }
@@ -253,7 +254,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'CAMERA_USING_DESCRIPTION',
       [],
-      '''Вы сможете сделать фотографию документа''',
+      r'''Вы сможете сделать фотографию документа''',
       translation,
     );
   }
@@ -262,7 +263,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PHOTOS_USING_DESCRIPTION',
       [],
-      '''Вы сможете выбрать фотографию документа из галереи''',
+      r'''Вы сможете выбрать фотографию документа из галереи''',
       translation,
     );
   }
@@ -271,7 +272,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_IS_NOT_AVAILABLE',
       [],
-      '''Нет подключения к Интернету''',
+      r'''Нет подключения к Интернету''',
       translation,
     );
   }
@@ -280,7 +281,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_IS_AVAILABLE',
       [],
-      '''Подключено к Интернету''',
+      r'''Подключено к Интернету''',
       translation,
     );
   }
@@ -289,16 +290,16 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INTERNET_REQUIRED',
       [],
-      '''Необходимо подключение к Интернету, повторите попытку позже''',
+      r'''Необходимо подключение к Интернету, повторите попытку позже''',
       translation,
     );
   }
 
-  String VIEW_ALL(String number) {
+  String VIEW_ALL(Object number) {
     return DynamicIntlHelper.getLocalizedString(
       'VIEW_ALL',
-      [number],
-      '''Показать ещё {number}''',
+      [number.toString()],
+      r'''Показать ещё {number}''',
       translation,
     );
   }
@@ -307,7 +308,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_SLOPE',
       [],
-      '''Скатность''',
+      r'''Скатность''',
       translation,
     );
   }
@@ -316,7 +317,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_WHEELS',
       [],
-      '''Количество колес''',
+      r'''Количество колес''',
       translation,
     );
   }
@@ -325,7 +326,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'AXLE_AIR_SUSPENSION',
       [],
-      '''Пневмоподвеска''',
+      r'''Пневмоподвеска''',
       translation,
     );
   }
@@ -334,7 +335,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOGIN__HELP',
       [],
-      '''Помощь''',
+      r'''Помощь''',
       translation,
     );
   }
@@ -343,7 +344,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'LOGIN__BACK',
       [],
-      '''Вернуться''',
+      r'''Вернуться''',
       translation,
     );
   }
@@ -352,7 +353,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__APPLICATIONS',
       [],
-      '''Заявления''',
+      r'''Заявления''',
       translation,
     );
   }
@@ -361,7 +362,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__PERMISSIONS',
       [],
-      '''Разрешения''',
+      r'''Разрешения''',
       translation,
     );
   }
@@ -370,7 +371,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__ACCOUNTS',
       [],
-      '''Счета''',
+      r'''Счета''',
       translation,
     );
   }
@@ -379,7 +380,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__VEHICLE_FLEET',
       [],
-      '''Парк ТС''',
+      r'''Парк ТС''',
       translation,
     );
   }
@@ -388,7 +389,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__HELP',
       [],
-      '''Помощь''',
+      r'''Помощь''',
       translation,
     );
   }
@@ -397,7 +398,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'MENU__SIGN_OUT',
       [],
-      '''Выйти''',
+      r'''Выйти''',
       translation,
     );
   }
@@ -406,7 +407,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__TITLE',
       [],
-      '''Заявления''',
+      r'''Заявления''',
       translation,
     );
   }
@@ -415,7 +416,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW',
       [],
-      '''Новое заявление''',
+      r'''Новое заявление''',
       translation,
     );
   }
@@ -424,7 +425,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__FILTER_STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -433,7 +434,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_VERIFIED',
       [],
-      '''ПРОВЕРЕНО''',
+      r'''ПРОВЕРЕНО''',
       translation,
     );
   }
@@ -442,7 +443,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_NOT_PAID',
       [],
-      '''НЕ ОПЛАЧЕН''',
+      r'''НЕ ОПЛАЧЕН''',
       translation,
     );
   }
@@ -451,7 +452,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__STATUS_AWAITING',
       [],
-      '''ОЖИДАЕТ ОПЛАТЫ''',
+      r'''ОЖИДАЕТ ОПЛАТЫ''',
       translation,
     );
   }
@@ -460,7 +461,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SELECT_STATUS',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -469,7 +470,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__FILTER_SRN',
       [],
-      '''ГРН''',
+      r'''ГРН''',
       translation,
     );
   }
@@ -478,7 +479,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SEARCH_SRN',
       [],
-      '''Найти ГРН''',
+      r'''Найти ГРН''',
       translation,
     );
   }
@@ -487,7 +488,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT',
       [],
-      '''Сортировка''',
+      r'''Сортировка''',
       translation,
     );
   }
@@ -496,7 +497,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT_APPLICATION_NUM',
       [],
-      '''Номер заявки''',
+      r'''Номер заявки''',
       translation,
     );
   }
@@ -505,7 +506,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SORT_APPLICATION_DATE',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -514,7 +515,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -523,7 +524,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__CLEAR_FILTERS',
       [],
-      '''Сбросить фильтры''',
+      r'''Сбросить фильтры''',
       translation,
     );
   }
@@ -532,7 +533,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NUMBER_OF_APPLICATIONS',
       [],
-      '''Количество заявлений''',
+      r'''Количество заявлений''',
       translation,
     );
   }
@@ -541,7 +542,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NO_APPLICATIONS',
       [],
-      '''Заявлений нет''',
+      r'''Заявлений нет''',
       translation,
     );
   }
@@ -550,7 +551,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NO_APPLICATIONS_FOUND',
       [],
-      '''К сожалению, заявлений не найдено''',
+      r'''К сожалению, заявлений не найдено''',
       translation,
     );
   }
@@ -559,7 +560,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARRIER_INFO',
       [],
-      '''Информация о перевозчике''',
+      r'''Информация о перевозчике''',
       translation,
     );
   }
@@ -568,7 +569,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TO_THE_LIST',
       [],
-      '''К списку заявлений''',
+      r'''К списку заявлений''',
       translation,
     );
   }
@@ -577,7 +578,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Номер и дата создания заявления''',
+      r'''Номер и дата создания заявления''',
       translation,
     );
   }
@@ -586,7 +587,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -595,7 +596,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__GO_TO_RESOLUTION',
       [],
-      '''Перейти в разрешение''',
+      r'''Перейти в разрешение''',
       translation,
     );
   }
@@ -604,7 +605,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__REVOKE',
       [],
-      '''Отозвать заявление''',
+      r'''Отозвать заявление''',
       translation,
     );
   }
@@ -613,7 +614,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__REPEAT',
       [],
-      '''Повторить заявление''',
+      r'''Повторить заявление''',
       translation,
     );
   }
@@ -622,7 +623,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CHANGE_VEHICLE',
       [],
-      '''Заменить ТС''',
+      r'''Заменить ТС''',
       translation,
     );
   }
@@ -631,7 +632,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__PRINT',
       [],
-      '''Напечатать''',
+      r'''Напечатать''',
       translation,
     );
   }
@@ -640,7 +641,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DOWNLOAD_REFUSAL',
       [],
-      '''Скачать отказ''',
+      r'''Скачать отказ''',
       translation,
     );
   }
@@ -649,7 +650,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MESSAGE_DOWNLOADING_REFUSAL_ERROR',
       [],
-      '''Ошибка при скачивании отказа, попробуйте позже''',
+      r'''Ошибка при скачивании отказа, попробуйте позже''',
       translation,
     );
   }
@@ -658,7 +659,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AUTHORIZED_AGENCY',
       [],
-      '''Уполномоченный орган''',
+      r'''Уполномоченный орган''',
       translation,
     );
   }
@@ -667,7 +668,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION',
       [],
-      '''Тип перевозки''',
+      r'''Тип перевозки''',
       translation,
     );
   }
@@ -676,7 +677,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES',
       [],
-      '''Дата перевозки''',
+      r'''Дата перевозки''',
       translation,
     );
   }
@@ -685,7 +686,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES__FROM',
       [],
-      '''с''',
+      r'''с''',
       translation,
     );
   }
@@ -694,7 +695,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TRANSPORTATION_DATES__TO',
       [],
-      '''по''',
+      r'''по''',
       translation,
     );
   }
@@ -703,7 +704,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT',
       [],
-      '''Тяжеловесное ТС''',
+      r'''Тяжеловесное ТС''',
       translation,
     );
   }
@@ -712,7 +713,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT__YES',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -721,7 +722,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__HEAVYWEIGHT__NO',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -730,7 +731,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION',
       [],
-      '''Крупногабарит''',
+      r'''Крупногабарит''',
       translation,
     );
   }
@@ -739,7 +740,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION__YES',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -748,7 +749,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LARGE_DIMENSION__NO',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -757,7 +758,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__NUMBER_OF_TRIPS',
       [],
-      '''Кол-во поездок''',
+      r'''Кол-во поездок''',
       translation,
     );
   }
@@ -766,7 +767,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROAD_TRAIN',
       [],
-      '''Автопоезд''',
+      r'''Автопоезд''',
       translation,
     );
   }
@@ -775,7 +776,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARGOS',
       [],
-      '''Сведения о грузе''',
+      r'''Сведения о грузе''',
       translation,
     );
   }
@@ -784,7 +785,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DIVISIBILITY__YES',
       [],
-      '''Делимый''',
+      r'''Делимый''',
       translation,
     );
   }
@@ -793,7 +794,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__DIVISIBILITY__NO',
       [],
-      '''Неделимый''',
+      r'''Неделимый''',
       translation,
     );
   }
@@ -802,7 +803,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLES',
       [],
-      '''Данные ТС''',
+      r'''Данные ТС''',
       translation,
     );
   }
@@ -811,7 +812,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ADDITIONAL_INFO',
       [],
-      '''Дополнительные сведения''',
+      r'''Дополнительные сведения''',
       translation,
     );
   }
@@ -820,7 +821,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__WEIGHT_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Масса автопоезда с грузом''',
+      r'''Масса автопоезда с грузом''',
       translation,
     );
   }
@@ -829,7 +830,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__CARGO_OVERHANG_LENGTH',
       [],
-      '''Длина свеса груза, м''',
+      r'''Длина свеса груза, м''',
       translation,
     );
   }
@@ -838,7 +839,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__LWH_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Длина, ширина, высота автопоезда с грузом''',
+      r'''Длина, ширина, высота автопоезда с грузом''',
       translation,
     );
   }
@@ -847,7 +848,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MIN_TURNING_RADIUS_WITH_CARGO',
       [],
-      '''Минимальный радиус поворота с грузом, м''',
+      r'''Минимальный радиус поворота с грузом, м''',
       translation,
     );
   }
@@ -856,7 +857,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__MAX_VEHICLE_SPEED',
       [],
-      '''Максимальная скорость ТС, км/ч''',
+      r'''Максимальная скорость ТС, км/ч''',
       translation,
     );
   }
@@ -865,7 +866,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__TON',
       [],
-      '''т''',
+      r'''т''',
       translation,
     );
   }
@@ -874,7 +875,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__METER',
       [],
-      '''м''',
+      r'''м''',
       translation,
     );
   }
@@ -883,7 +884,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__UOM__KM_PER_HOUR',
       [],
-      '''км/ч''',
+      r'''км/ч''',
       translation,
     );
   }
@@ -892,17 +893,17 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
 
   String APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__MESSAGE(
-      String registration_number) {
+      Object registration_number) {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__MESSAGE',
-      [registration_number],
-      '''По заявлению № {registration_number} пришел запрос на предоставление дополнительных материалов. 
+      [registration_number.toString()],
+      r'''По заявлению № {registration_number} пришел запрос на предоставление дополнительных материалов. 
 Просмотреть документы к предоставлению вы можете в блоке "Специальные проекты / проекты организации дорожного движения" 
 Если в течение 5 дней после поступления запроса информации о согласии не поступит, Вам будет отказано в получении специального разрешения.''',
       translation,
@@ -913,7 +914,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__INFO_DIALOG__OK',
       [],
-      '''Ок''',
+      r'''Ок''',
       translation,
     );
   }
@@ -922,7 +923,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__TITLE',
       [],
-      '''Специальные проекты / проекты организации дорожного движения''',
+      r'''Специальные проекты / проекты организации дорожного движения''',
       translation,
     );
   }
@@ -931,7 +932,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__FKU',
       [],
-      '''ФКУ''',
+      r'''ФКУ''',
       translation,
     );
   }
@@ -940,7 +941,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__DATE',
       [],
-      '''Дата запроса''',
+      r'''Дата запроса''',
       translation,
     );
   }
@@ -949,7 +950,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__TEXT',
       [],
-      '''Запрос''',
+      r'''Запрос''',
       translation,
     );
   }
@@ -958,7 +959,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__COMMENT',
       [],
-      '''Комментарий владельца объекта дорожной инфраструктуры''',
+      r'''Комментарий владельца объекта дорожной инфраструктуры''',
       translation,
     );
   }
@@ -967,7 +968,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__REFUSE',
       [],
-      '''Отказаться''',
+      r'''Отказаться''',
       translation,
     );
   }
@@ -976,7 +977,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__AGREE',
       [],
-      '''Согласиться''',
+      r'''Согласиться''',
       translation,
     );
   }
@@ -985,7 +986,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__UPLOAD',
       [],
-      '''Загрузить документ''',
+      r'''Загрузить документ''',
       translation,
     );
   }
@@ -994,7 +995,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__UPLOADED',
       [],
-      '''Документ загружен''',
+      r'''Документ загружен''',
       translation,
     );
   }
@@ -1003,7 +1004,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__SEND',
       [],
-      '''Отправить документ''',
+      r'''Отправить документ''',
       translation,
     );
   }
@@ -1012,7 +1013,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__SENT',
       [],
-      '''Документ отправлен''',
+      r'''Документ отправлен''',
       translation,
     );
   }
@@ -1021,7 +1022,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
@@ -1030,7 +1031,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__MESSAGE',
       [],
-      '''Вы точно уверены, что хотите отказаться от предоставления дополнительных материалов? В случае отказа Ваше заявление аннулируется''',
+      r'''Вы точно уверены, что хотите отказаться от предоставления дополнительных материалов? В случае отказа Ваше заявление аннулируется''',
       translation,
     );
   }
@@ -1039,7 +1040,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__REASON',
       [],
-      '''Заполните, пожалуйста, поле причины отказа''',
+      r'''Заполните, пожалуйста, поле причины отказа''',
       translation,
     );
   }
@@ -1048,7 +1049,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__CANCEL',
       [],
-      '''Отмена''',
+      r'''Отмена''',
       translation,
     );
   }
@@ -1057,7 +1058,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__REFUSE_DIALOG__CONFIRM',
       [],
-      '''Отказаться''',
+      r'''Отказаться''',
       translation,
     );
   }
@@ -1066,7 +1067,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__AGREEMENT',
       [],
-      '''Согласны на предоставление всех дополнительных материалов? Если в течение 5 дней после поступления запроса информации о согласии не поступит, Вам будет отказано в получении дополнительного разрешения.''',
+      r'''Согласны на предоставление всех дополнительных материалов? Если в течение 5 дней после поступления запроса информации о согласии не поступит, Вам будет отказано в получении дополнительного разрешения.''',
       translation,
     );
   }
@@ -1075,7 +1076,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__PROJECT__REFUSED',
       [],
-      '''От Вас поступил отказ в предоставлении дополнительных материалов. Ваше заявление аннулируется. Для повторного запроса в получении специального разрешения сформируйте новое заявление.''',
+      r'''От Вас поступил отказ в предоставлении дополнительных материалов. Ваше заявление аннулируется. Для повторного запроса в получении специального разрешения сформируйте новое заявление.''',
       translation,
     );
   }
@@ -1084,7 +1085,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__SPECIAL_PROJECTS__MESSAGE_REFUSING_ERROR',
       [],
-      '''Ошибка при отправке отказа, попробуйте позже''',
+      r'''Ошибка при отправке отказа, попробуйте позже''',
       translation,
     );
   }
@@ -1093,7 +1094,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROUTE_ON_MAP',
       [],
-      '''Показать на карте''',
+      r'''Показать на карте''',
       translation,
     );
   }
@@ -1102,7 +1103,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__ROUTE_ON_MAP__TITLE',
       [],
-      '''Маршрут''',
+      r'''Маршрут''',
       translation,
     );
   }
@@ -1111,7 +1112,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE__TITLE',
       [],
-      '''Выберите ТС''',
+      r'''Выберите ТС''',
       translation,
     );
   }
@@ -1121,7 +1122,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE__DESCRIPTION',
       [],
-      '''Выберите ТС, которое необходимо заменить''',
+      r'''Выберите ТС, которое необходимо заменить''',
       translation,
     );
   }
@@ -1130,7 +1131,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__TITLE',
       [],
-      '''Замена ТС''',
+      r'''Замена ТС''',
       translation,
     );
   }
@@ -1139,7 +1140,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__SELECT_VEHICLE',
       [],
-      '''Выберите ТС, которое необходимо заменить''',
+      r'''Выберите ТС, которое необходимо заменить''',
       translation,
     );
   }
@@ -1148,7 +1149,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__DESCRIPTION',
       [],
-      '''Допускается замена ТС на аналогичное по своим техническим характеристикам, весовым и габаритным параметрам''',
+      r'''Допускается замена ТС на аналогичное по своим техническим характеристикам, весовым и габаритным параметрам''',
       translation,
     );
   }
@@ -1157,7 +1158,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__NO_SIMILAR_VEHICLES',
       [],
-      '''Нет аналогичных ТС''',
+      r'''Нет аналогичных ТС''',
       translation,
     );
   }
@@ -1166,7 +1167,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__REPLACE',
       [],
-      '''Заменить ТС''',
+      r'''Заменить ТС''',
       translation,
     );
   }
@@ -1175,7 +1176,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__MESSAGE_REPLACING_ERROR',
       [],
-      '''Ошибка при замене ТС, попробуйте позже''',
+      r'''Ошибка при замене ТС, попробуйте позже''',
       translation,
     );
   }
@@ -1185,7 +1186,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__VEHICLE_REPLACEMENT__MESSAGE_REPLACED_SUCCESSFULLY',
       [],
-      '''Транспортное средство заменено''',
+      r'''Транспортное средство заменено''',
       translation,
     );
   }
@@ -1194,7 +1195,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION__INTERREGIONAL',
       [],
-      '''Межрегиональная''',
+      r'''Межрегиональная''',
       translation,
     );
   }
@@ -1203,7 +1204,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__TYPE_OF_TRANSPORTATION__INTERNATIONAL',
       [],
-      '''Международная''',
+      r'''Международная''',
       translation,
     );
   }
@@ -1212,7 +1213,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS',
       [],
-      '''Запросы на согласование''',
+      r'''Запросы на согласование''',
       translation,
     );
   }
@@ -1221,7 +1222,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__OWNER',
       [],
-      '''Согласующее ведомство''',
+      r'''Согласующее ведомство''',
       translation,
     );
   }
@@ -1230,7 +1231,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__NUMBER',
       [],
-      '''Номер запроса''',
+      r'''Номер запроса''',
       translation,
     );
   }
@@ -1239,7 +1240,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__APPROVAL_REQUESTS__STATUS',
       [],
-      '''Статус согласования''',
+      r'''Статус согласования''',
       translation,
     );
   }
@@ -1248,7 +1249,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AXLES__LOAD',
       [],
-      '''Нагрузка, т''',
+      r'''Нагрузка, т''',
       translation,
     );
   }
@@ -1257,7 +1258,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__VIEW__AXLES__DISTANCE_TO_NEXT',
       [],
-      '''Расстояние до следующей оси, м''',
+      r'''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -1266,7 +1267,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__TITLE',
       [],
-      '''Найден черновик заявления''',
+      r'''Найден черновик заявления''',
       translation,
     );
   }
@@ -1275,7 +1276,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__DESCRIPTION',
       [],
-      '''Продолжить заполнение черновика или начать новое заявление?''',
+      r'''Продолжить заполнение черновика или начать новое заявление?''',
       translation,
     );
   }
@@ -1284,7 +1285,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__CONTINUE',
       [],
-      '''Продолжить заполнение''',
+      r'''Продолжить заполнение''',
       translation,
     );
   }
@@ -1293,7 +1294,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__DRAFT__NEW',
       [],
-      '''Начать новое''',
+      r'''Начать новое''',
       translation,
     );
   }
@@ -1302,7 +1303,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__TO_THE_LIST',
       [],
-      '''К списку заявлений''',
+      r'''К списку заявлений''',
       translation,
     );
   }
@@ -1311,7 +1312,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__TITLE',
       [],
-      '''Сведения о грузе и выбор ТС''',
+      r'''Сведения о грузе и выбор ТС''',
       translation,
     );
   }
@@ -1320,7 +1321,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__TITLE',
       [],
-      '''Транспортное средство''',
+      r'''Транспортное средство''',
       translation,
     );
   }
@@ -1329,7 +1330,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__DESCRIPTION',
       [],
-      '''Выбрать транспортное средство, создать автопоезд (указывать части в порядке сцепки)''',
+      r'''Выбрать транспортное средство, создать автопоезд (указывать части в порядке сцепки)''',
       translation,
     );
   }
@@ -1338,7 +1339,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__VEHICLE_TYPE',
       [],
-      '''Тип ТС''',
+      r'''Тип ТС''',
       translation,
     );
   }
@@ -1347,7 +1348,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__SELECT_VEHICLE_TYPE',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -1356,7 +1357,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__GRNZ_MARK_MODEL',
       [],
-      '''ГРН, марка, модель''',
+      r'''ГРН, марка, модель''',
       translation,
     );
   }
@@ -1365,7 +1366,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__SELECT_GRNZ_MARK_MODEL',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -1374,7 +1375,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__MESSAGE_SELECT_VEHICLE_TYPE',
       [],
-      '''Выберите тип ТС''',
+      r'''Выберите тип ТС''',
       translation,
     );
   }
@@ -1383,7 +1384,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__MAX_WEIGHT',
       [],
-      '''Максимально допустимый вес, т''',
+      r'''Максимально допустимый вес, т''',
       translation,
     );
   }
@@ -1392,7 +1393,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__VEHICLE__ADD_VEHICLE',
       [],
-      '''Добавить ТС''',
+      r'''Добавить ТС''',
       translation,
     );
   }
@@ -1401,7 +1402,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__TRANSPORTAION_TYPE',
       [],
-      '''Тип перевозки''',
+      r'''Тип перевозки''',
       translation,
     );
   }
@@ -1410,7 +1411,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES',
       [],
-      '''Дата перевозки''',
+      r'''Дата перевозки''',
       translation,
     );
   }
@@ -1419,7 +1420,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES__DATE_FROM',
       [],
-      '''Дата с''',
+      r'''Дата с''',
       translation,
     );
   }
@@ -1428,7 +1429,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DATES__DATE_TO',
       [],
-      '''Дата по''',
+      r'''Дата по''',
       translation,
     );
   }
@@ -1437,7 +1438,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__TITLE',
       [],
-      '''Груз''',
+      r'''Груз''',
       translation,
     );
   }
@@ -1446,7 +1447,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DESCRIPTION',
       [],
-      '''''',
+      r'''''',
       translation,
     );
   }
@@ -1455,7 +1456,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__NAME',
       [],
-      '''Название''',
+      r'''Название''',
       translation,
     );
   }
@@ -1464,7 +1465,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__CARGO_TYPE',
       [],
-      '''Тип''',
+      r'''Тип''',
       translation,
     );
   }
@@ -1473,7 +1474,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__LENGTH',
       [],
-      '''Длина, м''',
+      r'''Длина, м''',
       translation,
     );
   }
@@ -1482,7 +1483,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__WIDTH',
       [],
-      '''Ширина, м''',
+      r'''Ширина, м''',
       translation,
     );
   }
@@ -1491,7 +1492,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__HEIGHT',
       [],
-      '''Высота, м''',
+      r'''Высота, м''',
       translation,
     );
   }
@@ -1500,7 +1501,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__WEIGHT',
       [],
-      '''Масса, т''',
+      r'''Масса, т''',
       translation,
     );
   }
@@ -1509,7 +1510,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__ADD_CARGO',
       [],
-      '''Добавить груз''',
+      r'''Добавить груз''',
       translation,
     );
   }
@@ -1518,7 +1519,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITY',
       [],
-      '''Делимость груза''',
+      r'''Делимость груза''',
       translation,
     );
   }
@@ -1527,7 +1528,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITY__DIVISIBLE',
       [],
-      '''Делимый''',
+      r'''Делимый''',
       translation,
     );
   }
@@ -1536,7 +1537,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__DIVISIBILITYINDIVISIBLE',
       [],
-      '''Неделимый''',
+      r'''Неделимый''',
       translation,
     );
   }
@@ -1545,7 +1546,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__OVERHANG_LENGTH',
       [],
-      '''Длина свеса груза, м''',
+      r'''Длина свеса груза, м''',
       translation,
     );
   }
@@ -1554,7 +1555,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__MIN_TURNING_RADIUS',
       [],
-      '''Минимальный радиус поворота, м''',
+      r'''Минимальный радиус поворота, м''',
       translation,
     );
   }
@@ -1563,7 +1564,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__CARGO__MAX_VEHICLE_SPEED',
       [],
-      '''Максимальная скорость ТС, км/ч''',
+      r'''Максимальная скорость ТС, км/ч''',
       translation,
     );
   }
@@ -1572,7 +1573,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__TITLE',
       [],
-      '''Проверка на допуск к международным перевозкам не была осуществлена''',
+      r'''Проверка на допуск к международным перевозкам не была осуществлена''',
       translation,
     );
   }
@@ -1581,7 +1582,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__MESSAGE',
       [],
-      '''При регистрации не была проведена проверка на допуск. Обновите информацию о допусках в Профиле для предварительной проверки. При регистрации заявления допуск будет проверен повторно.''',
+      r'''При регистрации не была проведена проверка на допуск. Обновите информацию о допусках в Профиле для предварительной проверки. При регистрации заявления допуск будет проверен повторно.''',
       translation,
     );
   }
@@ -1590,7 +1591,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP1__DIALOG_NO_LICENSES__BUTTON',
       [],
-      '''Продолжить''',
+      r'''Продолжить''',
       translation,
     );
   }
@@ -1599,7 +1600,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__TITLE',
       [],
-      '''Схема ТС''',
+      r'''Схема ТС''',
       translation,
     );
   }
@@ -1608,7 +1609,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__VEHICLES__TITLE',
       [],
-      '''Состав''',
+      r'''Состав''',
       translation,
     );
   }
@@ -1617,7 +1618,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__TITLE',
       [],
-      '''Оси''',
+      r'''Оси''',
       translation,
     );
   }
@@ -1626,7 +1627,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__LOAD',
       [],
-      '''Нагрузка, т''',
+      r'''Нагрузка, т''',
       translation,
     );
   }
@@ -1635,7 +1636,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AXLES__DISTANCE_TO_NEXT',
       [],
-      '''Расстояние до следующей оси, м''',
+      r'''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -1644,7 +1645,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__AIR_SUSPENSION',
       [],
-      '''Пневмоподвеска''',
+      r'''Пневмоподвеска''',
       translation,
     );
   }
@@ -1653,7 +1654,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__SLOPE',
       [],
-      '''Скатность''',
+      r'''Скатность''',
       translation,
     );
   }
@@ -1662,7 +1663,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__WHEELS',
       [],
-      '''Количество колес''',
+      r'''Количество колес''',
       translation,
     );
   }
@@ -1671,7 +1672,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__TITLE',
       [],
-      '''Груз''',
+      r'''Груз''',
       translation,
     );
   }
@@ -1680,7 +1681,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__WEIGHT_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Масса автопоезда с грузом, т''',
+      r'''Масса автопоезда с грузом, т''',
       translation,
     );
   }
@@ -1689,7 +1690,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__CARGO_OVERHANG_LENGTH',
       [],
-      '''Длина свеса груза, м''',
+      r'''Длина свеса груза, м''',
       translation,
     );
   }
@@ -1698,7 +1699,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__GARGO__LWH_OF_ROAD_TRAIN_WITH_CARGO',
       [],
-      '''Параметры автопоезда с грузом''',
+      r'''Параметры автопоезда с грузом''',
       translation,
     );
   }
@@ -1707,7 +1708,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__MESSAGE_CARGO_LENGTH_OVERSIZE',
       [],
-      '''Длина груза больше длины автопоезда''',
+      r'''Длина груза больше длины автопоезда''',
       translation,
     );
   }
@@ -1716,7 +1717,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP2__MESSAGE_CARGO_WIDTH_OVERSIZE',
       [],
-      '''Ширина груза больше ширины автопоезда''',
+      r'''Ширина груза больше ширины автопоезда''',
       translation,
     );
   }
@@ -1725,7 +1726,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__TITLE',
       [],
-      '''Параметры перевозки''',
+      r'''Параметры перевозки''',
       translation,
     );
   }
@@ -1734,7 +1735,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ROUTE',
       [],
-      '''Выбрать маршрут''',
+      r'''Выбрать маршрут''',
       translation,
     );
   }
@@ -1743,7 +1744,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__START_POINT',
       [],
-      '''Выбрать пункт отправления''',
+      r'''Выбрать пункт отправления''',
       translation,
     );
   }
@@ -1752,7 +1753,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__INTERMEDIATE_POINT',
       [],
-      '''Выбрать промежуточный пункт''',
+      r'''Выбрать промежуточный пункт''',
       translation,
     );
   }
@@ -1761,7 +1762,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__END_POINT',
       [],
-      '''Выбрать пункт назначения''',
+      r'''Выбрать пункт назначения''',
       translation,
     );
   }
@@ -1770,7 +1771,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__THROUGH_CUSTOMS',
       [],
-      '''Через таможню''',
+      r'''Через таможню''',
       translation,
     );
   }
@@ -1779,7 +1780,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__CLEAR_ROUTE',
       [],
-      '''Сбросить маршрут''',
+      r'''Сбросить маршрут''',
       translation,
     );
   }
@@ -1788,7 +1789,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS',
       [],
-      '''По адресу''',
+      r'''По адресу''',
       translation,
     );
   }
@@ -1797,7 +1798,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS',
       [],
-      '''МАПП''',
+      r'''МАПП''',
       translation,
     );
   }
@@ -1806,7 +1807,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS',
       [],
-      '''Таможенный пункт''',
+      r'''Таможенный пункт''',
       translation,
     );
   }
@@ -1815,7 +1816,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_PLACEHOLDER',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -1824,7 +1825,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_HELP',
       [],
-      '''Начните вводить адрес для поиска''',
+      r'''Начните вводить адрес для поиска''',
       translation,
     );
   }
@@ -1833,7 +1834,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_ADDRESS_NO_ADDRESS',
       [],
-      '''К сожалению, адрес не найден''',
+      r'''К сожалению, адрес не найден''',
       translation,
     );
   }
@@ -1842,7 +1843,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS_PLACEHOLDER',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -1851,7 +1852,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CUSTOMS_NO_CUSTOMS',
       [],
-      '''К сожалению, таможенный пункт не найден''',
+      r'''К сожалению, таможенный пункт не найден''',
       translation,
     );
   }
@@ -1860,7 +1861,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS_PLACEHOLDER',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -1869,7 +1870,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__POINT_SEARCH_CHECPOINTS_NO_CHECPOINTS',
       [],
-      '''К сожалению, МАПП не найден''',
+      r'''К сожалению, МАПП не найден''',
       translation,
     );
   }
@@ -1878,7 +1879,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP',
       [],
-      '''Выбрать на карте''',
+      r'''Выбрать на карте''',
       translation,
     );
   }
@@ -1887,7 +1888,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__DONE',
       [],
-      '''Готово''',
+      r'''Готово''',
       translation,
     );
   }
@@ -1896,7 +1897,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__MOVE_THE_MAP',
       [],
-      '''Двигайте карту, чтобы выбрать точку''',
+      r'''Двигайте карту, чтобы выбрать точку''',
       translation,
     );
   }
@@ -1905,7 +1906,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CHECKPOINT',
       [],
-      '''Выберите МАПП''',
+      r'''Выберите МАПП''',
       translation,
     );
   }
@@ -1915,7 +1916,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CHECKPOINT__MOVE_THE_MAP',
       [],
-      '''Двигайте карту и нажмите на иконку, чтобы выбрать МАПП''',
+      r'''Двигайте карту и нажмите на иконку, чтобы выбрать МАПП''',
       translation,
     );
   }
@@ -1924,7 +1925,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CUSTOMS',
       [],
-      '''Выберите таможенный пункт''',
+      r'''Выберите таможенный пункт''',
       translation,
     );
   }
@@ -1934,7 +1935,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SELECT_ON_MAP__SELECT_THE_CUSTOMS__MOVE_THE_MAP',
       [],
-      '''Двигайте карту и нажмите на иконку, чтобы выбрать таможенный пункт''',
+      r'''Двигайте карту и нажмите на иконку, чтобы выбрать таможенный пункт''',
       translation,
     );
   }
@@ -1943,7 +1944,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_DISCLAIMER',
       [],
-      '''Внимание! Построенный маршрут предварительный. Он может измениться. Окончательный маршрут будет сформирован в специальном разрешении.''',
+      r'''Внимание! Построенный маршрут предварительный. Он может измениться. Окончательный маршрут будет сформирован в специальном разрешении.''',
       translation,
     );
   }
@@ -1952,7 +1953,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_ON_MAP',
       [],
-      '''Показать на карте''',
+      r'''Показать на карте''',
       translation,
     );
   }
@@ -1961,7 +1962,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__SAVE_ROUTE',
       [],
-      '''Сохранить маршрут''',
+      r'''Сохранить маршрут''',
       translation,
     );
   }
@@ -1970,7 +1971,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_TYPE_OPTIMAL',
       [],
-      '''Оптимальный''',
+      r'''Оптимальный''',
       translation,
     );
   }
@@ -1979,7 +1980,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_TYPE_FAST',
       [],
-      '''Быстрый''',
+      r'''Быстрый''',
       translation,
     );
   }
@@ -1988,7 +1989,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__ROUTE_USE_TOLLS',
       [],
-      '''С использованием платных участков''',
+      r'''С использованием платных участков''',
       translation,
     );
   }
@@ -1997,7 +1998,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP3__NUMBER_OF_TRIPS',
       [],
-      '''Количество поездок''',
+      r'''Количество поездок''',
       translation,
     );
   }
@@ -2006,7 +2007,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__TITLE',
       [],
-      '''Проверка данных''',
+      r'''Проверка данных''',
       translation,
     );
   }
@@ -2015,7 +2016,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__AGREEMENT_CHECKBOX_1',
       [],
-      '''Я согласен с ''',
+      r'''Я согласен с ''',
       translation,
     );
   }
@@ -2024,7 +2025,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__AGREEMENT_CHECKBOX_2',
       [],
-      '''условиями оказания государственной услуги''',
+      r'''условиями оказания государственной услуги''',
       translation,
     );
   }
@@ -2033,7 +2034,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP4__SEND',
       [],
-      '''Отправить''',
+      r'''Отправить''',
       translation,
     );
   }
@@ -2042,7 +2043,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_MANUAL_ROUTE',
       [],
-      '''Маршрут не может быть построен, так как параметры АТС превышают нормативные параметры, установленные на дороге и ограничениях по ней. Заявление будет обработано вручную. Продолжить формирование заявления?''',
+      r'''Маршрут не может быть построен, так как параметры АТС превышают нормативные параметры, установленные на дороге и ограничениях по ней. Заявление будет обработано вручную. Продолжить формирование заявления?''',
       translation,
     );
   }
@@ -2051,7 +2052,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_NEED_CHECKPOINT',
       [],
-      '''Вы выбрали международный тип перевозки. В маршруте необходимо указать Автомобильный Пункт Пропуска, через который будет произведена поездка. Пожалуйста, отредактируйте маршрут или поменяйте тип перевозки на межрегиональную, и перейдите к следующему шагу подачи заявления.''',
+      r'''Вы выбрали международный тип перевозки. В маршруте необходимо указать Автомобильный Пункт Пропуска, через который будет произведена поездка. Пожалуйста, отредактируйте маршрут или поменяйте тип перевозки на межрегиональную, и перейдите к следующему шагу подачи заявления.''',
       translation,
     );
   }
@@ -2060,7 +2061,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_NEED_CUSTOMS',
       [],
-      '''???''',
+      r'''???''',
       translation,
     );
   }
@@ -2069,7 +2070,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_BUILD_ROUTE_ERROR',
       [],
-      '''Ошибка при построении маршрута, попробуйте позже''',
+      r'''Ошибка при построении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2078,7 +2079,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -2087,7 +2088,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''Значение должно быть больше 0''',
+      r'''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -2096,7 +2097,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_UPDATE_DRAFT_ERROR',
       [],
-      '''Ошибка при сохранении черновика, попробуйте позже''',
+      r'''Ошибка при сохранении черновика, попробуйте позже''',
       translation,
     );
   }
@@ -2105,17 +2106,17 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_UPDATE_DRAFT_ROUTE_ERROR',
       [],
-      '''Ошибка при сохранении маршрута черновика, попробуйте позже''',
+      r'''Ошибка при сохранении маршрута черновика, попробуйте позже''',
       translation,
     );
   }
 
   String APPLICATIONS__NEW__MESSAGE_INCORRECT_TOTAL_AXLES_LOAD(
-      String totalaxlesload, String roadtrainmass) {
+      Object totalaxlesload, Object roadtrainmass) {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_INCORRECT_TOTAL_AXLES_LOAD',
-      [totalaxlesload, roadtrainmass],
-      '''Некорректная суммарная нагрузка на оси: {totalaxlesload} т из {roadtrainmass} т''',
+      [totalaxlesload.toString(), roadtrainmass.toString()],
+      r'''Некорректная суммарная нагрузка на оси: {totalaxlesload} т из {roadtrainmass} т''',
       translation,
     );
   }
@@ -2124,7 +2125,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_DAMAGE_CALCULATE_ERROR',
       [],
-      '''Ошибка при расчете суммы ущерба, попробуйте позже''',
+      r'''Ошибка при расчете суммы ущерба, попробуйте позже''',
       translation,
     );
   }
@@ -2133,7 +2134,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_TRANSPORTATION_CARGO_OVERSIZE',
       [],
-      '''Перевозка делимого груза с превышением по габаритам или весу запрещена ПДД''',
+      r'''Перевозка делимого груза с превышением по габаритам или весу запрещена ПДД''',
       translation,
     );
   }
@@ -2142,7 +2143,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_HEAVY_PERMIT_MAX_PERIOD',
       [],
-      '''Специальное разрешение на проезд тяжеловесного транспортного средства выдается на срок не более 3 месяцев''',
+      r'''Специальное разрешение на проезд тяжеловесного транспортного средства выдается на срок не более 3 месяцев''',
       translation,
     );
   }
@@ -2151,7 +2152,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_SPECIAL_PERMIT_IS_NOT_NEED',
       [],
-      '''Формирование специального разрешения на проезд не требуется, так как ваше транспортное средство не превышает допустимые нормативные показатели''',
+      r'''Формирование специального разрешения на проезд не требуется, так как ваше транспортное средство не превышает допустимые нормативные показатели''',
       translation,
     );
   }
@@ -2160,7 +2161,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_HEAVYWEIGHT_CHECK_ERROR',
       [],
-      '''Ошибка при проверке веса, попробуйте позже''',
+      r'''Ошибка при проверке веса, попробуйте позже''',
       translation,
     );
   }
@@ -2169,7 +2170,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_DIMENSIONS_CHECK_ERROR',
       [],
-      '''Ошибка при проверке габаритов, попробуйте позже''',
+      r'''Ошибка при проверке габаритов, попробуйте позже''',
       translation,
     );
   }
@@ -2178,7 +2179,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__MESSAGE_GIBDD_CHECK_FAILED',
       [],
-      '''Данные ТС отличаются от базы ГИБДД. Пожалуйста, удостоверьтесь, что данные ТС в Парке ТС введены верно, в противном случае вероятен отказ в выдаче разрешения на перевозку.''',
+      r'''Данные ТС отличаются от базы ГИБДД. Пожалуйста, удостоверьтесь, что данные ТС в Парке ТС введены верно, в противном случае вероятен отказ в выдаче разрешения на перевозку.''',
       translation,
     );
   }
@@ -2187,7 +2188,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_SENDING_ERROR',
       [],
-      '''Ошибка при отправке заявления, попробуйте позже''',
+      r'''Ошибка при отправке заявления, попробуйте позже''',
       translation,
     );
   }
@@ -2196,7 +2197,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_INTERNATIONAL_SENT_SUCCESSFULLY',
       [],
-      '''Заявление отправлено''',
+      r'''Заявление отправлено''',
       translation,
     );
   }
@@ -2205,7 +2206,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__APPLICATION_INTERREGIONAL_SENT_SUCCESSFULLY',
       [],
-      '''Заявление отправлено и будет принято на рассмотрение после оплаты государственной пошлины. Счет на оплату отобразится в разделе Счета.''',
+      r'''Заявление отправлено и будет принято на рассмотрение после оплаты государственной пошлины. Счет на оплату отобразится в разделе Счета.''',
       translation,
     );
   }
@@ -2214,7 +2215,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__NEXT',
       [],
-      '''Далее''',
+      r'''Далее''',
       translation,
     );
   }
@@ -2223,7 +2224,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__PREVIOUS',
       [],
-      '''Назад''',
+      r'''Назад''',
       translation,
     );
   }
@@ -2232,7 +2233,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__STEP__CANCEL',
       [],
-      '''Отменить''',
+      r'''Отменить''',
       translation,
     );
   }
@@ -2241,7 +2242,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__HEAVY_MESSAGE',
       [],
-      '''Автопоезд тяжеловесный, необходимо указать количество поездок для получения специального разрешения''',
+      r'''Автопоезд тяжеловесный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2250,7 +2251,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__LARGE_MESSAGE',
       [],
-      '''Автопоезд крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
+      r'''Автопоезд крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2259,7 +2260,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__HEAVY_LARGE_MESSAGE',
       [],
-      '''Автопоезд тяжеловесный и крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
+      r'''Автопоезд тяжеловесный и крупногабаритный, необходимо указать количество поездок для получения специального разрешения''',
       translation,
     );
   }
@@ -2268,7 +2269,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__NEW__NUMBER_OF_TRIPS__IF_HEAVY_MESSAGE',
       [],
-      '''Если АТС станет тяжеловесным, сколько поездок потребуется выполнить? ''',
+      r'''Если АТС станет тяжеловесным, сколько поездок потребуется выполнить? ''',
       translation,
     );
   }
@@ -2277,7 +2278,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__DESCRIPTION',
       [],
-      '''Вы уверены, что хотите отозвать заявление?''',
+      r'''Вы уверены, что хотите отозвать заявление?''',
       translation,
     );
   }
@@ -2286,7 +2287,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__BUTTON_YES',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -2295,7 +2296,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__BUTTON_NO',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -2304,7 +2305,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__MESSAGE_APPLICATION_REVOKED_ERROR',
       [],
-      '''Ошибка при отзыве заявления, попробуйте позже''',
+      r'''Ошибка при отзыве заявления, попробуйте позже''',
       translation,
     );
   }
@@ -2313,7 +2314,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPLICATIONS__REVOKE__REVOKED_SUCCESSFULLY',
       [],
-      '''Заявление отозвано''',
+      r'''Заявление отозвано''',
       translation,
     );
   }
@@ -2322,7 +2323,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__TITLE',
       [],
-      '''Маршруты''',
+      r'''Маршруты''',
       translation,
     );
   }
@@ -2331,7 +2332,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NO_ROUTES',
       [],
-      '''Маршрутов нет''',
+      r'''Маршрутов нет''',
       translation,
     );
   }
@@ -2340,7 +2341,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__TITLE',
       [],
-      '''Новый маршрут''',
+      r'''Новый маршрут''',
       translation,
     );
   }
@@ -2349,7 +2350,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__NAME',
       [],
-      '''Название маршрута''',
+      r'''Название маршрута''',
       translation,
     );
   }
@@ -2358,7 +2359,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__NAME_PLACEHOLDER',
       [],
-      '''Укажите название маршрута''',
+      r'''Укажите название маршрута''',
       translation,
     );
   }
@@ -2367,7 +2368,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__ROUTE_POINTS',
       [],
-      '''Точки маршрута''',
+      r'''Точки маршрута''',
       translation,
     );
   }
@@ -2376,7 +2377,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__INFO',
       [],
-      '''Сохраняя маршрут, вы сохраняете адрес начальной и конечной точек маршрута. При последующем использовании данного маршрута он может быть перестроен в соответствии с параметрами АТС в заявлении''',
+      r'''Сохраняя маршрут, вы сохраняете адрес начальной и конечной точек маршрута. При последующем использовании данного маршрута он может быть перестроен в соответствии с параметрами АТС в заявлении''',
       translation,
     );
   }
@@ -2385,7 +2386,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__SAVE',
       [],
-      '''Сохранить''',
+      r'''Сохранить''',
       translation,
     );
   }
@@ -2394,7 +2395,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__CANCEL',
       [],
-      '''Отменить''',
+      r'''Отменить''',
       translation,
     );
   }
@@ -2403,7 +2404,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -2412,7 +2413,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_SAVING_ERROR',
       [],
-      '''Ошибка при сохранении маршрута, попробуйте позже''',
+      r'''Ошибка при сохранении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2421,7 +2422,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__NEW__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''Маршрут сохранен''',
+      r'''Маршрут сохранен''',
       translation,
     );
   }
@@ -2430,7 +2431,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE',
       [],
-      '''Удалить''',
+      r'''Удалить''',
       translation,
     );
   }
@@ -2439,7 +2440,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__MESSAGE',
       [],
-      '''Удалить маршрут {routes.name}?''',
+      r'''Удалить маршрут {routes.name}?''',
       translation,
     );
   }
@@ -2448,7 +2449,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__CONFIRM',
       [],
-      '''Да, удалить''',
+      r'''Да, удалить''',
       translation,
     );
   }
@@ -2457,7 +2458,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__DELETE__CANCEL',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -2466,7 +2467,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__MESSAGE_DELETING_ERROR',
       [],
-      '''Ошибка при удалении маршрута, попробуйте позже''',
+      r'''Ошибка при удалении маршрута, попробуйте позже''',
       translation,
     );
   }
@@ -2475,7 +2476,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'ROUTES__MESSAGE_DELETED_SUCCESSFULLY',
       [],
-      '''Маршрут удален''',
+      r'''Маршрут удален''',
       translation,
     );
   }
@@ -2484,7 +2485,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__TITLE',
       [],
-      '''Разрешения''',
+      r'''Разрешения''',
       translation,
     );
   }
@@ -2493,7 +2494,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -2502,7 +2503,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_TYPE_OF_TRANSPORTATION',
       [],
-      '''Тип перевозки''',
+      r'''Тип перевозки''',
       translation,
     );
   }
@@ -2511,7 +2512,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_TYPE_OF_TRANSPORTATION',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -2520,7 +2521,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_SRN',
       [],
-      '''ГРН''',
+      r'''ГРН''',
       translation,
     );
   }
@@ -2529,7 +2530,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SEARCH_SRN',
       [],
-      '''Найти ГРН''',
+      r'''Найти ГРН''',
       translation,
     );
   }
@@ -2538,7 +2539,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__FILTER_DATES',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -2547,7 +2548,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -2556,7 +2557,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__TITLE',
       [],
-      '''Выбор даты''',
+      r'''Выбор даты''',
       translation,
     );
   }
@@ -2565,7 +2566,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__FROM',
       [],
-      '''Дата с''',
+      r'''Дата с''',
       translation,
     );
   }
@@ -2574,7 +2575,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__TO',
       [],
-      '''Дата по''',
+      r'''Дата по''',
       translation,
     );
   }
@@ -2583,7 +2584,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''ДДММГГГГ''',
+      r'''ДДММГГГГ''',
       translation,
     );
   }
@@ -2592,7 +2593,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT',
       [],
-      '''Сортировка''',
+      r'''Сортировка''',
       translation,
     );
   }
@@ -2601,7 +2602,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT_DATE',
       [],
-      '''Дата регистрации''',
+      r'''Дата регистрации''',
       translation,
     );
   }
@@ -2610,7 +2611,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__SORT_NUMBER',
       [],
-      '''Номер разрешения''',
+      r'''Номер разрешения''',
       translation,
     );
   }
@@ -2619,7 +2620,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NO_PERMISSIONS',
       [],
-      '''Разрешений нет''',
+      r'''Разрешений нет''',
       translation,
     );
   }
@@ -2628,7 +2629,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NO_PERMISSIONS_FOUND',
       [],
-      '''К сожалению, разрешений не найдено''',
+      r'''К сожалению, разрешений не найдено''',
       translation,
     );
   }
@@ -2637,7 +2638,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__HEAVY_VEHICLE',
       [],
-      '''Тяжеловесное ТС''',
+      r'''Тяжеловесное ТС''',
       translation,
     );
   }
@@ -2646,7 +2647,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TO_THE_LIST',
       [],
-      '''К списку разрешений''',
+      r'''К списку разрешений''',
       translation,
     );
   }
@@ -2655,7 +2656,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TO_THE_APPLICATION',
       [],
-      '''К заявлению''',
+      r'''К заявлению''',
       translation,
     );
   }
@@ -2664,7 +2665,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Номер и дата оформления разрешения''',
+      r'''Номер и дата оформления разрешения''',
       translation,
     );
   }
@@ -2673,7 +2674,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NUMBER',
       [],
-      '''Номер разрешения''',
+      r'''Номер разрешения''',
       translation,
     );
   }
@@ -2682,7 +2683,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__DATE',
       [],
-      '''Дата оформления''',
+      r'''Дата оформления''',
       translation,
     );
   }
@@ -2691,7 +2692,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__AUTHORIZED_AGENCY',
       [],
-      '''ФКУ''',
+      r'''ФКУ''',
       translation,
     );
   }
@@ -2700,7 +2701,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ESCORT_TYPE',
       [],
-      '''Вид сопровождения''',
+      r'''Вид сопровождения''',
       translation,
     );
   }
@@ -2709,7 +2710,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__SPECIAL_CONDITIONS_OF_CARRIAGE',
       [],
-      '''Особые условия движения''',
+      r'''Особые условия движения''',
       translation,
     );
   }
@@ -2718,7 +2719,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__SPECIAL_CONDITIONS_GIBDD',
       [],
-      '''Особые условия по согласованию с ГИБДД''',
+      r'''Особые условия по согласованию с ГИБДД''',
       translation,
     );
   }
@@ -2727,7 +2728,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__NOT_REQUIRED',
       [],
-      '''Не требуется''',
+      r'''Не требуется''',
       translation,
     );
   }
@@ -2736,7 +2737,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS',
       [],
-      '''Поездки''',
+      r'''Поездки''',
       translation,
     );
   }
@@ -2745,7 +2746,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__SHOW_ALL_TRIPS',
       [],
-      '''Показать все поездки''',
+      r'''Показать все поездки''',
       translation,
     );
   }
@@ -2754,7 +2755,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__ALL__TITLE',
       [],
-      '''Все поездки''',
+      r'''Все поездки''',
       translation,
     );
   }
@@ -2763,7 +2764,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_TITLE',
       [],
-      '''Поездка''',
+      r'''Поездка''',
       translation,
     );
   }
@@ -2772,7 +2773,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_MAP_TITLE',
       [],
-      '''Поездка''',
+      r'''Поездка''',
       translation,
     );
   }
@@ -2781,7 +2782,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_STATUS_ACTIVE',
       [],
-      '''Выполняется''',
+      r'''Выполняется''',
       translation,
     );
   }
@@ -2790,7 +2791,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_STATUS_COMPLETED',
       [],
-      '''Завершена''',
+      r'''Завершена''',
       translation,
     );
   }
@@ -2799,7 +2800,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__END_POINT_ACTIVE_TRIP',
       [],
-      '''Поездка еще не завершена''',
+      r'''Поездка еще не завершена''',
       translation,
     );
   }
@@ -2808,7 +2809,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_END',
       [],
-      '''Завершить поездку''',
+      r'''Завершить поездку''',
       translation,
     );
   }
@@ -2817,7 +2818,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__TRIP_START',
       [],
-      '''Начать новую поездку''',
+      r'''Начать новую поездку''',
       translation,
     );
   }
@@ -2826,7 +2827,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
@@ -2835,7 +2836,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_START_TRIP_MESSAGE',
       [],
-      '''Невозможно начать поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
+      r'''Невозможно начать поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
       translation,
     );
   }
@@ -2844,7 +2845,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_END_TRIP_MESSAGE',
       [],
-      '''Невозможно завершить поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
+      r'''Невозможно завершить поездку. Проверьте подключение к сети Интернет и повторите попытку.''',
       translation,
     );
   }
@@ -2853,7 +2854,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_INTERNET_OK',
       [],
-      '''Ок''',
+      r'''Ок''',
       translation,
     );
   }
@@ -2862,7 +2863,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
@@ -2872,7 +2873,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_START_TRIP_MESSAGE',
       [],
-      '''Невозможно начать поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
+      r'''Невозможно начать поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
       translation,
     );
   }
@@ -2881,7 +2882,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_END_TRIP_MESSAGE',
       [],
-      '''Невозможно завершить поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
+      r'''Невозможно завершить поездку. Геолокация недоступна. Проверьте настройки геолокации и повторите попытку.''',
       translation,
     );
   }
@@ -2890,7 +2891,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_OK',
       [],
-      '''Ок''',
+      r'''Ок''',
       translation,
     );
   }
@@ -2899,7 +2900,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_NO_GEOLOCATION_SETTINGS',
       [],
-      '''Настройки''',
+      r'''Настройки''',
       translation,
     );
   }
@@ -2908,7 +2909,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_START_TRIP_ERROR',
       [],
-      '''Ошибка начала поездки, попробуйте позже.''',
+      r'''Ошибка начала поездки, попробуйте позже.''',
       translation,
     );
   }
@@ -2917,7 +2918,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_END_TRIP_ERROR',
       [],
-      '''Ошибка завершения поездки, попробуйте позже.''',
+      r'''Ошибка завершения поездки, попробуйте позже.''',
       translation,
     );
   }
@@ -2926,7 +2927,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
@@ -2935,7 +2936,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_MESSAGE',
       [],
-      '''Вы действительно хотите начать новую поездку?''',
+      r'''Вы действительно хотите начать новую поездку?''',
       translation,
     );
   }
@@ -2944,7 +2945,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_CONFIRM',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -2953,7 +2954,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_START_TRIP_CANCEL',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -2962,7 +2963,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_TITLE',
       [],
-      '''Внимание''',
+      r'''Внимание''',
       translation,
     );
   }
@@ -2971,7 +2972,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_MESSAGE',
       [],
-      '''Вы действительно хотите завершить поездку?''',
+      r'''Вы действительно хотите завершить поездку?''',
       translation,
     );
   }
@@ -2980,7 +2981,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_CONFIRM',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -2989,7 +2990,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__DIALOG_END_TRIP_CANCEL',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -2998,7 +2999,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__TRIPS__MESSAGE_LOADING_ERROR',
       [],
-      '''Ошибка при загрузке поездок, попробуйте позже.''',
+      r'''Ошибка при загрузке поездок, попробуйте позже.''',
       translation,
     );
   }
@@ -3007,7 +3008,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__DOWNLOAD',
       [],
-      '''Скачать''',
+      r'''Скачать''',
       translation,
     );
   }
@@ -3016,7 +3017,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__MESSAGE_DOWNLOADING_ERROR',
       [],
-      '''Ошибка скачивания файла, попробуйте позже.''',
+      r'''Ошибка скачивания файла, попробуйте позже.''',
       translation,
     );
   }
@@ -3025,7 +3026,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ROUTE_ON_MAP',
       [],
-      '''Показать на карте''',
+      r'''Показать на карте''',
       translation,
     );
   }
@@ -3034,7 +3035,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__VIEW__ROUTE_ON_MAP__TITLE',
       [],
-      '''Маршрут''',
+      r'''Маршрут''',
       translation,
     );
   }
@@ -3043,7 +3044,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PERMISSIONS__NUMBER_OF_PERMISSIONS',
       [],
-      '''Количество разрешений''',
+      r'''Количество разрешений''',
       translation,
     );
   }
@@ -3052,7 +3053,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__TITLE',
       [],
-      '''Счета''',
+      r'''Счета''',
       translation,
     );
   }
@@ -3061,7 +3062,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NUMBER_OF_INVOICES',
       [],
-      '''Количество счетов''',
+      r'''Количество счетов''',
       translation,
     );
   }
@@ -3070,7 +3071,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -3079,7 +3080,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_DATES',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -3088,7 +3089,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_INCOMING',
       [],
-      '''Входящие счета''',
+      r'''Входящие счета''',
       translation,
     );
   }
@@ -3097,7 +3098,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_ARCHIVE',
       [],
-      '''Архив''',
+      r'''Архив''',
       translation,
     );
   }
@@ -3106,7 +3107,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -3115,7 +3116,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__TITLE',
       [],
-      '''Выбор даты''',
+      r'''Выбор даты''',
       translation,
     );
   }
@@ -3124,7 +3125,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__FROM',
       [],
-      '''Дата с''',
+      r'''Дата с''',
       translation,
     );
   }
@@ -3133,7 +3134,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__TO',
       [],
-      '''Дата по''',
+      r'''Дата по''',
       translation,
     );
   }
@@ -3142,7 +3143,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_DATES__PLACEHOLDER',
       [],
-      '''ДДММГГГГ''',
+      r'''ДДММГГГГ''',
       translation,
     );
   }
@@ -3151,7 +3152,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__FILTER_STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -3160,7 +3161,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SELECT_STATUS',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -3169,7 +3170,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SORT',
       [],
-      '''Сортировка''',
+      r'''Сортировка''',
       translation,
     );
   }
@@ -3178,7 +3179,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__SORT_DATE',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -3187,7 +3188,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NO_INVOICES',
       [],
-      '''Счетов нет''',
+      r'''Счетов нет''',
       translation,
     );
   }
@@ -3196,7 +3197,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__NO_INVOICES_FOUND',
       [],
-      '''К сожалению, счетов не найдено''',
+      r'''К сожалению, счетов не найдено''',
       translation,
     );
   }
@@ -3205,7 +3206,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__TO_THE_LIST',
       [],
-      '''К списку счетов''',
+      r'''К списку счетов''',
       translation,
     );
   }
@@ -3214,7 +3215,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__APPLICATION_NUMBER',
       [],
-      '''Номер заявления''',
+      r'''Номер заявления''',
       translation,
     );
   }
@@ -3223,7 +3224,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__REGISTRATION_DATE',
       [],
-      '''Дата подачи''',
+      r'''Дата подачи''',
       translation,
     );
   }
@@ -3232,7 +3233,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__TOTAL_AMOUNT',
       [],
-      '''Общая сумма''',
+      r'''Общая сумма''',
       translation,
     );
   }
@@ -3241,7 +3242,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__ROUTE',
       [],
-      '''Маршрут''',
+      r'''Маршрут''',
       translation,
     );
   }
@@ -3250,7 +3251,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE',
       [],
-      '''Переместить в архив''',
+      r'''Переместить в архив''',
       translation,
     );
   }
@@ -3259,7 +3260,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''Ошибка при архивации счета, попробуйте позже''',
+      r'''Ошибка при архивации счета, попробуйте позже''',
       translation,
     );
   }
@@ -3268,7 +3269,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''Счет архивирован''',
+      r'''Счет архивирован''',
       translation,
     );
   }
@@ -3277,7 +3278,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM_ARCHIVE',
       [],
-      '''Восстановить из архива''',
+      r'''Восстановить из архива''',
       translation,
     );
   }
@@ -3286,7 +3287,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''Ошибка при восстановлении счета из архива, попробуйте позже''',
+      r'''Ошибка при восстановлении счета из архива, попробуйте позже''',
       translation,
     );
   }
@@ -3295,7 +3296,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__RESTORE_FROM__MESSAGE_SUCCESS',
       [],
-      '''Счет восстановлен их архива''',
+      r'''Счет восстановлен их архива''',
       translation,
     );
   }
@@ -3304,7 +3305,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAYMENT_AMOUNT',
       [],
-      '''Сумма оплаты''',
+      r'''Сумма оплаты''',
       translation,
     );
   }
@@ -3313,7 +3314,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAYMENT_RECEIVER',
       [],
-      '''Получатель платежа''',
+      r'''Получатель платежа''',
       translation,
     );
   }
@@ -3322,7 +3323,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__DOWNLOAD_RECEIPT',
       [],
-      '''Скачать квитанцию''',
+      r'''Скачать квитанцию''',
       translation,
     );
   }
@@ -3331,7 +3332,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__MESSAGE_DOWNLOAD_RECEIPT_ERROR',
       [],
-      '''Ошибка при скачивании квитанции, попробуйте позже''',
+      r'''Ошибка при скачивании квитанции, попробуйте позже''',
       translation,
     );
   }
@@ -3340,7 +3341,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY',
       [],
-      '''Оплатить''',
+      r'''Оплатить''',
       translation,
     );
   }
@@ -3349,7 +3350,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__TEXT',
       [],
-      '''Внимание. Для оплаты Вы будете направлены на веб-страницу банка''',
+      r'''Внимание. Для оплаты Вы будете направлены на веб-страницу банка''',
       translation,
     );
   }
@@ -3358,7 +3359,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__GO',
       [],
-      '''Перейти''',
+      r'''Перейти''',
       translation,
     );
   }
@@ -3367,7 +3368,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'INVOICES__VIEW__PAY_DIALOG__CANCEL',
       [],
-      '''Отменить''',
+      r'''Отменить''',
       translation,
     );
   }
@@ -3376,7 +3377,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__TITLE',
       [],
-      '''Парк ТС''',
+      r'''Парк ТС''',
       translation,
     );
   }
@@ -3385,7 +3386,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW',
       [],
-      '''Добавить ТС''',
+      r'''Добавить ТС''',
       translation,
     );
   }
@@ -3394,7 +3395,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -3403,7 +3404,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NUMBER_OF_VEHICLES',
       [],
-      '''Количество ТС''',
+      r'''Количество ТС''',
       translation,
     );
   }
@@ -3412,7 +3413,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_TYPES',
       [],
-      '''Типы''',
+      r'''Типы''',
       translation,
     );
   }
@@ -3421,7 +3422,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SELECT_TYPES',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -3430,7 +3431,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -3439,7 +3440,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SELECT_STATUS',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -3448,7 +3449,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_SRN',
       [],
-      '''ГРН''',
+      r'''ГРН''',
       translation,
     );
   }
@@ -3457,7 +3458,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH_SRN',
       [],
-      '''Найти ГРН''',
+      r'''Найти ГРН''',
       translation,
     );
   }
@@ -3466,7 +3467,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__FILTER_MARK',
       [],
-      '''Марка ТС''',
+      r'''Марка ТС''',
       translation,
     );
   }
@@ -3475,7 +3476,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__SEARCH_MARK',
       [],
-      '''Найти марку ТС''',
+      r'''Найти марку ТС''',
       translation,
     );
   }
@@ -3484,7 +3485,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NO_VEHICLES',
       [],
-      '''Транспортных средств нет''',
+      r'''Транспортных средств нет''',
       translation,
     );
   }
@@ -3493,7 +3494,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NO_VEHICLES_FOUND',
       [],
-      '''К сожалению, транспортных средств не найдено''',
+      r'''К сожалению, транспортных средств не найдено''',
       translation,
     );
   }
@@ -3502,16 +3503,16 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE',
       [],
-      '''Удалить ТС''',
+      r'''Удалить ТС''',
       translation,
     );
   }
 
-  String VEHICLES__DELETE__MESSAGE(String grnz) {
+  String VEHICLES__DELETE__MESSAGE(Object grnz) {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__MESSAGE',
-      [grnz],
-      '''Удалить транспортное средство c ГРН {grnz}?''',
+      [grnz.toString()],
+      r'''Удалить транспортное средство c ГРН {grnz}?''',
       translation,
     );
   }
@@ -3520,7 +3521,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__CONFIRM',
       [],
-      '''Да, удалить''',
+      r'''Да, удалить''',
       translation,
     );
   }
@@ -3529,7 +3530,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__DELETE__CANCEL',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -3538,7 +3539,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__MESSAGE_DELETE_ERROR',
       [],
-      '''Ошибка при удалении ТС, попробуйте позже''',
+      r'''Ошибка при удалении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -3547,7 +3548,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__MESSAGE_DELETE_SUCCESS',
       [],
-      '''ТС удалено''',
+      r'''ТС удалено''',
       translation,
     );
   }
@@ -3556,7 +3557,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__TO_THE_LIST',
       [],
-      '''К списку ТС''',
+      r'''К списку ТС''',
       translation,
     );
   }
@@ -3565,7 +3566,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MARK_MODEL_TYPE',
       [],
-      '''Марка, модель и тип ТС''',
+      r'''Марка, модель и тип ТС''',
       translation,
     );
   }
@@ -3574,7 +3575,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -3583,7 +3584,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DIMENSIONS',
       [],
-      '''Габариты (длина, ширина, высота)''',
+      r'''Габариты (длина, ширина, высота)''',
       translation,
     );
   }
@@ -3592,7 +3593,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MASS',
       [],
-      '''Масса без нагрузки''',
+      r'''Масса без нагрузки''',
       translation,
     );
   }
@@ -3601,7 +3602,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SRN',
       [],
-      '''Государственный регистрационный номер''',
+      r'''Государственный регистрационный номер''',
       translation,
     );
   }
@@ -3610,7 +3611,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__ISOTHERM',
       [],
-      '''Изотермический кузов''',
+      r'''Изотермический кузов''',
       translation,
     );
   }
@@ -3619,7 +3620,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__COUNTRY',
       [],
-      '''Страна регистрации ТС''',
+      r'''Страна регистрации ТС''',
       translation,
     );
   }
@@ -3628,7 +3629,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__VIN',
       [],
-      '''VIN номер''',
+      r'''VIN номер''',
       translation,
     );
   }
@@ -3637,7 +3638,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STS_NUMBER',
       [],
-      '''Серия и номер СТС''',
+      r'''Серия и номер СТС''',
       translation,
     );
   }
@@ -3646,7 +3647,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__STS_DATE',
       [],
-      '''Дата выдачи СТС''',
+      r'''Дата выдачи СТС''',
       translation,
     );
   }
@@ -3655,7 +3656,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__MASS_MAX',
       [],
-      '''Разрешенная масса ТС''',
+      r'''Разрешенная масса ТС''',
       translation,
     );
   }
@@ -3664,7 +3665,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__PLATFORM_HEIGHT',
       [],
-      '''Высота платформы''',
+      r'''Высота платформы''',
       translation,
     );
   }
@@ -3673,7 +3674,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT',
       [],
-      '''Документ ТС''',
+      r'''Документ ТС''',
       translation,
     );
   }
@@ -3682,7 +3683,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__DOWNLOAD',
       [],
-      '''Скачать''',
+      r'''Скачать''',
       translation,
     );
   }
@@ -3691,7 +3692,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__NO_DOCUMENT',
       [],
-      '''Документ отсутствует''',
+      r'''Документ отсутствует''',
       translation,
     );
   }
@@ -3700,7 +3701,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__DOCUMENT__MESSAGE_DOWNLOADING_ERROR',
       [],
-      '''Ошибка скачивания файла, попробуйте позже.''',
+      r'''Ошибка скачивания файла, попробуйте позже.''',
       translation,
     );
   }
@@ -3709,7 +3710,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME',
       [],
-      '''Схема ТС''',
+      r'''Схема ТС''',
       translation,
     );
   }
@@ -3718,7 +3719,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__NUMBER_OF_AXLES',
       [],
-      '''Количество осей''',
+      r'''Количество осей''',
       translation,
     );
   }
@@ -3727,7 +3728,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__FRONT_OVERHANG',
       [],
-      '''Передний свес, м''',
+      r'''Передний свес, м''',
       translation,
     );
   }
@@ -3736,7 +3737,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AXLES',
       [],
-      '''Оси''',
+      r'''Оси''',
       translation,
     );
   }
@@ -3745,7 +3746,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AXLE',
       [],
-      '''Ось''',
+      r'''Ось''',
       translation,
     );
   }
@@ -3754,7 +3755,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__AIR_SUSPENSION',
       [],
-      '''Пневмоподвеска''',
+      r'''Пневмоподвеска''',
       translation,
     );
   }
@@ -3763,7 +3764,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__SLOPE',
       [],
-      '''Скатность''',
+      r'''Скатность''',
       translation,
     );
   }
@@ -3772,7 +3773,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__WHEELS',
       [],
-      '''Количество колес''',
+      r'''Количество колес''',
       translation,
     );
   }
@@ -3781,7 +3782,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__DISTANCE_TO_NEXT',
       [],
-      '''Расстояние до следующей оси, м''',
+      r'''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -3790,7 +3791,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__SCHEME__REAR_OVERHANG',
       [],
-      '''Задний свес, м''',
+      r'''Задний свес, м''',
       translation,
     );
   }
@@ -3799,7 +3800,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER',
       [],
-      '''Владелец ТС''',
+      r'''Владелец ТС''',
       translation,
     );
   }
@@ -3808,7 +3809,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_TYPE',
       [],
-      '''Тип владельца''',
+      r'''Тип владельца''',
       translation,
     );
   }
@@ -3817,7 +3818,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_BASIS',
       [],
-      '''Основание владения ТС''',
+      r'''Основание владения ТС''',
       translation,
     );
   }
@@ -3826,7 +3827,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_COMPANY_NAME',
       [],
-      '''Наименование''',
+      r'''Наименование''',
       translation,
     );
   }
@@ -3835,7 +3836,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_FIO',
       [],
-      '''ФИО''',
+      r'''ФИО''',
       translation,
     );
   }
@@ -3844,7 +3845,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_SURNAME',
       [],
-      '''Фамилия''',
+      r'''Фамилия''',
       translation,
     );
   }
@@ -3853,7 +3854,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_NAME',
       [],
-      '''Имя''',
+      r'''Имя''',
       translation,
     );
   }
@@ -3862,7 +3863,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_PATRONYMIC',
       [],
-      '''Отчество''',
+      r'''Отчество''',
       translation,
     );
   }
@@ -3871,7 +3872,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_COUNTRY',
       [],
-      '''Страна владения ТС''',
+      r'''Страна владения ТС''',
       translation,
     );
   }
@@ -3880,7 +3881,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_INN',
       [],
-      '''ИНН''',
+      r'''ИНН''',
       translation,
     );
   }
@@ -3889,7 +3890,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_REG_NUMBER',
       [],
-      '''Рег. номер в стране''',
+      r'''Рег. номер в стране''',
       translation,
     );
   }
@@ -3898,7 +3899,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__OWNER_FORM',
       [],
-      '''Организационно-правовая форма''',
+      r'''Организационно-правовая форма''',
       translation,
     );
   }
@@ -3907,7 +3908,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__VIEW__EDIT',
       [],
-      '''Изменить''',
+      r'''Изменить''',
       translation,
     );
   }
@@ -3916,7 +3917,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__TO_THE_LIST',
       [],
-      '''К списку ТС''',
+      r'''К списку ТС''',
       translation,
     );
   }
@@ -3925,7 +3926,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__TITLE',
       [],
-      '''Данные ТС''',
+      r'''Данные ТС''',
       translation,
     );
   }
@@ -3934,7 +3935,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__DESCRIPTION',
       [],
-      '''Введите все данные ТС''',
+      r'''Введите все данные ТС''',
       translation,
     );
   }
@@ -3943,7 +3944,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__TYPE',
       [],
-      '''Тип ТС''',
+      r'''Тип ТС''',
       translation,
     );
   }
@@ -3952,7 +3953,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SELECT_TYPE',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -3961,7 +3962,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MARK',
       [],
-      '''Марка ТС''',
+      r'''Марка ТС''',
       translation,
     );
   }
@@ -3970,7 +3971,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MARK_PLACEHOLDER',
       [],
-      '''Укажите марку ТС''',
+      r'''Укажите марку ТС''',
       translation,
     );
   }
@@ -3979,7 +3980,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MODEL',
       [],
-      '''Модель ТС''',
+      r'''Модель ТС''',
       translation,
     );
   }
@@ -3988,7 +3989,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__MODEL_PLACEHOLDER',
       [],
-      '''Укажите модель ТС''',
+      r'''Укажите модель ТС''',
       translation,
     );
   }
@@ -3997,7 +3998,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__COUNTRY',
       [],
-      '''Страна регистрации ТС''',
+      r'''Страна регистрации ТС''',
       translation,
     );
   }
@@ -4006,7 +4007,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SELECT_COUNTRY',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -4015,7 +4016,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SRN',
       [],
-      '''Государственный регистрационный номер''',
+      r'''Государственный регистрационный номер''',
       translation,
     );
   }
@@ -4024,7 +4025,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__SRN_PLACEHOLDER',
       [],
-      '''Укажите ГРН''',
+      r'''Укажите ГРН''',
       translation,
     );
   }
@@ -4033,7 +4034,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__VIN',
       [],
-      '''VIN номер''',
+      r'''VIN номер''',
       translation,
     );
   }
@@ -4042,7 +4043,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__VIN_PLACEHOLDER',
       [],
-      '''Укажите VIN номер''',
+      r'''Укажите VIN номер''',
       translation,
     );
   }
@@ -4051,7 +4052,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_NUMBER',
       [],
-      '''Серия и номер СТС''',
+      r'''Серия и номер СТС''',
       translation,
     );
   }
@@ -4060,7 +4061,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_NUMBER_PLACEHOLDER',
       [],
-      '''Укажите серию и номер СТС''',
+      r'''Укажите серию и номер СТС''',
       translation,
     );
   }
@@ -4069,7 +4070,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_DATE',
       [],
-      '''Дата выдачи СТС''',
+      r'''Дата выдачи СТС''',
       translation,
     );
   }
@@ -4078,7 +4079,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__STS_DATE_PLACEHOLDER',
       [],
-      '''Укажите дату выдачи СТС''',
+      r'''Укажите дату выдачи СТС''',
       translation,
     );
   }
@@ -4087,7 +4088,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__TITLE',
       [],
-      '''Характеристики''',
+      r'''Характеристики''',
       translation,
     );
   }
@@ -4096,7 +4097,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__DESCRIPTION',
       [],
-      '''Укажите данные по массе и размерам''',
+      r'''Укажите данные по массе и размерам''',
       translation,
     );
   }
@@ -4105,7 +4106,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__MASS',
       [],
-      '''Масса без нагрузки, т''',
+      r'''Масса без нагрузки, т''',
       translation,
     );
   }
@@ -4114,7 +4115,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__MAX_MASS',
       [],
-      '''Разрешенная макс. масса, т''',
+      r'''Разрешенная макс. масса, т''',
       translation,
     );
   }
@@ -4123,7 +4124,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__PLATFORM_HEIGHT',
       [],
-      '''Высота платформы, м''',
+      r'''Высота платформы, м''',
       translation,
     );
   }
@@ -4132,7 +4133,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__LENGTH',
       [],
-      '''Длина, м''',
+      r'''Длина, м''',
       translation,
     );
   }
@@ -4141,7 +4142,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__WIDTH',
       [],
-      '''Ширина, м''',
+      r'''Ширина, м''',
       translation,
     );
   }
@@ -4150,7 +4151,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_PARAMETERS__HEIGHT',
       [],
-      '''Высота, м''',
+      r'''Высота, м''',
       translation,
     );
   }
@@ -4159,7 +4160,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_DATA__ISOTHERM',
       [],
-      '''Изотермический кузов''',
+      r'''Изотермический кузов''',
       translation,
     );
   }
@@ -4168,7 +4169,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__TITLE',
       [],
-      '''Владелец ТС''',
+      r'''Владелец ТС''',
       translation,
     );
   }
@@ -4177,7 +4178,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__DESCRIPTION',
       [],
-      '''Укажите данные владельца ТС''',
+      r'''Укажите данные владельца ТС''',
       translation,
     );
   }
@@ -4186,7 +4187,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__MATHCHES_THE_CARRIER',
       [],
-      '''Совпадает с данными перевозчика''',
+      r'''Совпадает с данными перевозчика''',
       translation,
     );
   }
@@ -4195,7 +4196,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COUNTRY',
       [],
-      '''Страна''',
+      r'''Страна''',
       translation,
     );
   }
@@ -4204,7 +4205,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_COUNTRY',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -4213,7 +4214,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__TYPE',
       [],
-      '''Тип владельца''',
+      r'''Тип владельца''',
       translation,
     );
   }
@@ -4222,7 +4223,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_TYPE',
       [],
-      '''Укажите тип''',
+      r'''Укажите тип''',
       translation,
     );
   }
@@ -4231,7 +4232,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__BASIS',
       [],
-      '''Основание владения ТС''',
+      r'''Основание владения ТС''',
       translation,
     );
   }
@@ -4240,7 +4241,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_BASIS',
       [],
-      '''Укажите основание''',
+      r'''Укажите основание''',
       translation,
     );
   }
@@ -4249,7 +4250,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SURNAME',
       [],
-      '''Фамилия''',
+      r'''Фамилия''',
       translation,
     );
   }
@@ -4258,7 +4259,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SURNAME_PLACEHOLDER',
       [],
-      '''Укажите фамилию''',
+      r'''Укажите фамилию''',
       translation,
     );
   }
@@ -4267,7 +4268,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__NAME',
       [],
-      '''Имя''',
+      r'''Имя''',
       translation,
     );
   }
@@ -4276,7 +4277,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__NAME_PLACEHOLDER',
       [],
-      '''Укажите имя''',
+      r'''Укажите имя''',
       translation,
     );
   }
@@ -4285,7 +4286,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__PATRONYMIC',
       [],
-      '''Отчество''',
+      r'''Отчество''',
       translation,
     );
   }
@@ -4294,7 +4295,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__PATRONYMIC_PLACEHOLDER',
       [],
-      '''Укажите отчество''',
+      r'''Укажите отчество''',
       translation,
     );
   }
@@ -4303,7 +4304,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COMPANY_NAME',
       [],
-      '''Наименование''',
+      r'''Наименование''',
       translation,
     );
   }
@@ -4312,7 +4313,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__COMPANY_NAME_PLACEHOLDER',
       [],
-      '''Укажите наименование''',
+      r'''Укажите наименование''',
       translation,
     );
   }
@@ -4321,7 +4322,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__OPF',
       [],
-      '''Организационно-правовая форма''',
+      r'''Организационно-правовая форма''',
       translation,
     );
   }
@@ -4330,7 +4331,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__SELECT_OPF',
       [],
-      '''Выберите ОПФ''',
+      r'''Выберите ОПФ''',
       translation,
     );
   }
@@ -4339,7 +4340,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__INN',
       [],
-      '''ИНН''',
+      r'''ИНН''',
       translation,
     );
   }
@@ -4348,7 +4349,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__INN_PLACEHOLDER',
       [],
-      '''Укажите ИНН''',
+      r'''Укажите ИНН''',
       translation,
     );
   }
@@ -4357,7 +4358,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__REG_NUMBER',
       [],
-      '''Рег. номер в стране''',
+      r'''Рег. номер в стране''',
       translation,
     );
   }
@@ -4366,7 +4367,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__REG_NUMBER_PLACEHOLDER',
       [],
-      '''Укажите рег. номер''',
+      r'''Укажите рег. номер''',
       translation,
     );
   }
@@ -4375,7 +4376,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__FILL_IN_WITH_CARRIER_DATA',
       [],
-      '''Заполнить данными перевозчика''',
+      r'''Заполнить данными перевозчика''',
       translation,
     );
   }
@@ -4384,7 +4385,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_OWNER__MESSAGE_GET_CLIENT_ERROR',
       [],
-      '''Ошибка при загрузке данных перевозчика, попробуйте позже''',
+      r'''Ошибка при загрузке данных перевозчика, попробуйте позже''',
       translation,
     );
   }
@@ -4393,7 +4394,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__TITLE',
       [],
-      '''Схема ТС''',
+      r'''Схема ТС''',
       translation,
     );
   }
@@ -4402,7 +4403,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__DESCRIPTION',
       [],
-      '''Укажите геометрические характеристики ТС''',
+      r'''Укажите геометрические характеристики ТС''',
       translation,
     );
   }
@@ -4411,7 +4412,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__NUMBER_OF_AXLES',
       [],
-      '''Количество осей''',
+      r'''Количество осей''',
       translation,
     );
   }
@@ -4420,7 +4421,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__FRONT_OVERHANG',
       [],
-      '''Передний свес, м''',
+      r'''Передний свес, м''',
       translation,
     );
   }
@@ -4429,7 +4430,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__REAR_OVERHANG',
       [],
-      '''Задний свес, м''',
+      r'''Задний свес, м''',
       translation,
     );
   }
@@ -4438,7 +4439,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__DISTANCE_TO_NEXT',
       [],
-      '''Расстояние до следующей оси, м''',
+      r'''Расстояние до следующей оси, м''',
       translation,
     );
   }
@@ -4447,7 +4448,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__AIR_SUSPENSION',
       [],
-      '''Пневмоподвеска''',
+      r'''Пневмоподвеска''',
       translation,
     );
   }
@@ -4456,7 +4457,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__SLOPE',
       [],
-      '''Скатность''',
+      r'''Скатность''',
       translation,
     );
   }
@@ -4465,7 +4466,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__VEHICLE_SCHEME__WHEELS',
       [],
-      '''Количество колес''',
+      r'''Количество колес''',
       translation,
     );
   }
@@ -4474,7 +4475,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__SAVE',
       [],
-      '''Сохранить''',
+      r'''Сохранить''',
       translation,
     );
   }
@@ -4483,7 +4484,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -4492,7 +4493,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''Значение должно быть больше 0''',
+      r'''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -4501,7 +4502,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_SAVE_ERROR',
       [],
-      '''Ошибка при сохранении ТС, попробуйте позже''',
+      r'''Ошибка при сохранении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -4510,7 +4511,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_INVALID_INN',
       [],
-      '''Некорректный ИНН''',
+      r'''Некорректный ИНН''',
       translation,
     );
   }
@@ -4519,7 +4520,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__MESSAGE_LENGTH_MISMATH',
       [],
-      '''Длина ТС не совпадает с суммой длин заднего и переднего свесов и расстояний между осями''',
+      r'''Длина ТС не совпадает с суммой длин заднего и переднего свесов и расстояний между осями''',
       translation,
     );
   }
@@ -4528,7 +4529,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DISCLAIMER',
       [],
-      '''Внимание! Внесенные вами данные влияют на расчет ущерба, причиняемого автомобильным дорогам тяжеловесным транспортным средством. Будьте уверены, что внесенные данные соответствуют данному транспортному средству.''',
+      r'''Внимание! Внесенные вами данные влияют на расчет ущерба, причиняемого автомобильным дорогам тяжеловесным транспортным средством. Будьте уверены, что внесенные данные соответствуют данному транспортному средству.''',
       translation,
     );
   }
@@ -4537,7 +4538,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__TO_THE_LIST',
       [],
-      '''К списку ТС''',
+      r'''К списку ТС''',
       translation,
     );
   }
@@ -4546,7 +4547,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__SAVE',
       [],
-      '''Сохранить изменения''',
+      r'''Сохранить изменения''',
       translation,
     );
   }
@@ -4555,7 +4556,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -4564,7 +4565,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__EDIT__MESSAGE_MUST_BE_POSITIVE',
       [],
-      '''Значение должно быть больше 0''',
+      r'''Значение должно быть больше 0''',
       translation,
     );
   }
@@ -4573,7 +4574,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW_EDIT__MESSAGE_SAVE_ERROR',
       [],
-      '''Ошибка при сохранении ТС, попробуйте позже''',
+      r'''Ошибка при сохранении ТС, попробуйте позже''',
       translation,
     );
   }
@@ -4582,7 +4583,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT',
       [],
-      '''Документ ТС''',
+      r'''Документ ТС''',
       translation,
     );
   }
@@ -4591,7 +4592,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DESRIPTION',
       [],
-      '''Паспорт транспортного средства или свидетельство о регистрации транспортного средства, паспорт самоходной машины. Размер файла не более 10 МБ.''',
+      r'''Паспорт транспортного средства или свидетельство о регистрации транспортного средства, паспорт самоходной машины. Размер файла не более 10 МБ.''',
       translation,
     );
   }
@@ -4600,7 +4601,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOAD',
       [],
-      '''Загрузить документ''',
+      r'''Загрузить документ''',
       translation,
     );
   }
@@ -4609,7 +4610,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOADED',
       [],
-      '''Документ загружен''',
+      r'''Документ загружен''',
       translation,
     );
   }
@@ -4618,7 +4619,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__UPLOAD_REQUIRED',
       [],
-      '''Документ не загружен''',
+      r'''Документ не загружен''',
       translation,
     );
   }
@@ -4627,7 +4628,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'VEHICLES__NEW__DOCUMENT__MESSAGE_UPLOADING_ERROR',
       [],
-      '''Ошибка при загрузке документа, попробуйте позже''',
+      r'''Ошибка при загрузке документа, попробуйте позже''',
       translation,
     );
   }
@@ -4636,7 +4637,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__TITLE',
       [],
-      '''Профиль пользователя''',
+      r'''Профиль пользователя''',
       translation,
     );
   }
@@ -4645,7 +4646,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__CITY',
       [],
-      '''г.''',
+      r'''г.''',
       translation,
     );
   }
@@ -4654,7 +4655,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__STREET',
       [],
-      '''ул.''',
+      r'''ул.''',
       translation,
     );
   }
@@ -4663,7 +4664,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__HOUSE',
       [],
-      '''д.''',
+      r'''д.''',
       translation,
     );
   }
@@ -4672,7 +4673,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__HOUSING',
       [],
-      '''к.''',
+      r'''к.''',
       translation,
     );
   }
@@ -4681,7 +4682,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__BUILDING',
       [],
-      '''стр.''',
+      r'''стр.''',
       translation,
     );
   }
@@ -4690,7 +4691,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__ADDRESS__FLAT',
       [],
-      '''кв.''',
+      r'''кв.''',
       translation,
     );
   }
@@ -4699,7 +4700,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS',
       [],
-      '''Адрес регистрации''',
+      r'''Адрес регистрации''',
       translation,
     );
   }
@@ -4708,7 +4709,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__COUNTRY',
       [],
-      '''Страна''',
+      r'''Страна''',
       translation,
     );
   }
@@ -4717,7 +4718,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__POSTCODE',
       [],
-      '''Индекс''',
+      r'''Индекс''',
       translation,
     );
   }
@@ -4726,7 +4727,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__REGION',
       [],
-      '''Область''',
+      r'''Область''',
       translation,
     );
   }
@@ -4735,7 +4736,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__AREA',
       [],
-      '''Район''',
+      r'''Район''',
       translation,
     );
   }
@@ -4744,7 +4745,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__CITY',
       [],
-      '''Город''',
+      r'''Город''',
       translation,
     );
   }
@@ -4753,7 +4754,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__STREET',
       [],
-      '''Улица''',
+      r'''Улица''',
       translation,
     );
   }
@@ -4762,7 +4763,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__HOUSE',
       [],
-      '''Дом''',
+      r'''Дом''',
       translation,
     );
   }
@@ -4771,7 +4772,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__HOUSING',
       [],
-      '''Корпус''',
+      r'''Корпус''',
       translation,
     );
   }
@@ -4780,7 +4781,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__BUILDING',
       [],
-      '''Строение''',
+      r'''Строение''',
       translation,
     );
   }
@@ -4789,7 +4790,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__REGISTRATION_ADDRESS__FLAT',
       [],
-      '''Кв/офис''',
+      r'''Кв/офис''',
       translation,
     );
   }
@@ -4798,7 +4799,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__PHONE',
       [],
-      '''Телефон''',
+      r'''Телефон''',
       translation,
     );
   }
@@ -4807,7 +4808,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__COMPANY_PHONE',
       [],
-      '''Телефон организации''',
+      r'''Телефон организации''',
       translation,
     );
   }
@@ -4816,7 +4817,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CONTACTS__CONTACT_PHONE',
       [],
-      '''Контактный телефон''',
+      r'''Контактный телефон''',
       translation,
     );
   }
@@ -4825,7 +4826,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__COMPANY_PHONE',
       [],
-      '''Телефон организации''',
+      r'''Телефон организации''',
       translation,
     );
   }
@@ -4834,7 +4835,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__INFO',
       [],
-      '''Общая информация''',
+      r'''Общая информация''',
       translation,
     );
   }
@@ -4843,7 +4844,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__COUNTRY_OF_REGISTRATION',
       [],
-      '''Страна регистрации''',
+      r'''Страна регистрации''',
       translation,
     );
   }
@@ -4852,7 +4853,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__EMAIL',
       [],
-      '''Email перевозчика''',
+      r'''Email перевозчика''',
       translation,
     );
   }
@@ -4861,7 +4862,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__CARRIER',
       [],
-      '''Перевозчик''',
+      r'''Перевозчик''',
       translation,
     );
   }
@@ -4870,7 +4871,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__FULL_NAME',
       [],
-      '''Полное наименование''',
+      r'''Полное наименование''',
       translation,
     );
   }
@@ -4879,7 +4880,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__SHORT_NAME',
       [],
-      '''Сокращенное наименование''',
+      r'''Сокращенное наименование''',
       translation,
     );
   }
@@ -4888,7 +4889,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__INN',
       [],
-      '''ИНН''',
+      r'''ИНН''',
       translation,
     );
   }
@@ -4898,7 +4899,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__REGISTRATION_NUMBER_IN_THE_COUNTRY_OF_REGISTRATION',
       [],
-      '''Регистрационный номер в стране регистрации''',
+      r'''Регистрационный номер в стране регистрации''',
       translation,
     );
   }
@@ -4907,7 +4908,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__KPP',
       [],
-      '''КПП''',
+      r'''КПП''',
       translation,
     );
   }
@@ -4916,7 +4917,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__OGRN',
       [],
-      '''ОГРН''',
+      r'''ОГРН''',
       translation,
     );
   }
@@ -4925,7 +4926,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__OGRNIP',
       [],
-      '''ОГРНИП''',
+      r'''ОГРНИП''',
       translation,
     );
   }
@@ -4934,7 +4935,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION_COMPANY_INFO',
       [],
-      '''Информация о компании''',
+      r'''Информация о компании''',
       translation,
     );
   }
@@ -4943,7 +4944,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION_2FA',
       [],
-      '''Двухфакторная  авторизация''',
+      r'''Двухфакторная  авторизация''',
       translation,
     );
   }
@@ -4952,7 +4953,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CLIENT__GENERAL_INFORMATION__DIRECTOR',
       [],
-      '''Генеральный директор''',
+      r'''Генеральный директор''',
       translation,
     );
   }
@@ -4961,7 +4962,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__PASSPORT',
       [],
-      '''Паспортные данные''',
+      r'''Паспортные данные''',
       translation,
     );
   }
@@ -4970,7 +4971,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__SERIES_AND_NUMBER',
       [],
-      '''Серия и номер''',
+      r'''Серия и номер''',
       translation,
     );
   }
@@ -4979,7 +4980,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__DATE_OF_ISSUE',
       [],
-      '''Дата выдачи''',
+      r'''Дата выдачи''',
       translation,
     );
   }
@@ -4988,7 +4989,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__UNIT_CODE',
       [],
-      '''Код подразделения''',
+      r'''Код подразделения''',
       translation,
     );
   }
@@ -4997,7 +4998,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__PASSPORT__ISSUED_BY',
       [],
-      '''Кем выдан''',
+      r'''Кем выдан''',
       translation,
     );
   }
@@ -5006,7 +5007,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_DETAILS',
       [],
-      '''Банковские реквизиты''',
+      r'''Банковские реквизиты''',
       translation,
     );
   }
@@ -5015,7 +5016,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__PRIMARY_ACCOUNT',
       [],
-      '''Основной счет''',
+      r'''Основной счет''',
       translation,
     );
   }
@@ -5024,7 +5025,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__ADDITIONAL_ACCOUNTS',
       [],
-      '''Дополнительные счета''',
+      r'''Дополнительные счета''',
       translation,
     );
   }
@@ -5033,7 +5034,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__ACCOUNT_NAME',
       [],
-      '''Наименование счета''',
+      r'''Наименование счета''',
       translation,
     );
   }
@@ -5042,7 +5043,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_COUNTRY',
       [],
-      '''Страна банка''',
+      r'''Страна банка''',
       translation,
     );
   }
@@ -5051,7 +5052,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_CITY',
       [],
-      '''Город банка''',
+      r'''Город банка''',
       translation,
     );
   }
@@ -5060,7 +5061,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_BIC',
       [],
-      '''БИК банка''',
+      r'''БИК банка''',
       translation,
     );
   }
@@ -5069,7 +5070,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_NAME',
       [],
-      '''Наименование банка''',
+      r'''Наименование банка''',
       translation,
     );
   }
@@ -5078,7 +5079,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__CORRESPONDENT_ACCOUNT',
       [],
-      '''Корреспондентский счет''',
+      r'''Корреспондентский счет''',
       translation,
     );
   }
@@ -5087,7 +5088,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__SETTLEMENT_ACCOUNT',
       [],
-      '''Расчетный счет''',
+      r'''Расчетный счет''',
       translation,
     );
   }
@@ -5096,7 +5097,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BANK_SWIFT_CODE',
       [],
-      '''SWIFT-код банка''',
+      r'''SWIFT-код банка''',
       translation,
     );
   }
@@ -5105,7 +5106,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__SWIFT_CORRESPONDENT_BANK_CODE_IF_KNOWN',
       [],
-      '''SWIFT - код банка корреспондента (если известен)''',
+      r'''SWIFT - код банка корреспондента (если известен)''',
       translation,
     );
   }
@@ -5114,7 +5115,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BANK_DETAILS__BENEFICIARY_ACCOUNT_NUMBER_IBAN',
       [],
-      '''Номер счета получателя / IBAN''',
+      r'''Номер счета получателя / IBAN''',
       translation,
     );
   }
@@ -5123,7 +5124,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES',
       [],
-      '''Допуски к осуществлению международных автомобильных перевозок''',
+      r'''Допуски к осуществлению международных автомобильных перевозок''',
       translation,
     );
   }
@@ -5132,7 +5133,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__NUMBER_AND_DATE',
       [],
-      '''Номер и дата выдачи''',
+      r'''Номер и дата выдачи''',
       translation,
     );
   }
@@ -5141,7 +5142,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__PERIOD',
       [],
-      '''Срок действия''',
+      r'''Срок действия''',
       translation,
     );
   }
@@ -5150,7 +5151,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__NO_LICENSES',
       [],
-      '''Допусков нет''',
+      r'''Допусков нет''',
       translation,
     );
   }
@@ -5159,7 +5160,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__REFRESH',
       [],
-      '''Обновить информацию о допусках''',
+      r'''Обновить информацию о допусках''',
       translation,
     );
   }
@@ -5168,7 +5169,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__MESSAGE_REFRESHING_LICENSES_ERROR',
       [],
-      '''Ошибка при обновлении информации о допусках''',
+      r'''Ошибка при обновлении информации о допусках''',
       translation,
     );
   }
@@ -5177,7 +5178,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__LICENSES__MESSAGE_REFRESHED_SUCCESSFULLY',
       [],
-      '''Запрос на обновление информации о допусках отправлен''',
+      r'''Запрос на обновление информации о допусках отправлен''',
       translation,
     );
   }
@@ -5186,7 +5187,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__BUTTON_EDIT',
       [],
-      '''Редактировать профиль''',
+      r'''Редактировать профиль''',
       translation,
     );
   }
@@ -5195,7 +5196,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__TITLE',
       [],
-      '''Редактирование профиля пользователя''',
+      r'''Редактирование профиля пользователя''',
       translation,
     );
   }
@@ -5204,7 +5205,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BUTTON_CHANGE_PASSWORD',
       [],
-      '''Изменить пароль''',
+      r'''Изменить пароль''',
       translation,
     );
   }
@@ -5213,7 +5214,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__SAVE',
       [],
-      '''Сохранить''',
+      r'''Сохранить''',
       translation,
     );
   }
@@ -5222,7 +5223,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -5231,7 +5232,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_SAVING_ERROR',
       [],
-      '''Ошибка при сохранении данных, попробуйте позже''',
+      r'''Ошибка при сохранении данных, попробуйте позже''',
       translation,
     );
   }
@@ -5240,7 +5241,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''Данные сохранены''',
+      r'''Данные сохранены''',
       translation,
     );
   }
@@ -5249,7 +5250,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CANCEL',
       [],
-      '''Отменить''',
+      r'''Отменить''',
       translation,
     );
   }
@@ -5258,7 +5259,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__GENERAL_INFO__TITLE',
       [],
-      '''Общая информация''',
+      r'''Общая информация''',
       translation,
     );
   }
@@ -5267,7 +5268,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__GENERAL_INFO__DESCRIPTION',
       [],
-      '''Подробная информация о перевозчике''',
+      r'''Подробная информация о перевозчике''',
       translation,
     );
   }
@@ -5276,7 +5277,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CONTACT_INFO__TITLE',
       [],
-      '''Контактная информация''',
+      r'''Контактная информация''',
       translation,
     );
   }
@@ -5285,7 +5286,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__CONTACT_INFO__DESCRIPTION',
       [],
-      '''Информация об адресе регистрации и телефонах''',
+      r'''Информация об адресе регистрации и телефонах''',
       translation,
     );
   }
@@ -5294,7 +5295,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__PASSPORT__TITLE',
       [],
-      '''Паспортные данные''',
+      r'''Паспортные данные''',
       translation,
     );
   }
@@ -5303,7 +5304,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__PASSPORT__DESCRIPTION',
       [],
-      '''Паспортные данные''',
+      r'''Паспортные данные''',
       translation,
     );
   }
@@ -5312,7 +5313,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__DIRECTOR__TITLE',
       [],
-      '''Генеральный директор''',
+      r'''Генеральный директор''',
       translation,
     );
   }
@@ -5321,7 +5322,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__DIRECTOR__DESCRIPTION',
       [],
-      '''ФИО Генерального директора организации''',
+      r'''ФИО Генерального директора организации''',
       translation,
     );
   }
@@ -5330,7 +5331,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BANK_DETAIL__TITLE',
       [],
-      '''Банковские реквизиты''',
+      r'''Банковские реквизиты''',
       translation,
     );
   }
@@ -5339,7 +5340,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__EDIT__BANK_DETAIL__DESCRIPTION',
       [],
-      '''Реквизиты банка и счета''',
+      r'''Реквизиты банка и счета''',
       translation,
     );
   }
@@ -5348,7 +5349,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__TITLE',
       [],
-      '''Изменение пароля''',
+      r'''Изменение пароля''',
       translation,
     );
   }
@@ -5357,7 +5358,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__OLD_PASSWORD_TITLE',
       [],
-      '''Старый пароль''',
+      r'''Старый пароль''',
       translation,
     );
   }
@@ -5366,7 +5367,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__OLD_PASSWORD_PLACEHOLDER',
       [],
-      '''Введите старый пароль''',
+      r'''Введите старый пароль''',
       translation,
     );
   }
@@ -5375,7 +5376,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_TITLE',
       [],
-      '''Новый пароль''',
+      r'''Новый пароль''',
       translation,
     );
   }
@@ -5384,7 +5385,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_PLACEHOLDER',
       [],
-      '''Введите новый пароль''',
+      r'''Введите новый пароль''',
       translation,
     );
   }
@@ -5393,7 +5394,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_REPEAT_TITLE',
       [],
-      '''Повторите новый пароль''',
+      r'''Повторите новый пароль''',
       translation,
     );
   }
@@ -5402,7 +5403,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__NEW_PASSWORD_REPEAT_PLACEHOLDER',
       [],
-      '''Введите новый пароль''',
+      r'''Введите новый пароль''',
       translation,
     );
   }
@@ -5411,7 +5412,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__SAVE',
       [],
-      '''Сохранить''',
+      r'''Сохранить''',
       translation,
     );
   }
@@ -5420,7 +5421,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_PASSWORD_MISMATCH',
       [],
-      '''Новые пароли не совпадают''',
+      r'''Новые пароли не совпадают''',
       translation,
     );
   }
@@ -5429,7 +5430,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_SAVING_ERROR',
       [],
-      '''Ошибка при сохранении пароля, попробуйте позже''',
+      r'''Ошибка при сохранении пароля, попробуйте позже''',
       translation,
     );
   }
@@ -5438,7 +5439,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__MESSAGE_SAVED_SUCCESSFULLY',
       [],
-      '''Пароль сохранен''',
+      r'''Пароль сохранен''',
       translation,
     );
   }
@@ -5447,7 +5448,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'PROFILE__CHANGE_PASSWORD__CANCEL',
       [],
-      '''Отменить''',
+      r'''Отменить''',
       translation,
     );
   }
@@ -5456,7 +5457,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TITLE',
       [],
-      '''Помощь''',
+      r'''Помощь''',
       translation,
     );
   }
@@ -5465,7 +5466,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TEXT_ABOVE_PHONE',
       [],
-      '''Телефон контакт-центра по вопросам регистрации и работы в «Личном кабинете перевозчика»''',
+      r'''Телефон контакт-центра по вопросам регистрации и работы в «Личном кабинете перевозчика»''',
       translation,
     );
   }
@@ -5474,7 +5475,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__PHONE',
       [],
-      '''8 (800) 555 69 82''',
+      r'''8 (800) 555 69 82''',
       translation,
     );
   }
@@ -5483,7 +5484,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__TEXT_UNDER_PHONE',
       [],
-      '''время работы контакт-центра
+      r'''время работы контакт-центра
 по рабочим дням с 8:00 по 20:00 по МСК''',
       translation,
     );
@@ -5493,7 +5494,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FAQ',
       [],
-      '''Вопросы и ответы''',
+      r'''Вопросы и ответы''',
       translation,
     );
   }
@@ -5502,7 +5503,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FAQ__DESCRIPTION',
       [],
-      '''Часто задаваемые вопросы вы найдете здесь''',
+      r'''Часто задаваемые вопросы вы найдете здесь''',
       translation,
     );
   }
@@ -5511,7 +5512,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS',
       [],
-      '''Нормативно-правовая информация''',
+      r'''Нормативно-правовая информация''',
       translation,
     );
   }
@@ -5520,7 +5521,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__DESCRIPTION',
       [],
-      '''Общие документы с нормативно-правовой информацией''',
+      r'''Общие документы с нормативно-правовой информацией''',
       translation,
     );
   }
@@ -5529,7 +5530,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__DOCUMENT',
       [],
-      '''Документ''',
+      r'''Документ''',
       translation,
     );
   }
@@ -5538,7 +5539,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__DOCUMENTS__MESSAGE_DOWNLOADING_DOCUMENT_ERROR',
       [],
-      '''Ошибка при скачивании документа, попробуйте позже''',
+      r'''Ошибка при скачивании документа, попробуйте позже''',
       translation,
     );
   }
@@ -5547,7 +5548,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__CREATE_FEEDBACK',
       [],
-      '''Создать обращение''',
+      r'''Создать обращение''',
       translation,
     );
   }
@@ -5556,7 +5557,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__TITLE',
       [],
-      '''Новое обращение''',
+      r'''Новое обращение''',
       translation,
     );
   }
@@ -5565,7 +5566,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBTITLE',
       [],
-      '''Техническая поддержка''',
+      r'''Техническая поддержка''',
       translation,
     );
   }
@@ -5574,7 +5575,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__DESCRIPTION',
       [],
-      '''Отдел технической поддержки поможет Вам с любыми возникшими вопросами''',
+      r'''Отдел технической поддержки поможет Вам с любыми возникшими вопросами''',
       translation,
     );
   }
@@ -5583,7 +5584,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__EMAIL',
       [],
-      '''Email''',
+      r'''Email''',
       translation,
     );
   }
@@ -5592,7 +5593,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__EMAIL_PLACEHOLDER',
       [],
-      '''Укажите email''',
+      r'''Укажите email''',
       translation,
     );
   }
@@ -5601,7 +5602,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__NAME',
       [],
-      '''Имя''',
+      r'''Имя''',
       translation,
     );
   }
@@ -5610,7 +5611,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__NAME_PLACEHOLDER',
       [],
-      '''Укажите имя''',
+      r'''Укажите имя''',
       translation,
     );
   }
@@ -5619,7 +5620,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__PHONE',
       [],
-      '''Телефон''',
+      r'''Телефон''',
       translation,
     );
   }
@@ -5628,7 +5629,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__PHONE_PLACEHOLDER',
       [],
-      '''Укажите телефон''',
+      r'''Укажите телефон''',
       translation,
     );
   }
@@ -5637,7 +5638,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBJECT',
       [],
-      '''Тема''',
+      r'''Тема''',
       translation,
     );
   }
@@ -5646,7 +5647,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SUBJECT_PLACEHOLDER',
       [],
-      '''Укажите тему обращения''',
+      r'''Укажите тему обращения''',
       translation,
     );
   }
@@ -5655,7 +5656,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE',
       [],
-      '''Сообщение''',
+      r'''Сообщение''',
       translation,
     );
   }
@@ -5664,7 +5665,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_PLACEHOLDER',
       [],
-      '''Введите сообщение''',
+      r'''Введите сообщение''',
       translation,
     );
   }
@@ -5673,7 +5674,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__FILES',
       [],
-      '''Файлы''',
+      r'''Файлы''',
       translation,
     );
   }
@@ -5682,7 +5683,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__FILES_DESCRIPTION',
       [],
-      '''Не более 5 файлов, размер одного файла не более 10 МБ''',
+      r'''Не более 5 файлов, размер одного файла не более 10 МБ''',
       translation,
     );
   }
@@ -5691,7 +5692,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__ATTACH_FILE',
       [],
-      '''Приложить файл''',
+      r'''Приложить файл''',
       translation,
     );
   }
@@ -5700,7 +5701,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__SEND',
       [],
-      '''Отправить''',
+      r'''Отправить''',
       translation,
     );
   }
@@ -5709,7 +5710,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -5718,7 +5719,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_SENDING_ERROR',
       [],
-      '''Ошибка при отправке обращения, попробуйте позже''',
+      r'''Ошибка при отправке обращения, попробуйте позже''',
       translation,
     );
   }
@@ -5727,7 +5728,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_FILE_TOO_LARGE_ERROR',
       [],
-      '''Ошибка при загрузке файла, размер файла слишком большой.''',
+      r'''Ошибка при загрузке файла, размер файла слишком большой.''',
       translation,
     );
   }
@@ -5736,7 +5737,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__FEEDBACK__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''Обращение отправлено''',
+      r'''Обращение отправлено''',
       translation,
     );
   }
@@ -5745,7 +5746,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__SEARCH',
       [],
-      '''Для поиска введите запрос или воспользуйтесь голосовым помощником''',
+      r'''Для поиска введите запрос или воспользуйтесь голосовым помощником''',
       translation,
     );
   }
@@ -5754,7 +5755,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__NOT_FOUND',
       [],
-      '''К сожалению, ничего не найдено''',
+      r'''К сожалению, ничего не найдено''',
       translation,
     );
   }
@@ -5763,7 +5764,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'HELP__SPEAK',
       [],
-      '''Что Вы хотите найти?''',
+      r'''Что Вы хотите найти?''',
       translation,
     );
   }
@@ -5772,7 +5773,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__TITLE',
       [],
-      '''Обращения''',
+      r'''Обращения''',
       translation,
     );
   }
@@ -5781,7 +5782,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW',
       [],
-      '''Новое обращение''',
+      r'''Новое обращение''',
       translation,
     );
   }
@@ -5790,7 +5791,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SEARCH',
       [],
-      '''Искать''',
+      r'''Искать''',
       translation,
     );
   }
@@ -5799,7 +5800,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -5808,7 +5809,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_STATUS',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -5817,7 +5818,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_CATEGORY',
       [],
-      '''Категория''',
+      r'''Категория''',
       translation,
     );
   }
@@ -5826,7 +5827,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_CATEGORY',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -5835,7 +5836,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__FILTER_DATES',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -5844,7 +5845,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -5853,7 +5854,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__TITLE',
       [],
-      '''Выбор даты''',
+      r'''Выбор даты''',
       translation,
     );
   }
@@ -5862,7 +5863,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__FROM',
       [],
-      '''Дата с''',
+      r'''Дата с''',
       translation,
     );
   }
@@ -5871,7 +5872,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES_TO',
       [],
-      '''Дата по''',
+      r'''Дата по''',
       translation,
     );
   }
@@ -5880,7 +5881,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''ДДММГГГГ''',
+      r'''ДДММГГГГ''',
       translation,
     );
   }
@@ -5889,7 +5890,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLEAR_FILTERS',
       [],
-      '''Сбросить фильтры''',
+      r'''Сбросить фильтры''',
       translation,
     );
   }
@@ -5898,7 +5899,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NUMBER_OF_APPEALS',
       [],
-      '''Количество обращений''',
+      r'''Количество обращений''',
       translation,
     );
   }
@@ -5907,7 +5908,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NO_APPEALS',
       [],
-      '''Обращений нет''',
+      r'''Обращений нет''',
       translation,
     );
   }
@@ -5916,7 +5917,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NO_APPEALS_FOUND',
       [],
-      '''К сожалению, обращений не найдено''',
+      r'''К сожалению, обращений не найдено''',
       translation,
     );
   }
@@ -5925,7 +5926,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__TO_THE_LIST',
       [],
-      '''К списку обращений''',
+      r'''К списку обращений''',
       translation,
     );
   }
@@ -5934,7 +5935,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__NUMBER_AND_DATE',
       [],
-      '''Номер и дата создания обращения''',
+      r'''Номер и дата создания обращения''',
       translation,
     );
   }
@@ -5943,7 +5944,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -5952,7 +5953,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__ADD_CLARIFICATION',
       [],
-      '''Добавить уточнение''',
+      r'''Добавить уточнение''',
       translation,
     );
   }
@@ -5961,7 +5962,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__RETURN_TO_WORK',
       [],
-      '''Вернуть в работу''',
+      r'''Вернуть в работу''',
       translation,
     );
   }
@@ -5970,7 +5971,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__CLOSE',
       [],
-      '''Закрыть обращение''',
+      r'''Закрыть обращение''',
       translation,
     );
   }
@@ -5979,7 +5980,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VEW__DEADLINE',
       [],
-      '''Срок выполнения''',
+      r'''Срок выполнения''',
       translation,
     );
   }
@@ -5988,7 +5989,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__CATEGORY',
       [],
-      '''Категория''',
+      r'''Категория''',
       translation,
     );
   }
@@ -5997,7 +5998,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__SUBJECT',
       [],
-      '''Тема''',
+      r'''Тема''',
       translation,
     );
   }
@@ -6006,7 +6007,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__MESSAGE',
       [],
-      '''Сообщение''',
+      r'''Сообщение''',
       translation,
     );
   }
@@ -6015,7 +6016,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__ATTACHMENTS',
       [],
-      '''Вложения''',
+      r'''Вложения''',
       translation,
     );
   }
@@ -6024,7 +6025,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__VIEW__HISTORY',
       [],
-      '''История''',
+      r'''История''',
       translation,
     );
   }
@@ -6033,7 +6034,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__TITLE',
       [],
-      '''Новое обращение''',
+      r'''Новое обращение''',
       translation,
     );
   }
@@ -6042,7 +6043,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__CATEGORY',
       [],
-      '''Категория''',
+      r'''Категория''',
       translation,
     );
   }
@@ -6051,7 +6052,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__CATEGORY__PLACEHOLDER',
       [],
-      '''Выберите категорию''',
+      r'''Выберите категорию''',
       translation,
     );
   }
@@ -6060,7 +6061,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SUBJECT',
       [],
-      '''Тема''',
+      r'''Тема''',
       translation,
     );
   }
@@ -6069,7 +6070,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SUBJECT_PLACEHOLDER',
       [],
-      '''Укажите тему обращения''',
+      r'''Укажите тему обращения''',
       translation,
     );
   }
@@ -6078,7 +6079,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE',
       [],
-      '''Сообщение''',
+      r'''Сообщение''',
       translation,
     );
   }
@@ -6087,7 +6088,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_PLACEHOLDER',
       [],
-      '''Введите сообщение''',
+      r'''Введите сообщение''',
       translation,
     );
   }
@@ -6096,7 +6097,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__FILES',
       [],
-      '''Файлы''',
+      r'''Файлы''',
       translation,
     );
   }
@@ -6105,7 +6106,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__FILES_DESCRIPTION',
       [],
-      '''Не более 5 файлов, размер одного файла не более 10 МБ''',
+      r'''Не более 5 файлов, размер одного файла не более 10 МБ''',
       translation,
     );
   }
@@ -6114,7 +6115,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__ATTACH_FILE',
       [],
-      '''Приложить файл''',
+      r'''Приложить файл''',
       translation,
     );
   }
@@ -6123,7 +6124,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__SEND',
       [],
-      '''Отправить''',
+      r'''Отправить''',
       translation,
     );
   }
@@ -6132,7 +6133,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_FILL_REQUIRED_FIELD',
       [],
-      '''Заполните поле''',
+      r'''Заполните поле''',
       translation,
     );
   }
@@ -6141,7 +6142,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_SENDING_ERROR',
       [],
-      '''Ошибка при отправке обращения, попробуйте позже''',
+      r'''Ошибка при отправке обращения, попробуйте позже''',
       translation,
     );
   }
@@ -6150,7 +6151,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_FILE_TOO_LARGE_ERROR',
       [],
-      '''Ошибка при загрузке файла, размер файла слишком большой.''',
+      r'''Ошибка при загрузке файла, размер файла слишком большой.''',
       translation,
     );
   }
@@ -6159,7 +6160,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__NEW__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''Обращение отправлено''',
+      r'''Обращение отправлено''',
       translation,
     );
   }
@@ -6168,7 +6169,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__TITLE',
       [],
-      '''Уточнение''',
+      r'''Уточнение''',
       translation,
     );
   }
@@ -6177,7 +6178,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__BUTTON',
       [],
-      '''Добавить уточнение''',
+      r'''Добавить уточнение''',
       translation,
     );
   }
@@ -6186,7 +6187,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__MESSAGE_SENDING_ERROR',
       [],
-      '''Ошибка при добавлении уточнения, попробуйте позже''',
+      r'''Ошибка при добавлении уточнения, попробуйте позже''',
       translation,
     );
   }
@@ -6195,7 +6196,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__ADD_CLARIFICATION__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''Уточнение добавлено''',
+      r'''Уточнение добавлено''',
       translation,
     );
   }
@@ -6204,7 +6205,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__TITLE',
       [],
-      '''Возврат в работу''',
+      r'''Возврат в работу''',
       translation,
     );
   }
@@ -6213,7 +6214,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__BUTTON',
       [],
-      '''Вернуть в работу''',
+      r'''Вернуть в работу''',
       translation,
     );
   }
@@ -6222,7 +6223,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__MESSAGE_SENDING_ERROR',
       [],
-      '''Ошибка при возврате обращения в работу, попробуйте позже''',
+      r'''Ошибка при возврате обращения в работу, попробуйте позже''',
       translation,
     );
   }
@@ -6231,7 +6232,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__RETURN_TO_WORK__MESSAGE_SENT_SUCCESSFULLY',
       [],
-      '''Обращение возвращено в работу''',
+      r'''Обращение возвращено в работу''',
       translation,
     );
   }
@@ -6240,7 +6241,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__DESCRIPTION',
       [],
-      '''Вы уверены, что хотите закрыть обращение?''',
+      r'''Вы уверены, что хотите закрыть обращение?''',
       translation,
     );
   }
@@ -6249,7 +6250,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__BUTTON_YES',
       [],
-      '''Да''',
+      r'''Да''',
       translation,
     );
   }
@@ -6258,7 +6259,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__BUTTON_NO',
       [],
-      '''Нет''',
+      r'''Нет''',
       translation,
     );
   }
@@ -6267,7 +6268,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__MESSAGE_APPEAL_CLOSING_ERROR',
       [],
-      '''Ошибка при закрытии обращения, попробуйте позже''',
+      r'''Ошибка при закрытии обращения, попробуйте позже''',
       translation,
     );
   }
@@ -6276,7 +6277,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'APPEALS__CLOSE__MESSAGE_APPEAL_CLOSED_SUCCESSFULLY',
       [],
-      '''Обращение закрыто''',
+      r'''Обращение закрыто''',
       translation,
     );
   }
@@ -6285,7 +6286,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__TITLE',
       [],
-      '''Уведомления''',
+      r'''Уведомления''',
       translation,
     );
   }
@@ -6294,7 +6295,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SEARCH_FROM',
       [],
-      '''Отправитель''',
+      r'''Отправитель''',
       translation,
     );
   }
@@ -6303,7 +6304,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_NEW',
       [],
-      '''Новые''',
+      r'''Новые''',
       translation,
     );
   }
@@ -6312,7 +6313,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_ARCHIVE',
       [],
-      '''Архивные''',
+      r'''Архивные''',
       translation,
     );
   }
@@ -6321,7 +6322,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_DATES',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -6330,7 +6331,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -6339,7 +6340,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__TITLE',
       [],
-      '''Выбор даты''',
+      r'''Выбор даты''',
       translation,
     );
   }
@@ -6348,7 +6349,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__FROM',
       [],
-      '''Дата с''',
+      r'''Дата с''',
       translation,
     );
   }
@@ -6357,7 +6358,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES_TO',
       [],
-      '''Дата по''',
+      r'''Дата по''',
       translation,
     );
   }
@@ -6366,7 +6367,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_DATES__PLACEHOLDER',
       [],
-      '''ДДММГГГГ''',
+      r'''ДДММГГГГ''',
       translation,
     );
   }
@@ -6375,7 +6376,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__FILTER_STATUS',
       [],
-      '''Статус''',
+      r'''Статус''',
       translation,
     );
   }
@@ -6384,7 +6385,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__SELECT_STATUS',
       [],
-      '''Выбрать''',
+      r'''Выбрать''',
       translation,
     );
   }
@@ -6393,7 +6394,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__STATUS_NEW',
       [],
-      '''Новое''',
+      r'''Новое''',
       translation,
     );
   }
@@ -6402,7 +6403,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__STATUS_READ',
       [],
-      '''Прочитано''',
+      r'''Прочитано''',
       translation,
     );
   }
@@ -6411,7 +6412,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__NO_NOTIFICATIONS',
       [],
-      '''Уведомлений нет''',
+      r'''Уведомлений нет''',
       translation,
     );
   }
@@ -6420,7 +6421,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__NO_NOTIFICATIONS_FOUND',
       [],
-      '''К сожалению, уведомлений не найдено''',
+      r'''К сожалению, уведомлений не найдено''',
       translation,
     );
   }
@@ -6429,7 +6430,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE',
       [],
-      '''Архивировать''',
+      r'''Архивировать''',
       translation,
     );
   }
@@ -6438,7 +6439,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''Ошибка при архивации уведомления, попробуйте позже''',
+      r'''Ошибка при архивации уведомления, попробуйте позже''',
       translation,
     );
   }
@@ -6447,7 +6448,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''Уведомление архивировано''',
+      r'''Уведомление архивировано''',
       translation,
     );
   }
@@ -6456,7 +6457,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__TO_THE_LIST',
       [],
-      '''К списку уведомлений''',
+      r'''К списку уведомлений''',
       translation,
     );
   }
@@ -6465,7 +6466,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__FROM',
       [],
-      '''От кого''',
+      r'''От кого''',
       translation,
     );
   }
@@ -6474,7 +6475,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__DATE',
       [],
-      '''Дата''',
+      r'''Дата''',
       translation,
     );
   }
@@ -6483,7 +6484,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__SUBJECT',
       [],
-      '''Тема''',
+      r'''Тема''',
       translation,
     );
   }
@@ -6492,7 +6493,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MESSAGE',
       [],
-      '''Сообщение''',
+      r'''Сообщение''',
       translation,
     );
   }
@@ -6501,7 +6502,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE',
       [],
-      '''Архивировать''',
+      r'''Архивировать''',
       translation,
     );
   }
@@ -6510,7 +6511,7 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR',
       [],
-      '''Ошибка при архивации уведомления, попробуйте позже''',
+      r'''Ошибка при архивации уведомления, попробуйте позже''',
       translation,
     );
   }
@@ -6519,8 +6520,18 @@ class S {
     return DynamicIntlHelper.getLocalizedString(
       'NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS',
       [],
-      '''Уведомление архивировано''',
+      r'''Уведомление архивировано''',
       translation,
+    );
+  }
+
+  String pockets(num howMany) {
+    return DynamicIntlHelper.getLocalizedPluralString(
+      'pockets',
+      howMany,
+      r'''{howMany, plural, zero{Нет пакетов} one{{howMany} пакет} few{{howMany} пакета} other{{howMany} пакетов}}''',
+      translation,
+      locale.toString(),
     );
   }
 
