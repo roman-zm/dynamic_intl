@@ -98,14 +98,14 @@ packages:
       path: "../dynamic_intl"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.2"
   dynamic_intl_generator:
     dependency: "direct dev"
     description:
       path: "../dynamic_intl_generator"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.2"
   fake_async:
     dependency: transitive
     description:
