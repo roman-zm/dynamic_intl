@@ -722,5 +722,6 @@
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE": "Move to archive",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR": "An error occurred while moving the notification to arhive, please try again later",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS": "The notification has been moved to archive",
-  "pockets": "{howMany, plural, zero{no pockets}, one{one pocket} other{{howMany} pockets}}"
+  "pockets": "{howMany, plural, zero{no pockets}, one{one pocket} other{{howMany} pockets}}",
+  "ERROR_REASON": "{reason, select, moscow_local_claim{Бла бла бла} second_reason{блабла} third_reason{блабла} other{дефолтное бла бла {reason}}}"
 }

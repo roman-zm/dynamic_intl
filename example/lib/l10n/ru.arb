@@ -722,5 +722,6 @@
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE": "Архивировать",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_ERROR": "Ошибка при архивации уведомления, попробуйте позже",
   "NOTIFICATIONS__VIEW__MOVE_TO_ARCHIVE__MESSAGE_SUCCESS": "Уведомление архивировано",
-  "pockets": "{howMany, plural, zero{Нет пакетов} one{{howMany} пакет} few{{howMany} пакета} other{{howMany} пакетов}}"
+  "pockets": "{howMany, plural, zero{Нет пакетов} one{{howMany} пакет} few{{howMany} пакета} other{{howMany} пакетов}}",
+  "ERROR_REASON": "{reason, select, moscow_local_claim{Бла бла бла} second_reason{блабла} third_reason{блабла} other{дефолтное бла бла {reason}}}"
 }

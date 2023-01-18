@@ -6535,6 +6535,16 @@ class S {
     );
   }
 
+  String ERROR_REASON(String reason) {
+    return DynamicIntlHelper.getLocalizedSelectString(
+      'ERROR_REASON',
+      reason,
+      r'''{reason, select, moscow_local_claim{Бла бла бла} second_reason{блабла} third_reason{блабла} other{дефолтное бла бла {reason}}}''',
+      translation,
+      locale.toString(),
+    );
+  }
+
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
     assert(instance != null,

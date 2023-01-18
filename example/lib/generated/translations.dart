@@ -921,6 +921,8 @@ class Translation {
         r'''Уведомление архивировано''',
     'pockets':
         r'''{howMany, plural, zero{Нет пакетов} one{{howMany} пакет} few{{howMany} пакета} other{{howMany} пакетов}}''',
+    'ERROR_REASON':
+        r'''{reason, select, moscow_local_claim{Бла бла бла} second_reason{блабла} third_reason{блабла} other{дефолтное бла бла {reason}}}''',
   };
 
   static const Map<String, String> en = {
@@ -1846,5 +1848,7 @@ on weekdays from 8:00 to 20:00 Moscow time''',
         r'''The notification has been moved to archive''',
     'pockets':
         r'''{howMany, plural, zero{no pockets}, one{one pocket} other{{howMany} pockets}}''',
+    'ERROR_REASON':
+        r'''{reason, select, moscow_local_claim{Бла бла бла} second_reason{блабла} third_reason{блабла} other{дефолтное бла бла {reason}}}''',
   };
 }

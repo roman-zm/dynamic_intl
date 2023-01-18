@@ -1,4 +1,5 @@
-import 'package:dynamic_intl/src/plurals/plural_string_parser.dart';
+import 'package:dynamic_intl/src/icu/plural/plural_string_parser.dart';
+import 'package:dynamic_intl/src/icu/select/select_string_parser.dart';
 import 'package:intl/intl.dart';
 
 class DynamicIntlHelper {
@@ -28,6 +29,28 @@ class DynamicIntlHelper {
     return str;
   }
 
+  static String getLocalizedSelectString(
+    String key,
+    String choice,
+    String defaultValue,
+    Map<String, String>? translation,
+    String locale,
+  ) {
+    final parsed = _parseSelectString(
+      translation,
+      key,
+      defaultValue,
+    );
+
+    final string = Intl.select(
+      choice,
+      parsed.value,
+      locale: locale,
+    );
+
+    return _applyArguments(string, [choice]);
+  }
+
   static String getLocalizedPluralString(
     String key,
     num howMany,
@@ -35,7 +58,8 @@ class DynamicIntlHelper {
     Map<String, String>? translation,
     String locale,
   ) {
-    PluralStringParserResult parsed = _parse(translation, key, defaultValue);
+    final PluralStringParserResult parsed =
+        _parse(translation, key, defaultValue);
 
     final value = parsed.value;
 
@@ -62,6 +86,18 @@ class DynamicIntlHelper {
       return PluralStringParser().parse(translation?[key] ?? defaultValue);
     } catch (_) {
       return PluralStringParser().parse(defaultValue);
+    }
+  }
+
+  static SelectStringParserResult _parseSelectString(
+    Map<String, String>? translation,
+    String key,
+    String defaultValue,
+  ) {
+    try {
+      return SelectStringParser().parse(translation?[key] ?? defaultValue);
+    } catch (_) {
+      return SelectStringParser().parse(defaultValue);
     }
   }
 }

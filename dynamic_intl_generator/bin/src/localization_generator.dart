@@ -20,10 +20,8 @@ class Generator {
     buff.writeln("static late $className current;");
 
     json.cast<String, String>().forEach((key, value) {
-      if (isPluralString(value)) {
-        final argName = _getPluralArgName(value);
-
-        _genPluralString(buff, key, value, argName);
+      if (isIcuString(value)) {
+        _genIcuString(value, buff, key);
       } else {
         final arguments = extractArguments(value);
 
@@ -55,6 +53,24 @@ class Generator {
     return DartFormatter().format(buff.toString());
   }
 
+  void _genIcuString(String value, StringBuffer buff, String key) {
+    final icuStringMatch = icuRegexp.firstMatch(value);
+
+    if (icuStringMatch == null) return;
+
+    final type = icuStringMatch.namedGroup('type');
+
+    if (type == 'plural') {
+      final argName = _getIcuArgName(value);
+
+      _genPluralString(buff, key, value, argName);
+    } else if (type == 'select') {
+      final argName = _getIcuArgName(value);
+
+      _genSelectString(buff, key, value, argName);
+    }
+  }
+
   void _genStringGetter(StringBuffer buff, String key, String value) {
     buff.writeln('String get $key {');
     buff.writeln('return DynamicIntlHelper.getLocalizedString(');
@@ -83,15 +99,15 @@ class Generator {
     buff.writeln(',);}');
   }
 
-  static final regexp =
+  static final icuRegexp =
       RegExp(r'{(?<argName>.*?), (?<type>.*?), (?<string>.*?)}$');
 
-  bool isPluralString(String string) {
-    return regexp.hasMatch(string);
+  bool isIcuString(String string) {
+    return icuRegexp.hasMatch(string);
   }
 
-  String _getPluralArgName(String string) {
-    final match = regexp.firstMatch(string);
+  String _getIcuArgName(String string) {
+    final match = icuRegexp.firstMatch(string);
 
     try {
       return match!.namedGroup('argName')!;
@@ -111,6 +127,29 @@ class Generator {
 
     buff.writeln(') {');
     buff.writeln('return DynamicIntlHelper.getLocalizedPluralString(');
+
+    buff.writeln("'$key',");
+
+    buff.writeln("$argName,");
+
+    buff.writeln("r'''$value''',");
+    buff.writeln("translation,");
+    buff.writeln("locale.toString(),");
+
+    buff.writeln(');}');
+  }
+
+  void _genSelectString(
+    StringBuffer buff,
+    String key,
+    String value,
+    String argName,
+  ) {
+    buff.write('String $key(');
+    buff.write('String $argName');
+
+    buff.writeln(') {');
+    buff.writeln('return DynamicIntlHelper.getLocalizedSelectString(');
 
     buff.writeln("'$key',");
 

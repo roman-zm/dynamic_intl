@@ -7,7 +7,9 @@ class PluralStringParser {
   static final pluralValueParser = PluralValueParser();
 
   static bool isPluralString(String value) {
-    return regexp.hasMatch(value);
+    final match = regexp.firstMatch(value);
+
+    return match?.namedGroup('type') == 'plural';
   }
 
   PluralStringParserResult parse(String pluralString) {

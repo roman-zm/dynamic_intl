@@ -1,4 +1,4 @@
-import 'package:dynamic_intl/src/plurals/plural_string_parser.dart';
+import 'package:dynamic_intl/src/icu/plural/plural_string_parser.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 const pluralString =
